@@ -1,33 +1,53 @@
-import { load } from "cheerio";
+import { makeHeaders } from "../config";
+import type { SkillDetail } from "./skill-detail";
 
-interface PetDetail {
-  no: string;
+export interface PetDetail {
   name: string;
+  form: string;
+  regionalFormName: string;
+  initialStageName: string;
+  hasAltColor: string;
+  stage: string;
+  type: string;
+  description: string;
   element: string;
   element2: string;
+  ability: string;
+  abilityDesc: string;
   hp: number;
   physicalAttack: number;
   magicAttack: number;
   physicalDefense: number;
   magicDefense: number;
   speed: number;
-  ability: string;
-  abilityDesc: string;
-  description: string;
-  skills: string[];
-  skillUnlockLevels: number[];
   size: string;
   weight: string;
+  distribution: string;
+  questTasks: string[];
+  questSkillStones: string[];
+  skills: string[];
+  skillUnlockLevels: number[];
+  bloodlineSkills: string[];
+  learnableSkillStones: string[];
+  evolutionCondition: string;
+  updateVersion: string;
+  skillDetails: SkillDetail[];
+  bloodlineSkillDetails: SkillDetail[];
+  learnableSkillStoneDetails: SkillDetail[];
 }
 
-async function fetchPage(url: string): Promise<string> {
-  const res = await fetch(url, {
-    headers: {
-      "User-Agent":
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
-    },
-  });
-  return res.text();
+async function fetchWikitext(name: string, retries = 3): Promise<string> {
+  const url = `https://wiki.biligame.com/rocom/index.php?title=${encodeURIComponent(name)}&action=raw`;
+
+  for (let i = 0; i < retries; i++) {
+    const res = await fetch(url, { headers: makeHeaders() });
+    if (res.status === 567) {
+      await Bun.sleep(3000 * (i + 1));
+      continue;
+    }
+    return res.text();
+  }
+  return "";
 }
 
 function parseWikitext(wikitext: string): PetDetail | null {
@@ -37,9 +57,9 @@ function parseWikitext(wikitext: string): PetDetail | null {
 
   const raw = match[1]!;
 
-  // 解析 key=value 对
+  // 解析 key=value 对，按 \n| 分割保留多行值
   const data = new Map<string, string>();
-  const pairs = raw.split(/\|/);
+  const pairs = raw.split(/\n\|/);
   for (const pair of pairs) {
     const eqIndex = pair.indexOf("=");
     if (eqIndex === -1) continue;
@@ -48,50 +68,51 @@ function parseWikitext(wikitext: string): PetDetail | null {
     data.set(key, value);
   }
 
-  // 提取编号 (从页面标题或URL获取)
-  const noMatch = wikitext.match(/NO(\d+)/);
-  const no = noMatch?.[1] ?? "";
-
-  // 提取技能列表
-  const skillsStr = data.get("技能") ?? "";
-  const skills = skillsStr
-    .split(/,/)
-    .map((s) => s.trim())
-    .filter(Boolean);
-
-  const levelsStr = data.get("技能解锁等级") ?? "";
-  const skillUnlockLevels = levelsStr
-    .split(/,/)
-    .map((s) => parseInt(s.trim()))
-    .filter((n) => !isNaN(n));
+  const splitComma = (s: string) => s.split(",").map((x) => x.trim()).filter(Boolean);
+  // 课题用换行或逗号分隔
+  const splitTasks = (s: string) => s.split(/[,\n]/).map((x) => x.trim()).filter(Boolean);
 
   return {
-    no,
-    name: data.get("精灵名称") ?? "",
+    name: "",
+    form: data.get("精灵形态") ?? "",
+    regionalFormName: data.get("地区形态名称") ?? "",
+    initialStageName: data.get("精灵初阶名称") ?? "",
+    hasAltColor: data.get("是否有异色") ?? "",
+    stage: data.get("精灵阶段") ?? "",
+    type: data.get("精灵类型") ?? "",
+    description: data.get("精灵描述") ?? "",
     element: data.get("主属性") ?? "",
     element2: data.get("2属性") ?? "",
+    ability: data.get("特性") ?? "",
+    abilityDesc: data.get("特性描述") ?? "",
     hp: parseInt(data.get("生命") ?? "0"),
     physicalAttack: parseInt(data.get("物攻") ?? "0"),
     magicAttack: parseInt(data.get("魔攻") ?? "0"),
     physicalDefense: parseInt(data.get("物防") ?? "0"),
     magicDefense: parseInt(data.get("魔防") ?? "0"),
     speed: parseInt(data.get("速度") ?? "0"),
-    ability: data.get("特性") ?? "",
-    abilityDesc: data.get("特性描述") ?? "",
-    description: data.get("精灵描述") ?? "",
-    skills,
-    skillUnlockLevels,
     size: data.get("体型") ?? "",
     weight: data.get("重量") ?? "",
+    distribution: data.get("分布地区") ?? "",
+    questTasks: splitTasks(data.get("图鉴课题") ?? ""),
+    questSkillStones: splitComma(data.get("课题技能石") ?? ""),
+    skills: splitComma(data.get("技能") ?? ""),
+    skillUnlockLevels: splitComma(data.get("技能解锁等级") ?? "").map(Number).filter((n) => !isNaN(n)),
+    bloodlineSkills: splitComma(data.get("血脉技能") ?? ""),
+    learnableSkillStones: splitComma(data.get("可学技能石") ?? ""),
+    evolutionCondition: data.get("进化条件") ?? "",
+    updateVersion: data.get("更新版本") ?? "",
+    skillDetails: [],
+    bloodlineSkillDetails: [],
+    learnableSkillStoneDetails: [],
   };
 }
 
 export async function crawlPet(name: string): Promise<PetDetail | null> {
-  const url = `https://wiki.biligame.com/rocom/index.php?title=${encodeURIComponent(name)}&action=edit`;
-  const html = await fetchPage(url);
-  const $ = load(html);
-  const wikitext = $("textarea").text();
-  return parseWikitext(wikitext);
+  const wikitext = await fetchWikitext(name);
+  const detail = parseWikitext(wikitext);
+  if (detail) detail.name = name;
+  return detail;
 }
 
 // 入口

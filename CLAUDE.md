@@ -1,106 +1,32 @@
+# CLAUDE.md
 
-Default to using Bun instead of Node.js.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-- Use `bun <file>` instead of `node <file>` or `ts-node <file>`
-- Use `bun test` instead of `jest` or `vitest`
-- Use `bun build <file.html|file.ts|file.css>` instead of `webpack` or `esbuild`
-- Use `bun install` instead of `npm install` or `yarn install` or `pnpm install`
-- Use `bun run <script>` instead of `npm run <script>` or `yarn run <script>` or `pnpm run <script>`
-- Use `bunx <package> <command>` instead of `npx <package> <command>`
-- Bun automatically loads .env, so don't use dotenv.
+## Project
 
-## APIs
+Web crawler for 洛克王国 (Roco Kingdom) data from the BiliGame wiki (`https://wiki.biligame.com/rocom`). Scrapes pet and skill data using the MediaWiki API and raw wikitext endpoints, then outputs:
+- `output/pets/<name>.json` — one JSON file per pet (enriched with skill details)
+- `output/skills.csv` — all skills as CSV
 
-- `Bun.serve()` supports WebSockets, HTTPS, and routes. Don't use `express`.
-- `bun:sqlite` for SQLite. Don't use `better-sqlite3`.
-- `Bun.redis` for Redis. Don't use `ioredis`.
-- `Bun.sql` for Postgres. Don't use `pg` or `postgres.js`.
-- `WebSocket` is built-in. Don't use `ws`.
-- Prefer `Bun.file` over `node:fs`'s readFile/writeFile
-- Bun.$`ls` instead of execa.
-
-## Testing
-
-Use `bun test` to run tests.
-
-```ts#index.test.ts
-import { test, expect } from "bun:test";
-
-test("hello world", () => {
-  expect(1).toBe(1);
-});
-```
-
-## Frontend
-
-Use HTML imports with `Bun.serve()`. Don't use `vite`. HTML imports fully support React, CSS, Tailwind.
-
-Server:
-
-```ts#index.ts
-import index from "./index.html"
-
-Bun.serve({
-  routes: {
-    "/": index,
-    "/api/users/:id": {
-      GET: (req) => {
-        return new Response(JSON.stringify({ id: req.params.id }));
-      },
-    },
-  },
-  // optional websocket support
-  websocket: {
-    open: (ws) => {
-      ws.send("Hello, world!");
-    },
-    message: (ws, message) => {
-      ws.send(message);
-    },
-    close: (ws) => {
-      // handle close
-    }
-  },
-  development: {
-    hmr: true,
-    console: true,
-  }
-})
-```
-
-HTML files can import .tsx, .jsx or .js files directly and Bun's bundler will transpile & bundle automatically. `<link>` tags can point to stylesheets and Bun's CSS bundler will bundle.
-
-```html#index.html
-<html>
-  <body>
-    <h1>Hello, world!</h1>
-    <script type="module" src="./frontend.tsx"></script>
-  </body>
-</html>
-```
-
-With the following `frontend.tsx`:
-
-```tsx#frontend.tsx
-import React from "react";
-import { createRoot } from "react-dom/client";
-
-// import .css files directly and it works
-import './index.css';
-
-const root = createRoot(document.body);
-
-export default function Frontend() {
-  return <h1>Hello, world!</h1>;
-}
-
-root.render(<Frontend />);
-```
-
-Then, run index.ts
+## Run Commands
 
 ```sh
-bun --hot ./index.ts
+bun src/index.ts          # Full pipeline: skills → pets → enrichment → save
+bun src/crawl-skills.ts   # Skills only
+bun src/crawlers/pet-detail.ts    # Single pet test (import.meta.main guard)
+bun src/crawlers/skill-detail.ts  # Single skill test (import.meta.main guard)
 ```
 
-For more information, read the Bun API docs in `node_modules/bun-types/docs/**.mdx`.
+## Crawl Parameters
+
+Tunable in `src/config.ts`:
+- `BATCH_SIZE` — concurrent requests per batch (default 20)
+- `BATCH_DELAY` — ms between batches (default 2000)
+- `MAX_DURATION` — hard timeout in ms (default 10 min)
+
+## Gotchas
+
+- **HTTP 567** = wiki rate limit; crawlers retry with exponential backoff (up to 3 retries)
+- **Filenames** with `/` in pet/skill names must be encoded as `%2F` when writing to disk
+- **Wikitext templates**: pet data lives in `{{精灵信息|...}}`, skill data in `{{技能信息|...}}`; parsed by splitting on `\n|` then finding `key=value`
+- **Failed items** are re-queued automatically; the crawl loop continues until empty or timeout

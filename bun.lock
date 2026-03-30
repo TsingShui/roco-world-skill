@@ -6,6 +6,7 @@
       "name": "roco-world",
       "dependencies": {
         "cheerio": "^1.2.0",
+        "user-agents": "^2.1.14",
       },
       "devDependencies": {
         "@types/bun": "latest",
@@ -63,6 +64,8 @@
     "undici": ["undici@7.24.6", "", {}, "sha512-Xi4agocCbRzt0yYMZGMA6ApD7gvtUFaxm4ZmeacWI4cZxaF6C+8I8QfofC20NAePiB/IcvZmzkJ7XPa471AEtA=="],
 
     "undici-types": ["undici-types@7.18.2", "", {}, "sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w=="],
+
+    "user-agents": ["user-agents@2.1.14", "", {}, "sha512-BkYx34QZ2DiFk1n1KlSAbLu4otwI/w10k7u0Nmq+pSy6RmMpTrhlh3+3hzHG43xqU7SQewcbio8/UVOQE583nQ=="],
 
     "whatwg-encoding": ["whatwg-encoding@3.1.1", "", { "dependencies": { "iconv-lite": "0.6.3" } }, "sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ=="],
 
