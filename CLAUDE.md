@@ -24,6 +24,16 @@ Tunable in `src/config.ts`:
 - `BATCH_DELAY` — ms between batches (default 2000)
 - `MAX_DURATION` — hard timeout in ms (default 10 min)
 
+## Install Skill
+
+将 `roco-agent` skill 安装到用户目录，使其在所有项目中可用：
+
+```sh
+cp -r .claude/skills/roco-world ~/.claude/skills/roco-world
+```
+
+安装后在任意项目中可通过 `Skill` 工具调用 `roco-agent`。
+
 ## Gotchas
 
 - **HTTP 567** = wiki rate limit; crawlers retry with exponential backoff (up to 3 retries)
