@@ -1,0 +1,515 @@
+{
+  "name": "窃光蚊",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "嗜光嗡嗡",
+  "hasAltColor": "是",
+  "stage": "最终形态",
+  "type": "偷窃精灵",
+  "description": "在微光沼泽，有不少因为长期触光水晶而琥珀化的精灵，这里面却没有恶名昭著的窃光蚊。这是因为窃光蚊会互相合作，一旦有个体吸收了过多光系能量，其他伙伴就会去吸收，帮助其减少体内的能量浓度。",
+  "element": "恶",
+  "element2": "光",
+  "ability": "血型吸引",
+  "abilityDesc": "敌方每携带1种系别的技能，自己攻击时威力+10。",
+  "hp": 93,
+  "physicalAttack": 104,
+  "magicAttack": 104,
+  "physicalDefense": 63,
+  "magicDefense": 113,
+  "speed": 115,
+  "size": "0.53-0.66",
+  "weight": "7.05-9.62",
+  "distribution": "",
+  "questTasks": [],
+  "questSkillStones": [],
+  "skills": [
+    "魔法增效",
+    "迫害",
+    "黑手",
+    "贪婪",
+    "蝙蝠",
+    "漫反射",
+    "光球",
+    "力量吞噬",
+    "先发制人",
+    "暗箱操作",
+    "过曝",
+    "光刃",
+    "牵连",
+    "灾厄",
+    "跌落"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    5,
+    11,
+    17,
+    26,
+    29,
+    30,
+    36,
+    37,
+    38,
+    40,
+    41,
+    43,
+    46
+  ],
+  "bloodlineSkills": [
+    "拍击",
+    "花香",
+    "火焰冲锋",
+    "泡沫",
+    "折线冲击",
+    "扬沙",
+    "冷风",
+    "升龙咆哮",
+    "球状闪电",
+    "溃烂触碰",
+    "噬心",
+    "缠丝劲",
+    "鹰爪",
+    "魅惑",
+    "幻象",
+    "诋毁",
+    "离子震荡",
+    "星云漩涡"
+  ],
+  "learnableSkillStones": [
+    "连续爪击",
+    "阻断",
+    "力量增效",
+    "激怒",
+    "防御",
+    "复写",
+    "热身运动",
+    "埋伏",
+    "倾泻",
+    "光之矛",
+    "腐蚀酸液",
+    "连续毒针",
+    "虫群过境",
+    "虫击",
+    "虫鸣",
+    "尾后针",
+    "恶意逃离",
+    "隐藏条款"
+  ],
+  "evolutionCondition": "击败三只光系精灵",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "迫害",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "黑手",
+      "element": "恶",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "45",
+      "effect": "造成魔伤，2连击。"
+    },
+    {
+      "name": "贪婪",
+      "element": "恶",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得100%吸血。"
+    },
+    {
+      "name": "蝙蝠",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "2",
+      "power": "60",
+      "effect": "造成物伤，并吸血100%。"
+    },
+    {
+      "name": "漫反射",
+      "element": "光",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "每种系别中的至多1个技能，威力+35。"
+    },
+    {
+      "name": "光球",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "力量吞噬",
+      "element": "恶",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得技能威力-20，自己获得技能威力+20。"
+    },
+    {
+      "name": "先发制人",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "55",
+      "effect": "造成物理伤害，先手+1。"
+    },
+    {
+      "name": "暗箱操作",
+      "element": "恶",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得双攻和双防-100%，应对防御：改为敌方-100%。"
+    },
+    {
+      "name": "过曝",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "60",
+      "effect": "造成魔伤，每使用过1个其他系别技能，本技能威力永久+30。"
+    },
+    {
+      "name": "光刃",
+      "element": "光",
+      "category": "物攻",
+      "cost": "4",
+      "power": "120",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "牵连",
+      "element": "恶",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "85",
+      "effect": "造成魔伤，敌方每有1只力竭精灵，本次技能威力+30。"
+    },
+    {
+      "name": "灾厄",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "1",
+      "power": "150",
+      "effect": "对自己造成物伤，应对状态：改为对敌方造成物伤。"
+    },
+    {
+      "name": "跌落",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "3",
+      "power": "120",
+      "effect": "造成大量物伤，自己获得物攻-50%，应对状态：改为获得物攻+50%。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "拍击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "花香",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "火焰冲锋",
+      "element": "火",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "泡沫",
+      "element": "水",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "折线冲击",
+      "element": "光",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "扬沙",
+      "element": "地",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "冷风",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "球状闪电",
+      "element": "电",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "溃烂触碰",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "噬心",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "缠丝劲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "鹰爪",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "魅惑",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "幻象",
+      "element": "幽",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "诋毁",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "离子震荡",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "星云漩涡",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "连续爪击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "30",
+      "effect": "造成物伤，2连击，应对状态：本次技能连击数翻倍。"
+    },
+    {
+      "name": "阻断",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "造成魔伤，应对状态：额外打断被应对技能。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "激怒",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方除本回合使用的技能，其他技能能耗+3，持续3回合。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "复写",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成自己未携带的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "埋伏",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "30",
+      "effect": "造成魔伤，3连击，若敌方本回合替换精灵，本次技能连击数+3。"
+    },
+    {
+      "name": "倾泻",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "60",
+      "effect": "造成魔伤，若本次攻击未被防御或技能应对，则驱散双方所有印记。"
+    },
+    {
+      "name": "光之矛",
+      "element": "光",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，3连击。"
+    },
+    {
+      "name": "腐蚀酸液",
+      "element": "毒",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "35",
+      "effect": "造成魔伤，敌方获得2层中毒。"
+    },
+    {
+      "name": "连续毒针",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "15",
+      "effect": "造成物伤，2连击，每次连击使敌方获得1层中毒。"
+    },
+    {
+      "name": "虫群过境",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "5",
+      "power": "45",
+      "effect": "造成物伤，2连击。获得1次奉献：获得连击数+1。"
+    },
+    {
+      "name": "虫击",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "3",
+      "power": "90",
+      "effect": "造成物伤，应对状态：本次技能威力变为2倍，无视敌方系别抵抗。"
+    },
+    {
+      "name": "虫鸣",
+      "element": "虫",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "15",
+      "effect": "造成魔伤，队伍中每有1只带有本技能的精灵，本次技能连击数+1。"
+    },
+    {
+      "name": "尾后针",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "恶意逃离",
+      "element": "恶",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "脱离，应对防御：额外使敌方攻击技能能耗+6。"
+    },
+    {
+      "name": "隐藏条款",
+      "element": "恶",
+      "category": "状态",
+      "cost": "8",
+      "power": "0",
+      "effect": "与敌方交换携带的技能。"
+    }
+  ]
+}

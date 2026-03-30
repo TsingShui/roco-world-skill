@@ -1,0 +1,456 @@
+{
+  "name": "梦游（穿旧睡衣的样子）",
+  "form": "原始形态",
+  "regionalFormName": "穿旧睡衣的样子",
+  "initialStageName": "梦游（穿旧睡衣的样子）",
+  "hasAltColor": "",
+  "stage": "Ⅰ阶",
+  "type": "睡衣精灵",
+  "description": "不吃不喝，大部分时间都在睡觉的奇怪生物，常呆在旧衣服堆里。喜欢群居生活，如果太长时间没有感受到其他生物的活动痕迹，会变得非常怨恨和暴躁。",
+  "element": "幽",
+  "element2": "",
+  "ability": "做噩梦",
+  "abilityDesc": "敌方精灵离场后，更换入场的精灵失去3能量。",
+  "hp": 90,
+  "physicalAttack": 40,
+  "magicAttack": 106,
+  "physicalDefense": 60,
+  "magicDefense": 74,
+  "speed": 92,
+  "size": "0.50-0.60",
+  "weight": "0.60-1.87",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [
+    "防御",
+    "借用",
+    "拍击",
+    "恐吓",
+    "勾魂",
+    "午夜噪音",
+    "魔法增效",
+    "幽灵爆发",
+    "操控",
+    "背袭",
+    "降灵",
+    "热身运动",
+    "恶作剧"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    5,
+    12,
+    24,
+    31,
+    35,
+    38,
+    43,
+    44,
+    47,
+    49
+  ],
+  "bloodlineSkills": [
+    "休息回复",
+    "徒长",
+    "引燃",
+    "蓄水",
+    "虹光冲击",
+    "泥浆铠甲",
+    "霜降",
+    "升龙咆哮",
+    "麻痹",
+    "毒孢子",
+    "假寐",
+    "化劲",
+    "羽化加速",
+    "飞吻",
+    "灵媒",
+    "贪婪",
+    "啮合传递",
+    "超维投射"
+  ],
+  "learnableSkillStones": [
+    "阻断",
+    "伺机而动",
+    "埋伏",
+    "摇篮曲",
+    "漫反射",
+    "反弹",
+    "破罐破摔",
+    "撒娇",
+    "灵光",
+    "掠夺",
+    "黑手",
+    "虚假破产",
+    "伪造账单"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "拍击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "恐吓",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "勾魂",
+      "element": "幽",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "偷取敌方3能量。"
+    },
+    {
+      "name": "午夜噪音",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "20",
+      "effect": "造成魔伤，5连击。"
+    },
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "幽灵爆发",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "5",
+      "power": "140",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "操控",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方本回合使用的技能能耗+7，持续3回合。"
+    },
+    {
+      "name": "背袭",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "40",
+      "effect": "造成魔伤，若敌方能量等于0，造成20倍伤害。"
+    },
+    {
+      "name": "降灵",
+      "element": "幽",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得1层降灵印记。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "恶作剧",
+      "element": "幽",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "敌方失去3能量，应对防御：改为敌方失去6能量。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "休息回复",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复30%生命。"
+    },
+    {
+      "name": "徒长",
+      "element": "草",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复10能量。"
+    },
+    {
+      "name": "引燃",
+      "element": "火",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得10层灼烧。"
+    },
+    {
+      "name": "蓄水",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下次使用的技能能耗-6。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "泥浆铠甲",
+      "element": "地",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得物攻和物防+40%，应对防御：额外使自己的增益翻倍。"
+    },
+    {
+      "name": "霜降",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得4层冻结。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "麻痹",
+      "element": "电",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方先手-1，应对防御：额外使敌方获得攻击-70%。"
+    },
+    {
+      "name": "毒孢子",
+      "element": "毒",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得5层中毒。"
+    },
+    {
+      "name": "假寐",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复2能量，获得1次奉献：能耗-2。"
+    },
+    {
+      "name": "化劲",
+      "element": "武",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得全技能威力+40。"
+    },
+    {
+      "name": "羽化加速",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得技能威力+20，迅捷。"
+    },
+    {
+      "name": "飞吻",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "灵媒",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "贪婪",
+      "element": "恶",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得100%吸血。"
+    },
+    {
+      "name": "啮合传递",
+      "element": "机械",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+100，本技能位于1号位时能耗-2，传动。"
+    },
+    {
+      "name": "超维投射",
+      "element": "幻",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得4层星陨。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "阻断",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "造成魔伤，应对状态：额外打断被应对技能。"
+    },
+    {
+      "name": "伺机而动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下一次行动时，攻击技能威力+70。"
+    },
+    {
+      "name": "埋伏",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "30",
+      "effect": "造成魔伤，3连击，若敌方本回合替换精灵，本次技能连击数+3。"
+    },
+    {
+      "name": "摇篮曲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "5",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+3，应对防御：额外造成打断，且敌方下回合获得眩晕。"
+    },
+    {
+      "name": "漫反射",
+      "element": "光",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "每种系别中的至多1个技能，威力+35。"
+    },
+    {
+      "name": "反弹",
+      "element": "萌",
+      "category": "状态",
+      "cost": "5",
+      "power": "0",
+      "effect": "将自己的萌化转移给敌方。"
+    },
+    {
+      "name": "破罐破摔",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成魔伤，自己有增益时，本次技能威力+60。"
+    },
+    {
+      "name": "撒娇",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成魔伤，3连击，获得萌化：威力永久+20。"
+    },
+    {
+      "name": "灵光",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "25",
+      "effect": "造成魔伤，3连击，若敌方本回合替换精灵，本次技能连击数翻倍。"
+    },
+    {
+      "name": "掠夺",
+      "element": "恶",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "黑手",
+      "element": "恶",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "45",
+      "effect": "造成魔伤，2连击。"
+    },
+    {
+      "name": "虚假破产",
+      "element": "恶",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，能量不足时，消耗5%生命代替1能量，应对攻击。"
+    },
+    {
+      "name": "伪造账单",
+      "element": "恶",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "若敌方本回合回复生命，改为失去2倍。先手+1。"
+    }
+  ]
+}

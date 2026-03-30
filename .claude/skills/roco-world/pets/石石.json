@@ -1,0 +1,503 @@
+{
+  "name": "石石",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "石石",
+  "hasAltColor": "",
+  "stage": "Ⅰ阶",
+  "type": "计重精灵",
+  "description": "古老的种族，似乎和现在的精灵们很少交流，但对洛克族十分友好。地系部族掌握建造之术后的创造的第一个物种。在古代也被用作计量单位，一个石石约等于三十千克。",
+  "element": "地",
+  "element2": "",
+  "ability": "石天平",
+  "abilityDesc": "若使用技能能耗高于敌方，回合结束敌方失去能耗之差的能量。",
+  "hp": 76,
+  "physicalAttack": 79,
+  "magicAttack": 79,
+  "physicalDefense": 101,
+  "magicDefense": 56,
+  "speed": 76,
+  "size": "0.35-0.50",
+  "weight": "61.00-75.00",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [
+    "防御",
+    "鬼火",
+    "勾魂",
+    "泥巴喷射",
+    "嘲弄",
+    "幻象",
+    "钧势",
+    "不动如山",
+    "陨石",
+    "沙涌",
+    "穿膛",
+    "恶作剧",
+    "幽灵爆发",
+    "流沙",
+    "岩土暴击"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    5,
+    10,
+    11,
+    17,
+    22,
+    29,
+    35,
+    36,
+    39,
+    40,
+    41,
+    43
+  ],
+  "bloodlineSkills": [
+    "休息回复",
+    "徒长",
+    "引燃",
+    "蓄水",
+    "虹光冲击",
+    "跺地",
+    "霜降",
+    "升龙咆哮",
+    "麻痹",
+    "毒孢子",
+    "假寐",
+    "化劲",
+    "羽化加速",
+    "甜心续航",
+    "灵媒",
+    "贪婪",
+    "啮合传递",
+    "超维投射"
+  ],
+  "learnableSkillStones": [
+    "魔能爆",
+    "力量增效",
+    "聒噪",
+    "棘刺",
+    "精神扰乱",
+    "取念",
+    "晒太阳",
+    "吓退",
+    "地震",
+    "泥浆铠甲",
+    "石肤术",
+    "瞬间零度",
+    "丢冰块",
+    "寒风吹",
+    "冰捆缚",
+    "降灵"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "鬼火",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成魔伤，自己回复1能量。"
+    },
+    {
+      "name": "勾魂",
+      "element": "幽",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "偷取敌方3能量。"
+    },
+    {
+      "name": "泥巴喷射",
+      "element": "地",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "嘲弄",
+      "element": "幽",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得魔攻+70%，若敌方本回合替换精灵，自己获得速度+70。"
+    },
+    {
+      "name": "幻象",
+      "element": "幽",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "钧势",
+      "element": "地",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得物防+140%和速度-30。"
+    },
+    {
+      "name": "不动如山",
+      "element": "地",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤90%，应对攻击。"
+    },
+    {
+      "name": "陨石",
+      "element": "地",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "沙涌",
+      "element": "地",
+      "category": "状态",
+      "cost": "7",
+      "power": "0",
+      "effect": "将天气改为沙暴，每过1回合，本技能能耗永久-1。"
+    },
+    {
+      "name": "穿膛",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "65",
+      "effect": "造成物伤，若敌方能量小于等于2，造成5倍伤害。"
+    },
+    {
+      "name": "恶作剧",
+      "element": "幽",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "敌方失去3能量，应对防御：改为敌方失去6能量。"
+    },
+    {
+      "name": "幽灵爆发",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "5",
+      "power": "140",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "流沙",
+      "element": "地",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方2回合无法更换精灵，应对防御：敌方获得双防-50%。"
+    },
+    {
+      "name": "岩土暴击",
+      "element": "地",
+      "category": "物攻",
+      "cost": "8",
+      "power": "140",
+      "effect": "造成物伤，每被攻击1次。本技能能耗永久-1。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "休息回复",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复30%生命。"
+    },
+    {
+      "name": "徒长",
+      "element": "草",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复10能量。"
+    },
+    {
+      "name": "引燃",
+      "element": "火",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得10层灼烧。"
+    },
+    {
+      "name": "蓄水",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下次使用的技能能耗-6。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "跺地",
+      "element": "地",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "霜降",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得4层冻结。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "麻痹",
+      "element": "电",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方先手-1，应对防御：额外使敌方获得攻击-70%。"
+    },
+    {
+      "name": "毒孢子",
+      "element": "毒",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得5层中毒。"
+    },
+    {
+      "name": "假寐",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复2能量，获得1次奉献：能耗-2。"
+    },
+    {
+      "name": "化劲",
+      "element": "武",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得全技能威力+40。"
+    },
+    {
+      "name": "羽化加速",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得技能威力+20，迅捷。"
+    },
+    {
+      "name": "甜心续航",
+      "element": "萌",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己和敌方获得萌化：回复40%生命和4能量。"
+    },
+    {
+      "name": "灵媒",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "贪婪",
+      "element": "恶",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得100%吸血。"
+    },
+    {
+      "name": "啮合传递",
+      "element": "机械",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+100，本技能位于1号位时能耗-2，传动。"
+    },
+    {
+      "name": "超维投射",
+      "element": "幻",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得4层星陨。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "魔能爆",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "1",
+      "effect": "造成魔伤，使用时消耗所有能量，消耗越高，伤害越高。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "聒噪",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得全攻击技能能耗+3，持续3回合。"
+    },
+    {
+      "name": "棘刺",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得1层棘刺印记。"
+    },
+    {
+      "name": "精神扰乱",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+1，应对防御：改为能耗+3。"
+    },
+    {
+      "name": "取念",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成敌方任意精灵的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "吓退",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：敌方脱离。"
+    },
+    {
+      "name": "地震",
+      "element": "地",
+      "category": "物攻",
+      "cost": "10",
+      "power": "190",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "泥浆铠甲",
+      "element": "地",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得物攻和物防+40%，应对防御：额外使自己的增益翻倍。"
+    },
+    {
+      "name": "石肤术",
+      "element": "地",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得物防+160%和魔防-60%。"
+    },
+    {
+      "name": "瞬间零度",
+      "element": "冰",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "本回合敌方使用的技能能耗+3，应对防御：改为全技能能耗+3。"
+    },
+    {
+      "name": "丢冰块",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成物伤，敌方获得速度-30。"
+    },
+    {
+      "name": "寒风吹",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "70",
+      "effect": "造成魔伤，敌方获得魔防-40%。"
+    },
+    {
+      "name": "冰捆缚",
+      "element": "冰",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "2连击，每次连击敌方获得全技能能耗+1。"
+    },
+    {
+      "name": "降灵",
+      "element": "幽",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得1层降灵印记。"
+    }
+  ]
+}

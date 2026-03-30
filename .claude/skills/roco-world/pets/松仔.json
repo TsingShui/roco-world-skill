@@ -1,0 +1,467 @@
+{
+  "name": "松仔",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "松仔",
+  "hasAltColor": "",
+  "stage": "Ⅰ阶",
+  "type": "松羊精灵",
+  "description": "如果察觉到小洛克踏入森林，它们会把角塞在树杈中间伪装松果，诱使小洛克靠近观察。被林间露水打湿的话它们会结伴去晒太阳，晒太阳的时候会散发香香的味道。",
+  "element": "草",
+  "element2": "武",
+  "ability": "野性感官",
+  "abilityDesc": "应对成功后，下次行动先手+1。",
+  "hp": 63,
+  "physicalAttack": 83,
+  "magicAttack": 34,
+  "physicalDefense": 77,
+  "magicDefense": 60,
+  "speed": 63,
+  "size": "0.52-0.68",
+  "weight": "6.25-7.85",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [
+    "力量增效",
+    "刺藤",
+    "缠丝劲",
+    "藤绞",
+    "防御",
+    "先发制人",
+    "根吸收",
+    "提气",
+    "散手",
+    "针刺射击",
+    "顶端优势",
+    "影袭",
+    "盛开",
+    "抽枝"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    10,
+    12,
+    17,
+    27,
+    28,
+    29,
+    33,
+    35,
+    36,
+    37,
+    38,
+    48
+  ],
+  "bloodlineSkills": [
+    "拍击",
+    "花香",
+    "火焰冲锋",
+    "泡沫",
+    "虹光冲击",
+    "跺地",
+    "冷风",
+    "升龙咆哮",
+    "球状闪电",
+    "溃烂触碰",
+    "噬心",
+    "贯手",
+    "鹰爪",
+    "魅惑",
+    "幻象",
+    "恶能量",
+    "离子震荡",
+    "星云漩涡"
+  ],
+  "learnableSkillStones": [
+    "偷袭",
+    "能量刃",
+    "快速移动",
+    "借用",
+    "晒太阳",
+    "移花接木",
+    "光合作用",
+    "地刺",
+    "落石",
+    "钧势",
+    "无影脚",
+    "截拳",
+    "化劲",
+    "撕咬"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "刺藤",
+      "element": "草",
+      "category": "物攻",
+      "cost": "3",
+      "power": "45",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "缠丝劲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "藤绞",
+      "element": "草",
+      "category": "物攻",
+      "cost": "4",
+      "power": "80",
+      "effect": "造成物伤，自己回复5能量。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "先发制人",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "55",
+      "effect": "造成物理伤害，先手+1。"
+    },
+    {
+      "name": "根吸收",
+      "element": "草",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复15%生命和4能量。"
+    },
+    {
+      "name": "提气",
+      "element": "武",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "获得全技能威力+40，若敌方本回合替换精灵，额外获得威力+50。"
+    },
+    {
+      "name": "散手",
+      "element": "武",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，2连击，应对状态：本技能改为6连击。"
+    },
+    {
+      "name": "顶端优势",
+      "element": "草",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "影袭",
+      "element": "武",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "盛开",
+      "element": "草",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得技能威力+30，应对防御：改为威力+70。"
+    },
+    {
+      "name": "抽枝",
+      "element": "草",
+      "category": "物攻",
+      "cost": "4",
+      "power": "85",
+      "effect": "造成物伤，应对状态：自己回复50%生命和5能量。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "拍击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "花香",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "火焰冲锋",
+      "element": "火",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "泡沫",
+      "element": "水",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "跺地",
+      "element": "地",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "冷风",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "球状闪电",
+      "element": "电",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "溃烂触碰",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "噬心",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "贯手",
+      "element": "武",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "鹰爪",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "魅惑",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "幻象",
+      "element": "幽",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "恶能量",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "离子震荡",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "星云漩涡",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "偷袭",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：本次技能威力变为3倍。"
+    },
+    {
+      "name": "能量刃",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "70",
+      "effect": "造成物伤，每应对成功1次，本技能威力永久+90。"
+    },
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "移花接木",
+      "element": "草",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复15%生命，随后脱离。"
+    },
+    {
+      "name": "光合作用",
+      "element": "草",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层光合印记。"
+    },
+    {
+      "name": "地刺",
+      "element": "地",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：额外打断被应对技能。"
+    },
+    {
+      "name": "落石",
+      "element": "地",
+      "category": "物攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成物伤，1连击。"
+    },
+    {
+      "name": "钧势",
+      "element": "地",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得物防+140%和速度-30。"
+    },
+    {
+      "name": "无影脚",
+      "element": "武",
+      "category": "物攻",
+      "cost": "3",
+      "power": "75",
+      "effect": "造成物伤，应对状态：本次技能威力变为2倍。"
+    },
+    {
+      "name": "截拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：额外造成打断，回复该技能能耗的能量。"
+    },
+    {
+      "name": "化劲",
+      "element": "武",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得全技能威力+40。"
+    },
+    {
+      "name": "撕咬",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，3连击，若自己的生命低于50%，本次技能连击数+2。"
+    }
+  ]
+}

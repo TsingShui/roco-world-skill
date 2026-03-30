@@ -1,0 +1,299 @@
+{
+  "name": "黑猫巫师（首领的样子）",
+  "form": "首领形态",
+  "regionalFormName": "",
+  "initialStageName": "小黑猫",
+  "hasAltColor": "",
+  "stage": "首领进化",
+  "type": "猫精灵",
+  "description": "拥有了在黑暗夜空中穿行的能力，据说它们能读取宇宙中所有星光的讯息，预知即将发生的危机。小洛克常常发现，当黑猫密探突然变得异常安静时，往往预示着某种变故即将来临。",
+  "element": "普通",
+  "element2": "",
+  "ability": "先知",
+  "abilityDesc": "若敌方技能足够击败自己，回合开始时自己获得速度+50，双攻+50%。",
+  "hp": 152,
+  "physicalAttack": 107,
+  "magicAttack": 186,
+  "physicalDefense": 67,
+  "magicDefense": 119,
+  "speed": 70,
+  "size": "0.94-1.08",
+  "weight": "11.07-15.06",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉1只炫彩突变的精灵",
+    "使用进化之力，将精灵进化为首领",
+    "获得【命定勇者】奖牌",
+    "使用2次嗜痛",
+    "使用2次乱打",
+    "使用2次精神扰乱"
+  ],
+  "questSkillStones": [
+    "嗜痛",
+    "乱打",
+    "精神扰乱"
+  ],
+  "skills": [
+    "魔法增效",
+    "防御",
+    "拍击",
+    "许愿星",
+    "伺机而动",
+    "音爆",
+    "聒噪",
+    "嗜痛",
+    "乱打",
+    "主场优势",
+    "彗星",
+    "精神扰乱",
+    "快速移动"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    4,
+    6,
+    12,
+    16,
+    21,
+    22,
+    29,
+    36,
+    37,
+    38
+  ],
+  "bloodlineSkills": [],
+  "learnableSkillStones": [
+    "魔能爆",
+    "操控",
+    "无畏之心",
+    "借用",
+    "热身运动",
+    "晒太阳",
+    "摇篮曲",
+    "风起",
+    "羽化加速",
+    "恐吓",
+    "午夜噪音",
+    "嘲弄",
+    "勾魂"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "",
+  "skillDetails": [
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "拍击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "许愿星",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "110",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "伺机而动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下一次行动时，攻击技能威力+70。"
+    },
+    {
+      "name": "音爆",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "130",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "聒噪",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得全攻击技能能耗+3，持续3回合。"
+    },
+    {
+      "name": "嗜痛",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，应对攻击：期间自己每次受到伤害，获得双攻+40%。"
+    },
+    {
+      "name": "乱打",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "25",
+      "effect": "造成魔伤，5连击。"
+    },
+    {
+      "name": "主场优势",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得1层攻击印记。"
+    },
+    {
+      "name": "彗星",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "240",
+      "effect": "造成魔伤，每失去5%生命，本次技能威力-10，使用后消耗全部生命。"
+    },
+    {
+      "name": "精神扰乱",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+1，应对防御：改为能耗+3。"
+    },
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    }
+  ],
+  "bloodlineSkillDetails": [],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "魔能爆",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "1",
+      "effect": "造成魔伤，使用时消耗所有能量，消耗越高，伤害越高。"
+    },
+    {
+      "name": "操控",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方本回合使用的技能能耗+7，持续3回合。"
+    },
+    {
+      "name": "无畏之心",
+      "element": "普通",
+      "category": "防御",
+      "cost": "5",
+      "power": "0",
+      "effect": "减伤100%，应对攻击：减免的伤害变为回复自己生命，且本技能能耗永久+2。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "摇篮曲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "5",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+3，应对防御：额外造成打断，且敌方下回合获得眩晕。"
+    },
+    {
+      "name": "风起",
+      "element": "翼",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层风起印记。"
+    },
+    {
+      "name": "羽化加速",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得技能威力+20，迅捷。"
+    },
+    {
+      "name": "恐吓",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "午夜噪音",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "20",
+      "effect": "造成魔伤，5连击。"
+    },
+    {
+      "name": "嘲弄",
+      "element": "幽",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得魔攻+70%，若敌方本回合替换精灵，自己获得速度+70。"
+    },
+    {
+      "name": "勾魂",
+      "element": "幽",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "偷取敌方3能量。"
+    }
+  ]
+}

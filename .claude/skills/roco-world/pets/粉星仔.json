@@ -1,0 +1,465 @@
+{
+  "name": "粉星仔",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "粉星仔",
+  "hasAltColor": "是",
+  "stage": "Ⅰ阶",
+  "type": "流星精灵",
+  "description": "习性和语言都与目前所知的任何精灵种族不同，身体轻盈，皮肤柔软但极其有韧性。研究学者偶然拾取到它星星飘下的碎屑，密度极高但质量非常轻，研究发现其材质也不属于卡罗西亚大陆的任何一种已知材质。",
+  "element": "幻",
+  "element2": "",
+  "ability": "双向光速",
+  "abilityDesc": "在场时，所有回合结束时触发，触发次数+1。",
+  "hp": 80,
+  "physicalAttack": 63,
+  "magicAttack": 119,
+  "physicalDefense": 58,
+  "magicDefense": 102,
+  "speed": 92,
+  "size": "0.39-0.50",
+  "weight": "9.80-12.80",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [
+    "防御",
+    "拍击",
+    "星轨裂变",
+    "大爆炸",
+    "魔法增效",
+    "坍缩",
+    "超维投射",
+    "多维击打",
+    "二律背反",
+    "超新星馈赠",
+    "音爆",
+    "伺机而动",
+    "心灵洞悉"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    6,
+    8,
+    13,
+    17,
+    25,
+    32,
+    34,
+    48,
+    49,
+    50
+  ],
+  "bloodlineSkills": [
+    "休息回复",
+    "徒长",
+    "引燃",
+    "蓄水",
+    "虹光冲击",
+    "泥浆铠甲",
+    "霜降",
+    "升龙咆哮",
+    "麻痹",
+    "毒孢子",
+    "假寐",
+    "化劲",
+    "羽化加速",
+    "甜心续航",
+    "勾魂",
+    "贪婪",
+    "啮合传递",
+    "念力膨胀"
+  ],
+  "learnableSkillStones": [
+    "快速移动",
+    "操控",
+    "精神扰乱",
+    "借用",
+    "晒太阳",
+    "嗜痛",
+    "吓退",
+    "孢子",
+    "热身",
+    "流火",
+    "炎打",
+    "水波术",
+    "腐蚀酸液",
+    "休息回复"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "拍击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "星轨裂变",
+      "element": "幻",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得2层星陨。"
+    },
+    {
+      "name": "大爆炸",
+      "element": "幻",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "坍缩",
+      "element": "幻",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成魔伤，若击败敌方，自己获得魔攻+50%。"
+    },
+    {
+      "name": "超维投射",
+      "element": "幻",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得4层星陨。"
+    },
+    {
+      "name": "多维击打",
+      "element": "幻",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "20",
+      "effect": "造成魔伤，1连击，敌方每有1层星陨，本次技能连击数+1。"
+    },
+    {
+      "name": "二律背反",
+      "element": "幻",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得3层星陨，应对防御：额外使敌方星陨层数翻倍。"
+    },
+    {
+      "name": "超新星馈赠",
+      "element": "幻",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得2层星陨，每使用1次，赋予的星陨层数+1。"
+    },
+    {
+      "name": "音爆",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "130",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "伺机而动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下一次行动时，攻击技能威力+70。"
+    },
+    {
+      "name": "心灵洞悉",
+      "element": "幻",
+      "category": "状态",
+      "cost": "7",
+      "power": "0",
+      "effect": "敌方获得星陨，获得层数等于敌方印记层数。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "休息回复",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复30%生命。"
+    },
+    {
+      "name": "徒长",
+      "element": "草",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复10能量。"
+    },
+    {
+      "name": "引燃",
+      "element": "火",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得10层灼烧。"
+    },
+    {
+      "name": "蓄水",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下次使用的技能能耗-6。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "泥浆铠甲",
+      "element": "地",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得物攻和物防+40%，应对防御：额外使自己的增益翻倍。"
+    },
+    {
+      "name": "霜降",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得4层冻结。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "麻痹",
+      "element": "电",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方先手-1，应对防御：额外使敌方获得攻击-70%。"
+    },
+    {
+      "name": "毒孢子",
+      "element": "毒",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得5层中毒。"
+    },
+    {
+      "name": "假寐",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复2能量，获得1次奉献：能耗-2。"
+    },
+    {
+      "name": "化劲",
+      "element": "武",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得全技能威力+40。"
+    },
+    {
+      "name": "羽化加速",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得技能威力+20，迅捷。"
+    },
+    {
+      "name": "甜心续航",
+      "element": "萌",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己和敌方获得萌化：回复40%生命和4能量。"
+    },
+    {
+      "name": "勾魂",
+      "element": "幽",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "偷取敌方3能量。"
+    },
+    {
+      "name": "贪婪",
+      "element": "恶",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得100%吸血。"
+    },
+    {
+      "name": "啮合传递",
+      "element": "机械",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+100，本技能位于1号位时能耗-2，传动。"
+    },
+    {
+      "name": "念力膨胀",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    },
+    {
+      "name": "操控",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方本回合使用的技能能耗+7，持续3回合。"
+    },
+    {
+      "name": "精神扰乱",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+1，应对防御：改为能耗+3。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "嗜痛",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，应对攻击：期间自己每次受到伤害，获得双攻+40%。"
+    },
+    {
+      "name": "吓退",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：敌方脱离。"
+    },
+    {
+      "name": "孢子",
+      "element": "草",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得1层寄生。"
+    },
+    {
+      "name": "热身",
+      "element": "火",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下一次攻击技能威力翻倍，应对防御：改为威力变为3倍。"
+    },
+    {
+      "name": "流火",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "15",
+      "effect": "造成魔伤，3连击。"
+    },
+    {
+      "name": "炎打",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "100",
+      "effect": "造成高额魔法伤害，自己获得物防-40%。"
+    },
+    {
+      "name": "水波术",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "6",
+      "power": "90",
+      "effect": "造成魔伤，回合结束时，本技能威力永久+20。"
+    },
+    {
+      "name": "腐蚀酸液",
+      "element": "毒",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "35",
+      "effect": "造成魔伤，敌方获得2层中毒。"
+    },
+    {
+      "name": "休息回复",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复30%生命。"
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+{
+  "name": "里奥",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "里奥",
+  "hasAltColor": "",
+  "stage": "Ⅰ阶",
+  "type": "翼系精灵王",
+  "description": "有着圆滚滚的身躯，小小的翅膀还无法熟练飞翔，却能和愿力发生共鸣，从而获得力量。“和伙伴在一起的安全感连美食都不能替代。即使有时候像个小跟屁虫也无所谓。”",
+  "element": "翼",
+  "element2": "",
+  "ability": "飓风",
+  "abilityDesc": "对本精灵的技能，若其他翼系精灵携带相同技能，则获得迅捷。被敌方精灵击败时，自己额外损失1点魔力。",
+  "hp": 79,
+  "physicalAttack": 65,
+  "magicAttack": 65,
+  "physicalDefense": 77,
+  "magicDefense": 50,
+  "speed": 75,
+  "size": "0.35-0.45",
+  "weight": "4.80-5.90",
+  "distribution": "",
+  "questTasks": [],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [
+    "魔法增效",
+    "防御",
+    "啄击",
+    "疾风刺",
+    "伺机而动",
+    "扇风",
+    "力量增效",
+    "回旋风暴",
+    "暴风眼",
+    "后发制人",
+    "羽化加速",
+    "翼击",
+    "风起",
+    "羽刃",
+    "龙卷风",
+    "疾风连袭"
+  ],
+  "skillUnlockLevels": [],
+  "bloodlineSkills": [
+    "拍击",
+    "花香",
+    "火焰冲锋",
+    "泡沫",
+    "折线冲击",
+    "扬沙",
+    "冷风",
+    "升龙咆哮",
+    "球状闪电",
+    "溃烂触碰",
+    "噬心",
+    "缠丝劲",
+    "风矢",
+    "魅惑",
+    "幻象",
+    "恶能量",
+    "离子震荡",
+    "念力膨胀"
+  ],
+  "learnableSkillStones": [
+    "连续爪击",
+    "乘胜追击",
+    "阻断",
+    "快速移动",
+    "借用",
+    "三连破",
+    "热身运动",
+    "有效预防",
+    "水炮",
+    "水刃",
+    "蓄水",
+    "水花四溅",
+    "水幕冲击",
+    "光之矛",
+    "天光",
+    "龙吼",
+    "龙炮",
+    "闪击"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "啄击",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "0",
+      "power": "15",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "疾风刺",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "25",
+      "effect": "造成物伤，1连击，若先于敌方攻击，本次攻击改为3连击。"
+    },
+    {
+      "name": "伺机而动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下一次行动时，攻击技能威力+70。"
+    },
+    {
+      "name": "扇风",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "3",
+      "power": "70",
+      "effect": "造成物伤，若先于敌方攻击，本次技能威力+50%。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "回旋风暴",
+      "element": "翼",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "暴风眼",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "行动时连击数+100%。"
+    },
+    {
+      "name": "后发制人",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "140",
+      "effect": "造成物理伤害，先手-1。"
+    },
+    {
+      "name": "羽化加速",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得技能威力+20，迅捷。"
+    },
+    {
+      "name": "翼击",
+      "element": "翼",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "50",
+      "effect": "造成魔伤，迅捷。"
+    },
+    {
+      "name": "风起",
+      "element": "翼",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层风起印记。"
+    },
+    {
+      "name": "羽刃",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "70",
+      "effect": "造成物伤，应对状态：回合结束使敌方紧急脱离。"
+    },
+    {
+      "name": "龙卷风",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "5",
+      "power": "60",
+      "effect": "造成物伤，迅捷，应对状态：本次技能威力变为1.5倍。"
+    },
+    {
+      "name": "疾风连袭",
+      "element": "翼",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "释放自己释放过的迅捷技能，其能耗之和的二分之一加至本技能能耗，每次使用后能耗+1"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "拍击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "花香",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "火焰冲锋",
+      "element": "火",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "泡沫",
+      "element": "水",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "折线冲击",
+      "element": "光",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "扬沙",
+      "element": "地",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "冷风",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "球状闪电",
+      "element": "电",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "溃烂触碰",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "噬心",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "缠丝劲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "风矢",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "魅惑",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "幻象",
+      "element": "幽",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "恶能量",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "离子震荡",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "念力膨胀",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "连续爪击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "30",
+      "effect": "造成物伤，2连击，应对状态：本次技能连击数翻倍。"
+    },
+    {
+      "name": "乘胜追击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "40",
+      "effect": "造成物伤，1连击，每次使用后，本技能连击数永久+1。"
+    },
+    {
+      "name": "阻断",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "造成魔伤，应对状态：额外打断被应对技能。"
+    },
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "三连破",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+30%，3连击。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "有效预防",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤50%，应对攻击：下次行动获得先手+1。"
+    },
+    {
+      "name": "水炮",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "5",
+      "power": "110",
+      "effect": "造成魔伤，每次使用后，本技能能耗永久-1。"
+    },
+    {
+      "name": "水刃",
+      "element": "水",
+      "category": "物攻",
+      "cost": "4",
+      "power": "115",
+      "effect": "造成物伤，应对状态：本技能能耗永久-4。"
+    },
+    {
+      "name": "蓄水",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下次使用的技能能耗-6。"
+    },
+    {
+      "name": "水花四溅",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "20",
+      "effect": "造成魔伤，4连击。"
+    },
+    {
+      "name": "水幕冲击",
+      "element": "水",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "光之矛",
+      "element": "光",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，3连击。"
+    },
+    {
+      "name": "天光",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "95",
+      "effect": "造成魔伤，本技能系别和天气系别相同。"
+    },
+    {
+      "name": "龙吼",
+      "element": "龙",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "龙炮",
+      "element": "龙",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "闪击",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "4",
+      "power": "60",
+      "effect": "造成物伤，速度比敌方越高，本次技能威力越高。"
+    }
+  ]
+}

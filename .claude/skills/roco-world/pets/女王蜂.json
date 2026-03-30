@@ -1,0 +1,358 @@
+{
+  "name": "女王蜂",
+  "form": "首领形态",
+  "regionalFormName": "",
+  "initialStageName": "一窝蜂",
+  "hasAltColor": "",
+  "stage": "首领进化",
+  "type": "蜂精灵",
+  "description": "只有最尊贵的蜂后能得到加冕，穿着金色的华美虫衣，有淡淡的花香味，女王蜂以信息素的方式向周围的蜂群传递自己的命令。",
+  "element": "虫",
+  "element2": "翼",
+  "ability": "虫群突袭",
+  "abilityDesc": "队伍中每有1只其他的虫系精灵，自己入场时获得攻防速+15%。",
+  "hp": 145,
+  "physicalAttack": 50,
+  "magicAttack": 45,
+  "physicalDefense": 42,
+  "magicDefense": 42,
+  "speed": 40,
+  "size": "1.54-2.12",
+  "weight": "98.50-137.00",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉20只精灵",
+    "捕捉1只炫彩突变的精灵",
+    "使用进化之力，将精灵进化为首领",
+    "获得【命定勇者】奖牌",
+    "使用1次虫鸣",
+    "使用2次捆缚",
+    "使用2次虫群"
+  ],
+  "questSkillStones": [
+    "虫鸣",
+    "捆缚",
+    "虫群"
+  ],
+  "skills": [
+    "魔法增效",
+    "虫网",
+    "鸣叫",
+    "虫茧",
+    "虫鸣",
+    "捆缚",
+    "风矢",
+    "乘风",
+    "扇风",
+    "草虫冲击",
+    "羽化加速",
+    "翼击",
+    "虫群过境",
+    "虫群",
+    "翅刃",
+    "龙卷风"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    3,
+    7,
+    13,
+    20,
+    22,
+    25,
+    26,
+    28,
+    33,
+    34,
+    36,
+    47,
+    49
+  ],
+  "bloodlineSkills": [],
+  "learnableSkillStones": [
+    "追打",
+    "快速移动",
+    "精神扰乱",
+    "防御",
+    "借用",
+    "加固",
+    "热身运动",
+    "有效预防",
+    "倾泻",
+    "连续毒针",
+    "瘴气喷射",
+    "鸩毒",
+    "腐化",
+    "虫击",
+    "疾风刺",
+    "撕咬",
+    "掠夺"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "虫网",
+      "element": "虫",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成魔伤，自己回复1能量。"
+    },
+    {
+      "name": "鸣叫",
+      "element": "翼",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "虫茧",
+      "element": "虫",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己回复20%生命，获得1次奉献：获得10%吸血。"
+    },
+    {
+      "name": "虫鸣",
+      "element": "虫",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "15",
+      "effect": "造成魔伤，队伍中每有1只带有本技能的精灵，本次技能连击数+1。"
+    },
+    {
+      "name": "捆缚",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得2层中毒，获得1次奉献：敌方获得2层中毒。"
+    },
+    {
+      "name": "风矢",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "乘风",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+120。"
+    },
+    {
+      "name": "扇风",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "3",
+      "power": "70",
+      "effect": "造成物伤，若先于敌方攻击，本次技能威力+50%。"
+    },
+    {
+      "name": "羽化加速",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得技能威力+20，迅捷。"
+    },
+    {
+      "name": "翼击",
+      "element": "翼",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "50",
+      "effect": "造成魔伤，迅捷。"
+    },
+    {
+      "name": "虫群过境",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "5",
+      "power": "45",
+      "effect": "造成物伤，2连击。获得1次奉献：获得连击数+1。"
+    },
+    {
+      "name": "虫群",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "7",
+      "power": "20",
+      "effect": "造成物伤，1连击，本技能会受奉献影响。"
+    },
+    {
+      "name": "翅刃",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "4",
+      "power": "90",
+      "effect": "造成物伤，驱散敌方所有印记，应对状态：改为偷取印记。"
+    },
+    {
+      "name": "龙卷风",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "5",
+      "power": "60",
+      "effect": "造成物伤，迅捷，应对状态：本次技能威力变为1.5倍。"
+    }
+  ],
+  "bloodlineSkillDetails": [],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "追打",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "75",
+      "effect": "造成魔伤，1连击，应对状态：本技能变为3连击。"
+    },
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    },
+    {
+      "name": "精神扰乱",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+1，应对防御：改为能耗+3。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "加固",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得物防+140%。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "有效预防",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤50%，应对攻击：下次行动获得先手+1。"
+    },
+    {
+      "name": "倾泻",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "60",
+      "effect": "造成魔伤，若本次攻击未被防御或技能应对，则驱散双方所有印记。"
+    },
+    {
+      "name": "连续毒针",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "15",
+      "effect": "造成物伤，2连击，每次连击使敌方获得1层中毒。"
+    },
+    {
+      "name": "瘴气喷射",
+      "element": "毒",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "鸩毒",
+      "element": "毒",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "75",
+      "effect": "造成魔伤，敌方每有1层中毒效果，本次技能威力+10，应对状态：改为本次威力+20。"
+    },
+    {
+      "name": "腐化",
+      "element": "毒",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方每有1层中毒效果，敌方获得双攻-30%。"
+    },
+    {
+      "name": "虫击",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "3",
+      "power": "90",
+      "effect": "造成物伤，应对状态：本次技能威力变为2倍，无视敌方系别抵抗。"
+    },
+    {
+      "name": "疾风刺",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "25",
+      "effect": "造成物伤，1连击，若先于敌方攻击，本次攻击改为3连击。"
+    },
+    {
+      "name": "撕咬",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，3连击，若自己的生命低于50%，本次技能连击数+2。"
+    },
+    {
+      "name": "掠夺",
+      "element": "恶",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    }
+  ]
+}

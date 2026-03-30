@@ -1,0 +1,513 @@
+{
+  "name": "喵呜",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "喵喵",
+  "hasAltColor": "",
+  "stage": "Ⅱ阶",
+  "type": "草元素精灵",
+  "description": "爱在泉水边嬉戏，是喵喵的进化型，芭蕉叶状的尾巴变成了两条。胆量变大了，会经常吐舌头挑衅对手。",
+  "element": "草",
+  "element2": "",
+  "ability": "氧循环",
+  "abilityDesc": "使用草系技能后，回复10%生命。",
+  "hp": 86,
+  "physicalAttack": 87,
+  "magicAttack": 87,
+  "physicalDefense": 65,
+  "magicDefense": 121,
+  "speed": 44,
+  "size": "0.65-0.92",
+  "weight": "14.20-15.60",
+  "distribution": "果实",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [
+    "抓挠",
+    "休息回复",
+    "棘突",
+    "扫尾",
+    "藤绞",
+    "防御",
+    "徒长",
+    "叶绿光束",
+    "酶浓度调整",
+    "筛管奔流",
+    "盛开",
+    "孢子",
+    "仙人掌刺击",
+    "丰饶",
+    "光合作用",
+    "光能聚集"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    6,
+    7,
+    8,
+    10,
+    12,
+    17,
+    21,
+    29,
+    30,
+    36,
+    42,
+    48,
+    49,
+    50
+  ],
+  "bloodlineSkills": [
+    "星星撞击",
+    "荆棘爪",
+    "引燃",
+    "蓄水",
+    "虹光冲击",
+    "泥浆铠甲",
+    "霜降",
+    "升龙咆哮",
+    "麻痹",
+    "溃烂触碰",
+    "假寐",
+    "化劲",
+    "羽化加速",
+    "甜心续航",
+    "勾魂",
+    "贪婪",
+    "啮合传递",
+    "超维投射"
+  ],
+  "learnableSkillStones": [
+    "重击",
+    "应激反应",
+    "精神扰乱",
+    "借用",
+    "晒太阳",
+    "摇篮曲",
+    "移花接木",
+    "纤维化",
+    "天光",
+    "透射",
+    "腐蚀酸液",
+    "毒孢子",
+    "剧毒",
+    "毒沼",
+    "瘴气喷射",
+    "腐化"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "抓挠",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成物伤，自己回复1能量。"
+    },
+    {
+      "name": "休息回复",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复30%生命。"
+    },
+    {
+      "name": "棘突",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "扫尾",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "90",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "藤绞",
+      "element": "草",
+      "category": "物攻",
+      "cost": "4",
+      "power": "80",
+      "effect": "造成物伤，自己回复5能量。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "徒长",
+      "element": "草",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复10能量。"
+    },
+    {
+      "name": "叶绿光束",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "120",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "酶浓度调整",
+      "element": "草",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己回复20%生命。"
+    },
+    {
+      "name": "筛管奔流",
+      "element": "草",
+      "category": "物攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成物伤，自己生命大于80%时，本次技能威力+75。"
+    },
+    {
+      "name": "盛开",
+      "element": "草",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得技能威力+30，应对防御：改为威力+70。"
+    },
+    {
+      "name": "孢子",
+      "element": "草",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得1层寄生。"
+    },
+    {
+      "name": "仙人掌刺击",
+      "element": "草",
+      "category": "物攻",
+      "cost": "6",
+      "power": "150",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "丰饶",
+      "element": "草",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得物攻和魔攻+130%。"
+    },
+    {
+      "name": "光合作用",
+      "element": "草",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层光合印记。"
+    },
+    {
+      "name": "光能聚集",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "7",
+      "power": "100",
+      "effect": "造成魔伤，每次使用其他草系技能后，本技能威力永久+60。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "星星撞击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "荆棘爪",
+      "element": "草",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "引燃",
+      "element": "火",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得10层灼烧。"
+    },
+    {
+      "name": "蓄水",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下次使用的技能能耗-6。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "泥浆铠甲",
+      "element": "地",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得物攻和物防+40%，应对防御：额外使自己的增益翻倍。"
+    },
+    {
+      "name": "霜降",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得4层冻结。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "麻痹",
+      "element": "电",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方先手-1，应对防御：额外使敌方获得攻击-70%。"
+    },
+    {
+      "name": "溃烂触碰",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "假寐",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复2能量，获得1次奉献：能耗-2。"
+    },
+    {
+      "name": "化劲",
+      "element": "武",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得全技能威力+40。"
+    },
+    {
+      "name": "羽化加速",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得技能威力+20，迅捷。"
+    },
+    {
+      "name": "甜心续航",
+      "element": "萌",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己和敌方获得萌化：回复40%生命和4能量。"
+    },
+    {
+      "name": "勾魂",
+      "element": "幽",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "偷取敌方3能量。"
+    },
+    {
+      "name": "贪婪",
+      "element": "恶",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得100%吸血。"
+    },
+    {
+      "name": "啮合传递",
+      "element": "机械",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+100，本技能位于1号位时能耗-2，传动。"
+    },
+    {
+      "name": "超维投射",
+      "element": "幻",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得4层星陨。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "重击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "110",
+      "effect": "造成物伤，每次使用后，本技能能耗永久+1。"
+    },
+    {
+      "name": "应激反应",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复25%生命，应对防御：改为回复50%生命。"
+    },
+    {
+      "name": "精神扰乱",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+1，应对防御：改为能耗+3。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "摇篮曲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "5",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+3，应对防御：额外造成打断，且敌方下回合获得眩晕。"
+    },
+    {
+      "name": "移花接木",
+      "element": "草",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复15%生命，随后脱离。"
+    },
+    {
+      "name": "纤维化",
+      "element": "草",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得物防+40%。"
+    },
+    {
+      "name": "天光",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "95",
+      "effect": "造成魔伤，本技能系别和天气系别相同。"
+    },
+    {
+      "name": "透射",
+      "element": "光",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "腐蚀酸液",
+      "element": "毒",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "35",
+      "effect": "造成魔伤，敌方获得2层中毒。"
+    },
+    {
+      "name": "毒孢子",
+      "element": "毒",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得5层中毒。"
+    },
+    {
+      "name": "剧毒",
+      "element": "毒",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得3层中毒，应对防御：改为获得8层。"
+    },
+    {
+      "name": "毒沼",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "瘴气喷射",
+      "element": "毒",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "腐化",
+      "element": "毒",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方每有1层中毒效果，敌方获得双攻-30%。"
+    }
+  ]
+}

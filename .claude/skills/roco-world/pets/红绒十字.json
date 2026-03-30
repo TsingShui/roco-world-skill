@@ -1,0 +1,473 @@
+{
+  "name": "红绒十字",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "治愈兔",
+  "hasAltColor": "是",
+  "stage": "最终形态",
+  "type": "治愈精灵",
+  "description": "头顶的十字结构能释放出强效的治愈魔法，轻轻一碰就能缓解肌肉酸痛，伤口也会加速愈合。如果看到受伤的精灵但无法施救的话会流泪不止。",
+  "element": "火",
+  "element2": "萌",
+  "ability": "仁心",
+  "abilityDesc": "敌方受到灼烧伤害时，自己回复等量生命。",
+  "hp": 112,
+  "physicalAttack": 47,
+  "magicAttack": 122,
+  "physicalDefense": 100,
+  "magicDefense": 127,
+  "speed": 90,
+  "size": "1.04-1.49",
+  "weight": "32.50-36.80",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉20只精灵",
+    "捕捉1只炫彩突变的精灵",
+    "捕捉1只异色突变的精灵",
+    "获得【命定勇者】奖牌",
+    "使用2次引燃",
+    "使用1次飞吻",
+    "使用火爪"
+  ],
+  "questSkillStones": [
+    "引燃",
+    "飞吻",
+    "火爪"
+  ],
+  "skills": [
+    "引燃",
+    "热气",
+    "飞吻",
+    "火爪",
+    "防御",
+    "示弱",
+    "撒娇",
+    "焚烧烙印",
+    "赤子之心",
+    "破罐破摔",
+    "天火",
+    "易燃物质",
+    "爆裂飞弹"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    2,
+    10,
+    12,
+    17,
+    23,
+    25,
+    32,
+    34,
+    49,
+    50
+  ],
+  "bloodlineSkills": [
+    "星星撞击",
+    "徒长",
+    "火焰箭",
+    "蓄水",
+    "虹光冲击",
+    "泥浆铠甲",
+    "霜降",
+    "升龙咆哮",
+    "麻痹",
+    "毒孢子",
+    "假寐",
+    "化劲",
+    "羽化加速",
+    "魅惑",
+    "灵媒",
+    "贪婪",
+    "金属噪音",
+    "超维投射"
+  ],
+  "learnableSkillStones": [
+    "魔法增效",
+    "应激反应",
+    "退化",
+    "无畏之心",
+    "复写",
+    "晒太阳",
+    "摇篮曲",
+    "充分燃烧",
+    "火焰护盾",
+    "烈焰风暴",
+    "除厄",
+    "漫反射",
+    "天光",
+    "生日蛋糕"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "引燃",
+      "element": "火",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得10层灼烧。"
+    },
+    {
+      "name": "热气",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "飞吻",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "火爪",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "示弱",
+      "element": "萌",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得萌化：速度永久+150。"
+    },
+    {
+      "name": "撒娇",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成魔伤，3连击，获得萌化：威力永久+20。"
+    },
+    {
+      "name": "焚烧烙印",
+      "element": "火",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "驱散双方所有印记，每驱散1层，敌方获得5层灼烧。"
+    },
+    {
+      "name": "赤子之心",
+      "element": "萌",
+      "category": "状态",
+      "cost": "6",
+      "power": "0",
+      "effect": "场下每个精灵获得萌化，之后回复40%生命和4能量。"
+    },
+    {
+      "name": "破罐破摔",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成魔伤，自己有增益时，本次技能威力+60。"
+    },
+    {
+      "name": "天火",
+      "element": "火",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得10层灼烧，应对防御：改为获得30层。"
+    },
+    {
+      "name": "易燃物质",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成魔伤，2连击，每次连击使敌方获得2层灼烧。"
+    },
+    {
+      "name": "爆裂飞弹",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "7",
+      "power": "160",
+      "effect": "对敌方精灵造成魔法伤害。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "星星撞击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "徒长",
+      "element": "草",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复10能量。"
+    },
+    {
+      "name": "火焰箭",
+      "element": "火",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "蓄水",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下次使用的技能能耗-6。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "泥浆铠甲",
+      "element": "地",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得物攻和物防+40%，应对防御：额外使自己的增益翻倍。"
+    },
+    {
+      "name": "霜降",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得4层冻结。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "麻痹",
+      "element": "电",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方先手-1，应对防御：额外使敌方获得攻击-70%。"
+    },
+    {
+      "name": "毒孢子",
+      "element": "毒",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得5层中毒。"
+    },
+    {
+      "name": "假寐",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复2能量，获得1次奉献：能耗-2。"
+    },
+    {
+      "name": "化劲",
+      "element": "武",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得全技能威力+40。"
+    },
+    {
+      "name": "羽化加速",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得技能威力+20，迅捷。"
+    },
+    {
+      "name": "魅惑",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "灵媒",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "贪婪",
+      "element": "恶",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得100%吸血。"
+    },
+    {
+      "name": "金属噪音",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "超维投射",
+      "element": "幻",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得4层星陨。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "应激反应",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复25%生命，应对防御：改为回复50%生命。"
+    },
+    {
+      "name": "退化",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得1层萌化。"
+    },
+    {
+      "name": "无畏之心",
+      "element": "普通",
+      "category": "防御",
+      "cost": "5",
+      "power": "0",
+      "effect": "减伤100%，应对攻击：减免的伤害变为回复自己生命，且本技能能耗永久+2。"
+    },
+    {
+      "name": "复写",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成自己未携带的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "摇篮曲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "5",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+3，应对防御：额外造成打断，且敌方下回合获得眩晕。"
+    },
+    {
+      "name": "充分燃烧",
+      "element": "火",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "使敌方身上的灼烧翻倍，并触发1次灼烧伤害。"
+    },
+    {
+      "name": "火焰护盾",
+      "element": "火",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得4层灼烧。"
+    },
+    {
+      "name": "烈焰风暴",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "75",
+      "effect": "造成魔伤，敌方获得6层灼烧。"
+    },
+    {
+      "name": "除厄",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "60",
+      "effect": "造成魔伤，驱散自己的增益。"
+    },
+    {
+      "name": "漫反射",
+      "element": "光",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "每种系别中的至多1个技能，威力+35。"
+    },
+    {
+      "name": "天光",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "95",
+      "effect": "造成魔伤，本技能系别和天气系别相同。"
+    },
+    {
+      "name": "生日蛋糕",
+      "element": "萌",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得萌化：全技能能耗永久-4。"
+    }
+  ]
+}

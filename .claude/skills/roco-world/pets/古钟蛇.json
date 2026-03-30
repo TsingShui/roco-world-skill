@@ -1,0 +1,531 @@
+{
+  "name": "古钟蛇",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "古钟蛇",
+  "hasAltColor": "",
+  "stage": "Ⅰ阶",
+  "type": "拨浪鼓精灵",
+  "description": "通常低伏身体，隐藏在草丛中，只露出尾巴发出咚咚咚的轻响，吸引好奇的精灵过来。其尾部的结构可以在摇晃时发出咚咚的鼓声，据说玄玉岛的洛克以此为灵感，制作出了某种广受欢迎的玩具。",
+  "element": "萌",
+  "element2": "",
+  "ability": "拨浪鼓",
+  "abilityDesc": "己方精灵每使用1次状态技能，自己入场时毒系和萌系技能威力+10。",
+  "hp": 85,
+  "physicalAttack": 63,
+  "magicAttack": 63,
+  "physicalDefense": 64,
+  "magicDefense": 91,
+  "speed": 80,
+  "size": "0.95-1.10",
+  "weight": "6.90-7.80",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [
+    "溃烂触碰",
+    "示弱",
+    "魅惑",
+    "以毒攻毒",
+    "旋转突击",
+    "毒孢子",
+    "超级糖果",
+    "力量增效",
+    "连续毒针",
+    "生日蛋糕",
+    "撒娇",
+    "赤子之心",
+    "月光合奏",
+    "剧毒",
+    "毒液渗透",
+    "毒囊"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    5,
+    7,
+    12,
+    17,
+    21,
+    26,
+    27,
+    34,
+    35,
+    39,
+    40,
+    47,
+    49
+  ],
+  "bloodlineSkills": [
+    "拍击",
+    "花香",
+    "火焰冲锋",
+    "泡沫",
+    "虹光冲击",
+    "扬沙",
+    "冷风",
+    "升龙咆哮",
+    "球状闪电",
+    "毒沼",
+    "噬心",
+    "缠丝劲",
+    "鹰爪",
+    "飞吻",
+    "幻象",
+    "诋毁",
+    "离子震荡",
+    "星云漩涡"
+  ],
+  "learnableSkillStones": [
+    "连续爪击",
+    "追打",
+    "魔法增效",
+    "快速移动",
+    "防御",
+    "借用",
+    "热身运动",
+    "晒太阳",
+    "有效预防",
+    "埋伏",
+    "冰晶坠",
+    "打雪仗",
+    "瘴气喷射",
+    "鸩毒",
+    "撕裂",
+    "撕咬",
+    "黑手",
+    "伪造账单"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.1",
+  "skillDetails": [
+    {
+      "name": "溃烂触碰",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "示弱",
+      "element": "萌",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得萌化：速度永久+150。"
+    },
+    {
+      "name": "魅惑",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "以毒攻毒",
+      "element": "毒",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方每有1层中毒效果，自己获得魔攻+30%。"
+    },
+    {
+      "name": "旋转突击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，3连击。"
+    },
+    {
+      "name": "毒孢子",
+      "element": "毒",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得5层中毒。"
+    },
+    {
+      "name": "超级糖果",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "造成物伤，自己获得萌化：本次技能威力+60。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "连续毒针",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "15",
+      "effect": "造成物伤，2连击，每次连击使敌方获得1层中毒。"
+    },
+    {
+      "name": "生日蛋糕",
+      "element": "萌",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得萌化：全技能能耗永久-4。"
+    },
+    {
+      "name": "撒娇",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成魔伤，3连击，获得萌化：威力永久+20。"
+    },
+    {
+      "name": "赤子之心",
+      "element": "萌",
+      "category": "状态",
+      "cost": "6",
+      "power": "0",
+      "effect": "场下每个精灵获得萌化，之后回复40%生命和4能量。"
+    },
+    {
+      "name": "月光合奏",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，2连击，自己每有1层萌化，本次技能连击数+100%。"
+    },
+    {
+      "name": "剧毒",
+      "element": "毒",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得3层中毒，应对防御：改为获得8层。"
+    },
+    {
+      "name": "毒液渗透",
+      "element": "毒",
+      "category": "魔攻",
+      "cost": "5",
+      "power": "120",
+      "effect": "造成魔伤，敌方每有1层中毒效果，本技能能耗-1，敌方获得1层中毒。"
+    },
+    {
+      "name": "毒囊",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "20",
+      "effect": "造成物伤，敌方获得2层中毒，应对状态：改为获得6层。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "拍击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "花香",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "火焰冲锋",
+      "element": "火",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "泡沫",
+      "element": "水",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "扬沙",
+      "element": "地",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "冷风",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "球状闪电",
+      "element": "电",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "毒沼",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "噬心",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "缠丝劲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "鹰爪",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "飞吻",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "幻象",
+      "element": "幽",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "诋毁",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "离子震荡",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "星云漩涡",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "连续爪击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "30",
+      "effect": "造成物伤，2连击，应对状态：本次技能连击数翻倍。"
+    },
+    {
+      "name": "追打",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "75",
+      "effect": "造成魔伤，1连击，应对状态：本技能变为3连击。"
+    },
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "有效预防",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤50%，应对攻击：下次行动获得先手+1。"
+    },
+    {
+      "name": "埋伏",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "30",
+      "effect": "造成魔伤，3连击，若敌方本回合替换精灵，本次技能连击数+3。"
+    },
+    {
+      "name": "冰晶坠",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "4",
+      "power": "90",
+      "effect": "造成物伤，敌方获得全技能能耗+1。"
+    },
+    {
+      "name": "打雪仗",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "45",
+      "effect": "造成魔伤，2连击。"
+    },
+    {
+      "name": "瘴气喷射",
+      "element": "毒",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "鸩毒",
+      "element": "毒",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "75",
+      "effect": "造成魔伤，敌方每有1层中毒效果，本次技能威力+10，应对状态：改为本次威力+20。"
+    },
+    {
+      "name": "撕裂",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：本次攻击吸血100%。"
+    },
+    {
+      "name": "撕咬",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，3连击，若自己的生命低于50%，本次技能连击数+2。"
+    },
+    {
+      "name": "黑手",
+      "element": "恶",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "45",
+      "effect": "造成魔伤，2连击。"
+    },
+    {
+      "name": "伪造账单",
+      "element": "恶",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "若敌方本回合回复生命，改为失去2倍。先手+1。"
+    }
+  ]
+}

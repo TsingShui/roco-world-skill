@@ -1,0 +1,434 @@
+{
+  "name": "格斗小六",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "格斗小六",
+  "hasAltColor": "",
+  "stage": "最终形态",
+  "type": "武术精灵",
+  "description": "掌力十足,岩石上常常出现它们的掌印。研究员根据其攻击招式,改编了一套能够强身健体的健体操,在学院中曾挂起过一阵不小的习武之风。",
+  "element": "武",
+  "element2": "",
+  "ability": "马步",
+  "abilityDesc": "状态技能应对成功时，获得10点能量。",
+  "hp": 65,
+  "physicalAttack": 145,
+  "magicAttack": 75,
+  "physicalDefense": 119,
+  "magicDefense": 92,
+  "speed": 150,
+  "size": "1.50,1.60",
+  "weight": "52.50,59.60",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1/3/5只精灵",
+    "捕捉3种血脉不同的精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉1只身高较高的精灵",
+    "使用好战球成功捕捉3次"
+  ],
+  "questSkillStones": [
+    "防御反击"
+  ],
+  "skills": [
+    "寸拳",
+    "力量增效",
+    "抓挠",
+    "龙吼",
+    "化劲",
+    "防御",
+    "飞踢",
+    "破绽",
+    "龙爪",
+    "热身运动",
+    "旋转突击",
+    "伺机而动",
+    "快速移动",
+    "天旋地转",
+    "龙之舞",
+    "三鼓作气",
+    "影袭",
+    "恶作剧",
+    "乘胜追击",
+    "提气",
+    "反击拳",
+    "破防",
+    "埋伏",
+    "压扁",
+    "气沉丹田",
+    "指指点点"
+  ],
+  "skillUnlockLevels": [],
+  "bloodlineSkills": [
+    "休息回复",
+    "徒长",
+    "引燃",
+    "蓄水",
+    "透射",
+    "泥浆铠甲",
+    "霜降",
+    "升龙咆哮",
+    "麻痹",
+    "毒孢子",
+    "假寐",
+    "贯手",
+    "羽化加速",
+    "柔弱",
+    "小偷小摸",
+    "贪婪",
+    "啮合传递",
+    "超维投射"
+  ],
+  "learnableSkillStones": [],
+  "evolutionCondition": "",
+  "updateVersion": "",
+  "skillDetails": [
+    {
+      "name": "寸拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成物伤，自己回复1能量。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "抓挠",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成物伤，自己回复1能量。"
+    },
+    {
+      "name": "龙吼",
+      "element": "龙",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "化劲",
+      "element": "武",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得全技能威力+40。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "飞踢",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "110",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "破绽",
+      "element": "武",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得双防-50%，应对防御：自己额外获得物攻+50%。"
+    },
+    {
+      "name": "龙爪",
+      "element": "龙",
+      "category": "物攻",
+      "cost": "4",
+      "power": "120",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "旋转突击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，3连击。"
+    },
+    {
+      "name": "伺机而动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下一次行动时，攻击技能威力+70。"
+    },
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    },
+    {
+      "name": "天旋地转",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "60",
+      "effect": "造成物理伤害，先手+1，迸发：本次技能威力+30。"
+    },
+    {
+      "name": "三鼓作气",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "-",
+      "effect": "提升自身30%物攻，3连击。"
+    },
+    {
+      "name": "影袭",
+      "element": "武",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "恶作剧",
+      "element": "幽",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "敌方失去3能量，应对防御：改为敌方失去6能量。"
+    },
+    {
+      "name": "乘胜追击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "40",
+      "effect": "造成物伤，1连击，每次使用后，本技能连击数永久+1。"
+    },
+    {
+      "name": "提气",
+      "element": "武",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "获得全技能威力+40，若敌方本回合替换精灵，额外获得威力+50。"
+    },
+    {
+      "name": "反击拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "2",
+      "power": "25",
+      "effect": "造成物伤，2连击，若后手攻击，改为3连击。"
+    },
+    {
+      "name": "破防",
+      "element": "武",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得双防-130%，应对防御：额外使被应对技能冷却2回合。"
+    },
+    {
+      "name": "埋伏",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "30",
+      "effect": "造成魔伤，3连击，若敌方本回合替换精灵，本次技能连击数+3。"
+    },
+    {
+      "name": "压扁",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "5",
+      "power": "155",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "气沉丹田",
+      "element": "武",
+      "category": "状态",
+      "cost": "10",
+      "power": "0",
+      "effect": "自己回复60%生命，获得物攻+130%，每次应对后本技能能耗-3，使用后能耗重置。"
+    },
+    {
+      "name": "指指点点",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "10",
+      "power": "5",
+      "effect": "造成物伤，10连击。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "休息回复",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复30%生命。"
+    },
+    {
+      "name": "徒长",
+      "element": "草",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复10能量。"
+    },
+    {
+      "name": "引燃",
+      "element": "火",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得10层灼烧。"
+    },
+    {
+      "name": "蓄水",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下次使用的技能能耗-6。"
+    },
+    {
+      "name": "透射",
+      "element": "光",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "泥浆铠甲",
+      "element": "地",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得物攻和物防+40%，应对防御：额外使自己的增益翻倍。"
+    },
+    {
+      "name": "霜降",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得4层冻结。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "麻痹",
+      "element": "电",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方先手-1，应对防御：额外使敌方获得攻击-70%。"
+    },
+    {
+      "name": "毒孢子",
+      "element": "毒",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得5层中毒。"
+    },
+    {
+      "name": "假寐",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复2能量，获得1次奉献：能耗-2。"
+    },
+    {
+      "name": "贯手",
+      "element": "武",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "羽化加速",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得技能威力+20，迅捷。"
+    },
+    {
+      "name": "柔弱",
+      "element": "萌",
+      "category": "状态",
+      "cost": "1",
+      "power": "-",
+      "effect": "获得萌化，降低敌方70%物攻和物防。"
+    },
+    {
+      "name": "小偷小摸",
+      "element": "幽",
+      "category": "状态",
+      "cost": "1",
+      "power": "-",
+      "effect": "偷取敌方3能量。"
+    },
+    {
+      "name": "贪婪",
+      "element": "恶",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得100%吸血。"
+    },
+    {
+      "name": "啮合传递",
+      "element": "机械",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+100，本技能位于1号位时能耗-2，传动。"
+    },
+    {
+      "name": "超维投射",
+      "element": "幻",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得4层星陨。"
+    }
+  ],
+  "learnableSkillStoneDetails": []
+}

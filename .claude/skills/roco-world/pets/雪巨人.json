@@ -1,0 +1,463 @@
+{
+  "name": "雪巨人",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "雪豆丁",
+  "hasAltColor": "",
+  "stage": "最终形态",
+  "type": "冰冰凉精灵",
+  "description": "雪巨人感官极其敏锐，能感受到天气和气温的微小变化，会在族群的幼崽沉睡时巡逻保护它们。双臂能够撑地进行超远距离跳跃，在雪山里飞速前进，跳跃时在岩石上留下后足形状。",
+  "element": "冰",
+  "element2": "",
+  "ability": "打雪仗",
+  "abilityDesc": "初始能量为0，入场前己方精灵每放1次冰系技能，回复3能量。",
+  "hp": 162,
+  "physicalAttack": 174,
+  "magicAttack": 79,
+  "physicalDefense": 139,
+  "magicDefense": 104,
+  "speed": 60,
+  "size": "1.61-2.31",
+  "weight": "156.00-187.00",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉20只精灵",
+    "捕捉1只炫彩突变的精灵",
+    "获得【命定勇者】奖牌",
+    "使用2次雪替身",
+    "使用2次冰墙",
+    "使用1次冰天雪地"
+  ],
+  "questSkillStones": [
+    "雪替身",
+    "冰墙",
+    "冰天雪地"
+  ],
+  "skills": [
+    "防御",
+    "冰锥",
+    "雪球",
+    "先发制人",
+    "霜天",
+    "丢冰块",
+    "雪替身",
+    "暴风雪",
+    "冰晶坠",
+    "冰墙",
+    "冰雹",
+    "冰蛋壳",
+    "冰天雪地"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    6,
+    11,
+    21,
+    29,
+    34,
+    35,
+    39,
+    40,
+    44,
+    46,
+    49
+  ],
+  "bloodlineSkills": [
+    "防反",
+    "蜡质膜",
+    "火焰护盾",
+    "水泡盾",
+    "透射",
+    "淤泥表皮",
+    "冰爪",
+    "升龙咆哮",
+    "集中",
+    "溃烂触碰",
+    "掩护",
+    "贯手",
+    "羽翼庇护",
+    "碰爪",
+    "虚化",
+    "等价交换",
+    "械斗",
+    "冥想"
+  ],
+  "learnableSkillStones": [
+    "偷袭",
+    "力量增效",
+    "无畏之心",
+    "取念",
+    "压扁",
+    "有效预防",
+    "一拳",
+    "防御反击",
+    "惊吓盒子",
+    "降灵",
+    "报复",
+    "诡刺",
+    "幻象"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "冰锥",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "雪球",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得速度-90。"
+    },
+    {
+      "name": "先发制人",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "55",
+      "effect": "造成物理伤害，先手+1。"
+    },
+    {
+      "name": "霜天",
+      "element": "冰",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得3层冻结，且每有1层冻结获得全技能能耗+1。"
+    },
+    {
+      "name": "丢冰块",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成物伤，敌方获得速度-30。"
+    },
+    {
+      "name": "雪替身",
+      "element": "冰",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：回复能量，回复值等于被应对技能能耗的2倍。"
+    },
+    {
+      "name": "暴风雪",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，敌方获得1层冻结。"
+    },
+    {
+      "name": "冰晶坠",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "4",
+      "power": "90",
+      "effect": "造成物伤，敌方获得全技能能耗+1。"
+    },
+    {
+      "name": "冰墙",
+      "element": "冰",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得2层冻结。"
+    },
+    {
+      "name": "冰雹",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "4",
+      "power": "100",
+      "effect": "造成物伤，应对状态：额外使敌方获得全技能能耗+3。"
+    },
+    {
+      "name": "冰蛋壳",
+      "element": "冰",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：敌方获得2层减速印记。"
+    },
+    {
+      "name": "冰天雪地",
+      "element": "冰",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：被应对技能能耗+3。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "防反",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：自己获得物攻和魔攻+40%。"
+    },
+    {
+      "name": "蜡质膜",
+      "element": "草",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：回复3能量。"
+    },
+    {
+      "name": "火焰护盾",
+      "element": "火",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得4层灼烧。"
+    },
+    {
+      "name": "水泡盾",
+      "element": "水",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得魔攻+40%。"
+    },
+    {
+      "name": "透射",
+      "element": "光",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "淤泥表皮",
+      "element": "地",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，应对攻击：敌方获得连击数-2。"
+    },
+    {
+      "name": "冰爪",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "集中",
+      "element": "电",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己回合结束返场。"
+    },
+    {
+      "name": "溃烂触碰",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "掩护",
+      "element": "虫",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，紧急脱离，应对攻击：下个入场精灵获得减伤。"
+    },
+    {
+      "name": "贯手",
+      "element": "武",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "羽翼庇护",
+      "element": "翼",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得连击数+3。"
+    },
+    {
+      "name": "碰爪",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "虚化",
+      "element": "幽",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得魔防+40%。"
+    },
+    {
+      "name": "等价交换",
+      "element": "恶",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得50%吸血。"
+    },
+    {
+      "name": "械斗",
+      "element": "机械",
+      "category": "物攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成物伤，传动。"
+    },
+    {
+      "name": "冥想",
+      "element": "幻",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得2层星陨。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "偷袭",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：本次技能威力变为3倍。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "无畏之心",
+      "element": "普通",
+      "category": "防御",
+      "cost": "5",
+      "power": "0",
+      "effect": "减伤100%，应对攻击：减免的伤害变为回复自己生命，且本技能能耗永久+2。"
+    },
+    {
+      "name": "取念",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成敌方任意精灵的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "压扁",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "5",
+      "power": "155",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "有效预防",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤50%，应对攻击：下次行动获得先手+1。"
+    },
+    {
+      "name": "一拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "5",
+      "power": "140",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "防御反击",
+      "element": "武",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：获得全技能威力+20。"
+    },
+    {
+      "name": "惊吓盒子",
+      "element": "幽",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：使敌方失去6能量。"
+    },
+    {
+      "name": "降灵",
+      "element": "幽",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得1层降灵印记。"
+    },
+    {
+      "name": "报复",
+      "element": "幽",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：敌方失去3能量。"
+    },
+    {
+      "name": "诡刺",
+      "element": "幽",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "幻象",
+      "element": "幽",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ]
+}

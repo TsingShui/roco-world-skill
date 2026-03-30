@@ -1,0 +1,508 @@
+{
+  "name": "混乱鱿彩",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "墨鱿士",
+  "hasAltColor": "",
+  "stage": "Ⅱ阶",
+  "type": "画笔精灵",
+  "description": "体型暴涨，皮肤化作流动的红、蓝、黄三色漩涡，情绪高涨时随时像泼墨般炸开。它用触手当画笔，在空中乱甩墨汁，留下大片狂野的色块。",
+  "element": "幽",
+  "element2": "恶",
+  "ability": "涂鸦",
+  "abilityDesc": "使用非本系技能时威力+50%。",
+  "hp": 129,
+  "physicalAttack": 105,
+  "magicAttack": 42,
+  "physicalDefense": 131,
+  "magicDefense": 99,
+  "speed": 70,
+  "size": "1.36-1.54",
+  "weight": "36.90-48.20",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉1只炫彩突变的精灵",
+    "获得【命定勇者】奖牌",
+    "使用3次能量刃",
+    "使用1次伪造账单"
+  ],
+  "questSkillStones": [
+    "能量刃",
+    "伪造账单"
+  ],
+  "skills": [
+    "鞭打",
+    "诡刺",
+    "勾魂",
+    "甜心续航",
+    "诋毁",
+    "防御",
+    "能量刃",
+    "幻象",
+    "力量吞噬",
+    "超级糖果",
+    "虚化",
+    "坟场搏击",
+    "降灵",
+    "伪造账单",
+    "彼岸之手",
+    "恶作剧"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    2,
+    7,
+    12,
+    17,
+    22,
+    24,
+    30,
+    34,
+    35,
+    36,
+    39,
+    47,
+    48
+  ],
+  "bloodlineSkills": [
+    "休息回复",
+    "荆棘爪",
+    "引燃",
+    "蓄水",
+    "虹光冲击",
+    "跺地",
+    "霜降",
+    "升龙咆哮",
+    "麻痹",
+    "毒孢子",
+    "假寐",
+    "化劲",
+    "羽化加速",
+    "飞吻",
+    "灵媒",
+    "恶能量",
+    "啮合传递",
+    "念力膨胀"
+  ],
+  "learnableSkillStones": [
+    "气势一击",
+    "吞噬",
+    "力量增效",
+    "主场优势",
+    "精神扰乱",
+    "取念",
+    "倾泻",
+    "嘲弄",
+    "欺诈契约",
+    "暗箱操作",
+    "星链",
+    "超新星馈赠",
+    "二律背反",
+    "粒子对撞",
+    "双星"
+  ],
+  "evolutionCondition": "打败三只萌系精灵",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "鞭打",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "诡刺",
+      "element": "幽",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "勾魂",
+      "element": "幽",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "偷取敌方3能量。"
+    },
+    {
+      "name": "甜心续航",
+      "element": "萌",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己和敌方获得萌化：回复40%生命和4能量。"
+    },
+    {
+      "name": "诋毁",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "能量刃",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "70",
+      "effect": "造成物伤，每应对成功1次，本技能威力永久+90。"
+    },
+    {
+      "name": "幻象",
+      "element": "幽",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "力量吞噬",
+      "element": "恶",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得技能威力-20，自己获得技能威力+20。"
+    },
+    {
+      "name": "超级糖果",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "造成物伤，自己获得萌化：本次技能威力+60。"
+    },
+    {
+      "name": "虚化",
+      "element": "幽",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得魔防+40%。"
+    },
+    {
+      "name": "坟场搏击",
+      "element": "幽",
+      "category": "物攻",
+      "cost": "4",
+      "power": "180",
+      "effect": "造成物伤，敌方每有1能量，本次技能威力-10%。"
+    },
+    {
+      "name": "降灵",
+      "element": "幽",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得1层降灵印记。"
+    },
+    {
+      "name": "伪造账单",
+      "element": "恶",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "若敌方本回合回复生命，改为失去2倍。先手+1。"
+    },
+    {
+      "name": "彼岸之手",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "10",
+      "power": "150",
+      "effect": "造成物伤，自己每失去10%生命，本技能能耗-1。"
+    },
+    {
+      "name": "恶作剧",
+      "element": "幽",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "敌方失去3能量，应对防御：改为敌方失去6能量。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "休息回复",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复30%生命。"
+    },
+    {
+      "name": "荆棘爪",
+      "element": "草",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "引燃",
+      "element": "火",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得10层灼烧。"
+    },
+    {
+      "name": "蓄水",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下次使用的技能能耗-6。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "跺地",
+      "element": "地",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "霜降",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得4层冻结。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "麻痹",
+      "element": "电",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方先手-1，应对防御：额外使敌方获得攻击-70%。"
+    },
+    {
+      "name": "毒孢子",
+      "element": "毒",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得5层中毒。"
+    },
+    {
+      "name": "假寐",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复2能量，获得1次奉献：能耗-2。"
+    },
+    {
+      "name": "化劲",
+      "element": "武",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得全技能威力+40。"
+    },
+    {
+      "name": "羽化加速",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得技能威力+20，迅捷。"
+    },
+    {
+      "name": "飞吻",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "灵媒",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "恶能量",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "啮合传递",
+      "element": "机械",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+100，本技能位于1号位时能耗-2，传动。"
+    },
+    {
+      "name": "念力膨胀",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "气势一击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成物伤，若上回合应对成功，本次技能威力+180。"
+    },
+    {
+      "name": "吞噬",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "6",
+      "power": "150",
+      "effect": "造成物伤，若使用本技能击败敌方，回复6能量。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "主场优势",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得1层攻击印记。"
+    },
+    {
+      "name": "精神扰乱",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+1，应对防御：改为能耗+3。"
+    },
+    {
+      "name": "取念",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成敌方任意精灵的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "倾泻",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "60",
+      "effect": "造成魔伤，若本次攻击未被防御或技能应对，则驱散双方所有印记。"
+    },
+    {
+      "name": "嘲弄",
+      "element": "幽",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得魔攻+70%，若敌方本回合替换精灵，自己获得速度+70。"
+    },
+    {
+      "name": "欺诈契约",
+      "element": "恶",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "与敌方交换增益和减益。"
+    },
+    {
+      "name": "暗箱操作",
+      "element": "恶",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得双攻和双防-100%，应对防御：改为敌方-100%。"
+    },
+    {
+      "name": "星链",
+      "element": "幻",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "2连击，每次连击使敌方获得1层星陨。"
+    },
+    {
+      "name": "超新星馈赠",
+      "element": "幻",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得2层星陨，每使用1次，赋予的星陨层数+1。"
+    },
+    {
+      "name": "二律背反",
+      "element": "幻",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得3层星陨，应对防御：额外使敌方星陨层数翻倍。"
+    },
+    {
+      "name": "粒子对撞",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "双星",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ]
+}

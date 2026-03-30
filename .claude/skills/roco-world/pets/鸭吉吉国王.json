@@ -1,0 +1,310 @@
+{
+  "name": "鸭吉吉国王",
+  "form": "首领形态",
+  "regionalFormName": "",
+  "initialStageName": "鸭吉吉（蓬松的样子）",
+  "hasAltColor": "",
+  "stage": "首领进化",
+  "type": "鸭仔精灵",
+  "description": "啪嗒啪嗒，鸭吉吉国王来了。那边的，别看怀表了，让时间听国王的；这边的毛太蓬松了，站紧实一点，别挡着国王的道了。嗯？还有你，既然来了我们鸭吉吉王国，记得要给过路费鸭！",
+  "element": "普通",
+  "element2": "",
+  "ability": "“国王”的威严",
+  "abilityDesc": "鸭吉吉国王的种族资质大幅增加，能耗为1的技能威力+50%。",
+  "hp": 136,
+  "physicalAttack": 135,
+  "magicAttack": 50,
+  "physicalDefense": 79,
+  "magicDefense": 64,
+  "speed": 105,
+  "size": "1.65-2.07",
+  "weight": "93.70-140.00",
+  "distribution": "-",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉20只精灵",
+    "捕捉1只炫彩突变的精灵",
+    "确认2种不同样子的鸭吉吉",
+    "使用进化之力，将精灵进化为首领",
+    "获得【命定勇者】奖牌",
+    "使用1次防御",
+    "使用1次吓退",
+    "使用1次伺机而动"
+  ],
+  "questSkillStones": [
+    "防御",
+    "吓退",
+    "伺机而动"
+  ],
+  "skills": [
+    "猛烈撞击",
+    "力量增效",
+    "扫尾",
+    "防御",
+    "休息回复",
+    "旋转突击",
+    "咆哮",
+    "吓退",
+    "见招拆招",
+    "伺机而动",
+    "热身运动",
+    "吨位压制",
+    "快速移动"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    6,
+    8,
+    10,
+    12,
+    21,
+    25,
+    28,
+    34,
+    35,
+    38,
+    39
+  ],
+  "bloodlineSkills": [],
+  "learnableSkillStones": [
+    "冲撞",
+    "主场优势",
+    "精神扰乱",
+    "防反",
+    "复写",
+    "三连破",
+    "摇篮曲",
+    "反击拳",
+    "破绽",
+    "缠丝劲",
+    "提气",
+    "乘风",
+    "风矢",
+    "飞羽"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "",
+  "skillDetails": [
+    {
+      "name": "猛烈撞击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "扫尾",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "90",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "休息回复",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复30%生命。"
+    },
+    {
+      "name": "旋转突击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，3连击。"
+    },
+    {
+      "name": "咆哮",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得物攻-130%。"
+    },
+    {
+      "name": "吓退",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：敌方脱离。"
+    },
+    {
+      "name": "见招拆招",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "65",
+      "effect": "造成物伤，若上回合使用状态技能，本次技能威力+55。"
+    },
+    {
+      "name": "伺机而动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下一次行动时，攻击技能威力+70。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "吨位压制",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "0",
+      "effect": "造成物伤，敌方体重越低，威力越高。"
+    },
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    }
+  ],
+  "bloodlineSkillDetails": [],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "冲撞",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "7",
+      "power": "135",
+      "effect": "造成物伤，回合结束时，本技能能耗永久-1。"
+    },
+    {
+      "name": "主场优势",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得1层攻击印记。"
+    },
+    {
+      "name": "精神扰乱",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+1，应对防御：改为能耗+3。"
+    },
+    {
+      "name": "防反",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：自己获得物攻和魔攻+40%。"
+    },
+    {
+      "name": "复写",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成自己未携带的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "三连破",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+30%，3连击。"
+    },
+    {
+      "name": "摇篮曲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "5",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+3，应对防御：额外造成打断，且敌方下回合获得眩晕。"
+    },
+    {
+      "name": "反击拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "2",
+      "power": "25",
+      "effect": "造成物伤，2连击，若后手攻击，改为3连击。"
+    },
+    {
+      "name": "破绽",
+      "element": "武",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得双防-50%，应对防御：自己额外获得物攻+50%。"
+    },
+    {
+      "name": "缠丝劲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "提气",
+      "element": "武",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "获得全技能威力+40，若敌方本回合替换精灵，额外获得威力+50。"
+    },
+    {
+      "name": "乘风",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+120。"
+    },
+    {
+      "name": "风矢",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "飞羽",
+      "element": "翼",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "迅捷，驱散敌方1种增益。"
+    }
+  ]
+}

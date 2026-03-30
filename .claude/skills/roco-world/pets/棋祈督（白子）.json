@@ -1,0 +1,558 @@
+{
+  "name": "棋祈督（白子）",
+  "form": "原始形态",
+  "regionalFormName": "白子",
+  "initialStageName": "棋棋（白子）",
+  "hasAltColor": "",
+  "stage": "最终形态",
+  "type": "棋子精灵",
+  "description": "“黄金时代过去后，棋棋开始了流浪，保护族人的遗痕行为一直在影响着它们，它们会主动寻找人文聚落，试图融入洛克的社会。也有部分出现在野外，这些野生的棋棋手感不如家养棋棋温润，干巴巴的有些粗糙。”——《黄金时代的地系工匠们·八》",
+  "element": "武",
+  "element2": "地",
+  "ability": "好象坏象",
+  "abilityDesc": "状态技能应对1次后，回满状态，变为棋绮后。",
+  "hp": 126,
+  "physicalAttack": 87,
+  "magicAttack": 87,
+  "physicalDefense": 90,
+  "magicDefense": 72,
+  "speed": 85,
+  "size": "0.98-1.35",
+  "weight": "38.07-47.05",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉1只炫彩突变的精灵",
+    "确认2种不同样子的棋祈督",
+    "使用进化之力，将精灵进化为首领",
+    "获得【命定勇者】奖牌",
+    "使用1次气波",
+    "使用2次影袭",
+    "使用2次提气"
+  ],
+  "questSkillStones": [
+    "气波",
+    "影袭",
+    "提气"
+  ],
+  "skills": [
+    "魔法增效",
+    "防御",
+    "寸拳",
+    "气波",
+    "缠丝劲",
+    "力量增效",
+    "跺地",
+    "化劲",
+    "猛烈撞击",
+    "影袭",
+    "钧势",
+    "石肤术",
+    "陨石",
+    "提气",
+    "蓄势待发",
+    "岩脉崩毁",
+    "破绽"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    7,
+    9,
+    11,
+    17,
+    23,
+    27,
+    28,
+    35,
+    36,
+    38,
+    39,
+    44,
+    48,
+    49
+  ],
+  "bloodlineSkills": [
+    "休息回复",
+    "徒长",
+    "引燃",
+    "蓄水",
+    "虹光冲击",
+    "扬沙",
+    "霜降",
+    "升龙咆哮",
+    "麻痹",
+    "毒孢子",
+    "假寐",
+    "贯手",
+    "羽化加速",
+    "甜心续航",
+    "勾魂",
+    "贪婪",
+    "啮合传递",
+    "超维投射"
+  ],
+  "learnableSkillStones": [
+    "迫近攻击",
+    "触底强击",
+    "借用",
+    "先发制人",
+    "热身运动",
+    "晒太阳",
+    "漫反射",
+    "天光",
+    "透射",
+    "放晴",
+    "岩土暴击",
+    "流沙",
+    "泥浆铠甲",
+    "沙涌",
+    "反击拳",
+    "听桥",
+    "叠势",
+    "预备势",
+    "防御反击"
+  ],
+  "evolutionCondition": "击败三次棋祈督（黑子）",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "寸拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成物伤，自己回复1能量。"
+    },
+    {
+      "name": "气波",
+      "element": "武",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "缠丝劲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "跺地",
+      "element": "地",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "化劲",
+      "element": "武",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得全技能威力+40。"
+    },
+    {
+      "name": "猛烈撞击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "影袭",
+      "element": "武",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "钧势",
+      "element": "地",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得物防+140%和速度-30。"
+    },
+    {
+      "name": "石肤术",
+      "element": "地",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得物防+160%和魔防-60%。"
+    },
+    {
+      "name": "陨石",
+      "element": "地",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "提气",
+      "element": "武",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "获得全技能威力+40，若敌方本回合替换精灵，额外获得威力+50。"
+    },
+    {
+      "name": "蓄势待发",
+      "element": "地",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层<desc_id=1030>蓄势印记。"
+    },
+    {
+      "name": "岩脉崩毁",
+      "element": "地",
+      "category": "物攻",
+      "cost": "4",
+      "power": "120",
+      "effect": "造成物伤，本技能能耗固定为4。"
+    },
+    {
+      "name": "破绽",
+      "element": "武",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得双防-50%，应对防御：自己额外获得物攻+50%。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "休息回复",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复30%生命。"
+    },
+    {
+      "name": "徒长",
+      "element": "草",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复10能量。"
+    },
+    {
+      "name": "引燃",
+      "element": "火",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得10层灼烧。"
+    },
+    {
+      "name": "蓄水",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下次使用的技能能耗-6。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "扬沙",
+      "element": "地",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "霜降",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得4层冻结。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "麻痹",
+      "element": "电",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方先手-1，应对防御：额外使敌方获得攻击-70%。"
+    },
+    {
+      "name": "毒孢子",
+      "element": "毒",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得5层中毒。"
+    },
+    {
+      "name": "假寐",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复2能量，获得1次奉献：能耗-2。"
+    },
+    {
+      "name": "贯手",
+      "element": "武",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "羽化加速",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得技能威力+20，迅捷。"
+    },
+    {
+      "name": "甜心续航",
+      "element": "萌",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己和敌方获得萌化：回复40%生命和4能量。"
+    },
+    {
+      "name": "勾魂",
+      "element": "幽",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "偷取敌方3能量。"
+    },
+    {
+      "name": "贪婪",
+      "element": "恶",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得100%吸血。"
+    },
+    {
+      "name": "啮合传递",
+      "element": "机械",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+100，本技能位于1号位时能耗-2，传动。"
+    },
+    {
+      "name": "超维投射",
+      "element": "幻",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得4层星陨。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "迫近攻击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "90",
+      "effect": "造成物伤。每次使用后，本技能威力永久+45。"
+    },
+    {
+      "name": "触底强击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "65",
+      "effect": "造成魔伤，使用后若能量耗尽，本次技能威力+110。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "先发制人",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "55",
+      "effect": "造成物理伤害，先手+1。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "漫反射",
+      "element": "光",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "每种系别中的至多1个技能，威力+35。"
+    },
+    {
+      "name": "天光",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "95",
+      "effect": "造成魔伤，本技能系别和天气系别相同。"
+    },
+    {
+      "name": "透射",
+      "element": "光",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "放晴",
+      "element": "光",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "光系技能威力永久+40%，应对防御：改为永久+80%。"
+    },
+    {
+      "name": "岩土暴击",
+      "element": "地",
+      "category": "物攻",
+      "cost": "8",
+      "power": "140",
+      "effect": "造成物伤，每被攻击1次。本技能能耗永久-1。"
+    },
+    {
+      "name": "流沙",
+      "element": "地",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方2回合无法更换精灵，应对防御：敌方获得双防-50%。"
+    },
+    {
+      "name": "泥浆铠甲",
+      "element": "地",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得物攻和物防+40%，应对防御：额外使自己的增益翻倍。"
+    },
+    {
+      "name": "沙涌",
+      "element": "地",
+      "category": "状态",
+      "cost": "7",
+      "power": "0",
+      "effect": "将天气改为沙暴，每过1回合，本技能能耗永久-1。"
+    },
+    {
+      "name": "反击拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "2",
+      "power": "25",
+      "effect": "造成物伤，2连击，若后手攻击，改为3连击。"
+    },
+    {
+      "name": "听桥",
+      "element": "武",
+      "category": "防御",
+      "cost": "4",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：对敌方造成伤害，威力与被应对技能相等。"
+    },
+    {
+      "name": "叠势",
+      "element": "武",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "25",
+      "effect": "造成魔伤，2连击，每成功应对1次，本技能连击数永久+2。"
+    },
+    {
+      "name": "预备势",
+      "element": "武",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+80%，应对防御：额外使敌方获得物防-80%。"
+    },
+    {
+      "name": "防御反击",
+      "element": "武",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：获得全技能威力+20。"
+    }
+  ]
+}

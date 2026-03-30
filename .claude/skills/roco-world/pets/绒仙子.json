@@ -1,0 +1,499 @@
+{
+  "name": "绒仙子",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "绒绒",
+  "hasAltColor": "是",
+  "stage": "最终形态",
+  "type": "星光精灵",
+  "description": "完全发育成型，翅脉中内部流动着体液，横脉与纵脉交汇处形成规整的星形花纹，蕴含强烈的星光能量。胸节与携粉足极度膨大，布满致密的长绒，能牢牢黏附超多光系魔法粉末，这些粉末正是体液代谢后的产物。",
+  "element": "光",
+  "element2": "虫",
+  "ability": "绒粉星光",
+  "abilityDesc": "攻击时，若敌方血脉是非本系的系别血脉，技能威力+100%。",
+  "hp": 96,
+  "physicalAttack": 71,
+  "magicAttack": 73,
+  "physicalDefense": 81,
+  "magicDefense": 133,
+  "speed": 115,
+  "size": "1.25-1.65",
+  "weight": "37.50-42.80",
+  "distribution": "",
+  "questTasks": [],
+  "questSkillStones": [],
+  "skills": [
+    "脉冲光线",
+    "假寐",
+    "镜像反射",
+    "虫网",
+    "捆缚",
+    "啃咬",
+    "力量增效",
+    "落星",
+    "漫反射",
+    "草虫冲击",
+    "虫鸣",
+    "虫群智慧",
+    "光球",
+    "放晴",
+    "虹光冲击",
+    "光刃"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    6,
+    8,
+    14,
+    22,
+    24,
+    25,
+    33,
+    34,
+    35,
+    36,
+    38,
+    41,
+    42,
+    44
+  ],
+  "bloodlineSkills": [
+    "休息回复",
+    "徒长",
+    "引燃",
+    "蓄水",
+    "折线冲击",
+    "泥浆铠甲",
+    "霜降",
+    "升龙咆哮",
+    "麻痹",
+    "毒孢子",
+    "尾后针",
+    "化劲",
+    "羽化加速",
+    "飞吻",
+    "勾魂",
+    "贪婪",
+    "啮合传递",
+    "超维投射"
+  ],
+  "learnableSkillStones": [
+    "魔法增效",
+    "激怒",
+    "快速移动",
+    "应激反应",
+    "精神扰乱",
+    "退化",
+    "防御",
+    "取念",
+    "晒太阳",
+    "摇篮曲",
+    "飞断",
+    "贮藏",
+    "虫结阵",
+    "扇风",
+    "风起",
+    "鸣叫"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "脉冲光线",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "假寐",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复2能量，获得1次奉献：能耗-2。"
+    },
+    {
+      "name": "镜像反射",
+      "element": "光",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80％，应对攻击：本技能变为被应对的技能。"
+    },
+    {
+      "name": "虫网",
+      "element": "虫",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成魔伤，自己回复1能量。"
+    },
+    {
+      "name": "捆缚",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得2层中毒，获得1次奉献：敌方获得2层中毒。"
+    },
+    {
+      "name": "啃咬",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "造成物伤，1连击，本技能会受奉献影响，每被影响1次，能耗永久+1。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "落星",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "漫反射",
+      "element": "光",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "每种系别中的至多1个技能，威力+35。"
+    },
+    {
+      "name": "虫鸣",
+      "element": "虫",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "15",
+      "effect": "造成魔伤，队伍中每有1只带有本技能的精灵，本次技能连击数+1。"
+    },
+    {
+      "name": "虫群智慧",
+      "element": "虫",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "获得2次随机奉献。"
+    },
+    {
+      "name": "光球",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "放晴",
+      "element": "光",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "光系技能威力永久+40%，应对防御：改为永久+80%。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "光刃",
+      "element": "光",
+      "category": "物攻",
+      "cost": "4",
+      "power": "120",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "休息回复",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复30%生命。"
+    },
+    {
+      "name": "徒长",
+      "element": "草",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复10能量。"
+    },
+    {
+      "name": "引燃",
+      "element": "火",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得10层灼烧。"
+    },
+    {
+      "name": "蓄水",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下次使用的技能能耗-6。"
+    },
+    {
+      "name": "折线冲击",
+      "element": "光",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "泥浆铠甲",
+      "element": "地",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得物攻和物防+40%，应对防御：额外使自己的增益翻倍。"
+    },
+    {
+      "name": "霜降",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得4层冻结。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "麻痹",
+      "element": "电",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方先手-1，应对防御：额外使敌方获得攻击-70%。"
+    },
+    {
+      "name": "毒孢子",
+      "element": "毒",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得5层中毒。"
+    },
+    {
+      "name": "尾后针",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "化劲",
+      "element": "武",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得全技能威力+40。"
+    },
+    {
+      "name": "羽化加速",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得技能威力+20，迅捷。"
+    },
+    {
+      "name": "飞吻",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "勾魂",
+      "element": "幽",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "偷取敌方3能量。"
+    },
+    {
+      "name": "贪婪",
+      "element": "恶",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得100%吸血。"
+    },
+    {
+      "name": "啮合传递",
+      "element": "机械",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+100，本技能位于1号位时能耗-2，传动。"
+    },
+    {
+      "name": "超维投射",
+      "element": "幻",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得4层星陨。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "激怒",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方除本回合使用的技能，其他技能能耗+3，持续3回合。"
+    },
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    },
+    {
+      "name": "应激反应",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复25%生命，应对防御：改为回复50%生命。"
+    },
+    {
+      "name": "精神扰乱",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+1，应对防御：改为能耗+3。"
+    },
+    {
+      "name": "退化",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得1层萌化。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "取念",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成敌方任意精灵的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "摇篮曲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "5",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+3，应对防御：额外造成打断，且敌方下回合获得眩晕。"
+    },
+    {
+      "name": "飞断",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "20",
+      "effect": "造成物伤，获得1次奉献：威力+20。"
+    },
+    {
+      "name": "贮藏",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得双攻+50%，每携带1个0能耗技能，额外+50%。"
+    },
+    {
+      "name": "虫结阵",
+      "element": "虫",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：获得1次随机奉献。"
+    },
+    {
+      "name": "扇风",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "3",
+      "power": "70",
+      "effect": "造成物伤，若先于敌方攻击，本次技能威力+50%。"
+    },
+    {
+      "name": "风起",
+      "element": "翼",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层风起印记。"
+    },
+    {
+      "name": "鸣叫",
+      "element": "翼",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成魔法伤害。"
+    }
+  ]
+}

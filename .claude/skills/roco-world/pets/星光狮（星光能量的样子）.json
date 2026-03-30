@@ -1,0 +1,511 @@
+{
+  "name": "星光狮（星光能量的样子）",
+  "form": "原始形态",
+  "regionalFormName": "星光能量的样子",
+  "initialStageName": "小星光（星光能量的样子）",
+  "hasAltColor": "",
+  "stage": "最终形态",
+  "type": "狮精灵",
+  "description": "头顶的晶体是身体的一部分，里面似乎蕴含着无尽的能量。从晶体中发射能量攻击对手，吃饱睡好的情况下发射的能量炮能炸掉整个聆风塔地。",
+  "element": "电",
+  "element2": "",
+  "ability": "电流刺激",
+  "abilityDesc": "携带的攻击技能获得迸发：威力+40。",
+  "hp": 75,
+  "physicalAttack": 101,
+  "magicAttack": 106,
+  "physicalDefense": 90,
+  "magicDefense": 110,
+  "speed": 135,
+  "size": "1.08-1.54",
+  "weight": "49.50-58.10",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉20只精灵",
+    "捕捉1只炫彩突变的精灵",
+    "确认2种不同样子的星光狮",
+    "获得【命定勇者】奖牌",
+    "使用2次超导",
+    "使用1次晒太阳",
+    "使用2次强制重启"
+  ],
+  "questSkillStones": [
+    "超导",
+    "晒太阳",
+    "强制重启"
+  ],
+  "skills": [
+    "魔法增效",
+    "磁干扰",
+    "球状闪电",
+    "过载回路",
+    "防御",
+    "超导",
+    "晒太阳",
+    "离子火花",
+    "远程访问",
+    "乘胜追击",
+    "电离爆破",
+    "交叉闪电",
+    "雷暴",
+    "追打",
+    "强制重启"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    7,
+    8,
+    12,
+    16,
+    23,
+    24,
+    28,
+    34,
+    35,
+    38,
+    40,
+    49,
+    50
+  ],
+  "bloodlineSkills": [
+    "拍击",
+    "花香",
+    "火焰冲锋",
+    "泡沫",
+    "虹光冲击",
+    "扬沙",
+    "霜降",
+    "升龙咆哮",
+    "触电",
+    "溃烂触碰",
+    "噬心",
+    "贯手",
+    "鹰爪",
+    "魅惑",
+    "幻象",
+    "恶能量",
+    "离子震荡",
+    "星云漩涡"
+  ],
+  "learnableSkillStones": [
+    "阻断",
+    "伺机而动",
+    "复写",
+    "热身运动",
+    "埋伏",
+    "摇篮曲",
+    "流星火雨",
+    "炎打",
+    "漫反射",
+    "光球",
+    "光刃",
+    "麻痹",
+    "撕咬",
+    "暗突袭",
+    "掠夺",
+    "黑手"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "磁干扰",
+      "element": "电",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "球状闪电",
+      "element": "电",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "过载回路",
+      "element": "电",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己返场，下回合所选技能使用次数+1。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "超导",
+      "element": "电",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "95",
+      "effect": "造成魔伤，迸发：本技能能耗-1。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "离子火花",
+      "element": "电",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "远程访问",
+      "element": "电",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "使敌方精灵返场。"
+    },
+    {
+      "name": "乘胜追击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "40",
+      "effect": "造成物伤，1连击，每次使用后，本技能连击数永久+1。"
+    },
+    {
+      "name": "电离爆破",
+      "element": "电",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得速度-40，3连击。"
+    },
+    {
+      "name": "交叉闪电",
+      "element": "电",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "雷暴",
+      "element": "电",
+      "category": "魔攻",
+      "cost": "5",
+      "power": "80",
+      "effect": "造成魔伤，迸发：本技能获得所有生效过的迸发效果。"
+    },
+    {
+      "name": "追打",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "75",
+      "effect": "造成魔伤，1连击，应对状态：本技能变为3连击。"
+    },
+    {
+      "name": "强制重启",
+      "element": "电",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成魔伤，应对状态：回合结束时使敌方精灵返场。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "拍击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "花香",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "火焰冲锋",
+      "element": "火",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "泡沫",
+      "element": "水",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "扬沙",
+      "element": "地",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "霜降",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得4层冻结。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "触电",
+      "element": "电",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "溃烂触碰",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "噬心",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "贯手",
+      "element": "武",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "鹰爪",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "魅惑",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "幻象",
+      "element": "幽",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "恶能量",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "离子震荡",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "星云漩涡",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "阻断",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "造成魔伤，应对状态：额外打断被应对技能。"
+    },
+    {
+      "name": "伺机而动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下一次行动时，攻击技能威力+70。"
+    },
+    {
+      "name": "复写",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成自己未携带的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "埋伏",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "30",
+      "effect": "造成魔伤，3连击，若敌方本回合替换精灵，本次技能连击数+3。"
+    },
+    {
+      "name": "摇篮曲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "5",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+3，应对防御：额外造成打断，且敌方下回合获得眩晕。"
+    },
+    {
+      "name": "流星火雨",
+      "element": "火",
+      "category": "物攻",
+      "cost": "3",
+      "power": "75",
+      "effect": "造成物伤，每次击败敌方，本技能威力永久+75。"
+    },
+    {
+      "name": "炎打",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "100",
+      "effect": "造成高额魔法伤害，自己获得物防-40%。"
+    },
+    {
+      "name": "漫反射",
+      "element": "光",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "每种系别中的至多1个技能，威力+35。"
+    },
+    {
+      "name": "光球",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "光刃",
+      "element": "光",
+      "category": "物攻",
+      "cost": "4",
+      "power": "120",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "麻痹",
+      "element": "电",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方先手-1，应对防御：额外使敌方获得攻击-70%。"
+    },
+    {
+      "name": "撕咬",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，3连击，若自己的生命低于50%，本次技能连击数+2。"
+    },
+    {
+      "name": "暗突袭",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "4",
+      "power": "70",
+      "effect": "造成物伤，吸血50%，应对状态：本次技能威力翻倍。"
+    },
+    {
+      "name": "掠夺",
+      "element": "恶",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "黑手",
+      "element": "恶",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "45",
+      "effect": "造成魔伤，2连击。"
+    }
+  ]
+}

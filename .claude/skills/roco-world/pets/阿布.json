@@ -1,0 +1,442 @@
+{
+  "name": "阿布",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "阿布",
+  "hasAltColor": "",
+  "stage": "Ⅰ阶",
+  "type": "守护精灵",
+  "description": "虽然长着小巧而可爱的翅膀，但是不用来煽动飞行,完全是凭借自身的魔法浮空，似乎能与洛克心灵相通。\n“平时非常柔弱胆小,但是在特殊情况下会变得非常的强大，让人难以想象”。",
+  "element": "普通",
+  "element2": "",
+  "ability": "超聚能",
+  "abilityDesc": "蓄力时，聚能变为积蓄。",
+  "hp": 79,
+  "physicalAttack": 68,
+  "magicAttack": 68,
+  "physicalDefense": 83,
+  "magicDefense": 83,
+  "speed": 80,
+  "size": "0.60,0.86",
+  "weight": "14.60,18.60",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "使用3/5/7次升龙咆哮",
+    "使用3/5绵里藏针",
+    "使精灵成功进化1次"
+  ],
+  "questSkillStones": [
+    "龙血"
+  ],
+  "skills": [
+    "抓挠",
+    "龙吼",
+    "力量增效",
+    "扫尾",
+    "防御",
+    "火爪",
+    "锐利眼神",
+    "龙之舞",
+    "升龙咆哮",
+    "龙炮",
+    "热身",
+    "天旋地转",
+    "快速移动",
+    "当头棒喝",
+    "绵里藏针",
+    "破防",
+    "彗星",
+    "怒火",
+    "龙之利爪",
+    "应激反应",
+    "湮灭",
+    "借用",
+    "吞噬",
+    "龙威",
+    "逆袭",
+    "怨力打击",
+    "架势"
+  ],
+  "skillUnlockLevels": [],
+  "bloodlineSkills": [
+    "休息回复",
+    "徒长",
+    "引燃",
+    "蓄水",
+    "虹光冲击",
+    "泥浆铠甲",
+    "霜降",
+    "角击",
+    "麻痹",
+    "毒孢子",
+    "假寐",
+    "化劲",
+    "羽化加速",
+    "柔弱",
+    "小偷小摸",
+    "贪婪",
+    "啮合传递",
+    "超维投射"
+  ],
+  "learnableSkillStones": [],
+  "evolutionCondition": "",
+  "updateVersion": "",
+  "skillDetails": [
+    {
+      "name": "抓挠",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成物伤，自己回复1能量。"
+    },
+    {
+      "name": "龙吼",
+      "element": "龙",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "扫尾",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "90",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "火爪",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "锐利眼神",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得物防和魔防-120%。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "龙炮",
+      "element": "龙",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "热身",
+      "element": "火",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下一次攻击技能威力翻倍，应对防御：改为威力变为3倍。"
+    },
+    {
+      "name": "天旋地转",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "60",
+      "effect": "造成物理伤害，先手+1，迸发：本次技能威力+30。"
+    },
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    },
+    {
+      "name": "当头棒喝",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成物伤，若敌方本回合替换精灵，本次技能威力+100。"
+    },
+    {
+      "name": "绵里藏针",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "50",
+      "effect": "造成魔伤，若敌方上回合没受到技能伤害，本技能威力永久+30。"
+    },
+    {
+      "name": "破防",
+      "element": "武",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得双防-130%，应对防御：额外使被应对技能冷却2回合。"
+    },
+    {
+      "name": "彗星",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "240",
+      "effect": "造成魔伤，每失去5%生命，本次技能威力-10，使用后消耗全部生命。"
+    },
+    {
+      "name": "怒火",
+      "element": "火",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得双攻+130%和双防-40%。"
+    },
+    {
+      "name": "龙之利爪",
+      "element": "龙",
+      "category": "物攻",
+      "cost": "3",
+      "power": "130",
+      "effect": "蓄力，造成物伤并吸血50%。"
+    },
+    {
+      "name": "应激反应",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复25%生命，应对防御：改为回复50%生命。"
+    },
+    {
+      "name": "湮灭",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "5",
+      "power": "155",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "吞噬",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "6",
+      "power": "150",
+      "effect": "造成物伤，若使用本技能击败敌方，回复6能量。"
+    },
+    {
+      "name": "龙威",
+      "element": "龙",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得1层龙噬印记 。"
+    },
+    {
+      "name": "逆袭",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "造成物伤，本技能能耗每+1，威力+45。"
+    },
+    {
+      "name": "怨力打击",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "1",
+      "effect": "蓄力，造成蓄力期间受到攻击伤害的3倍。"
+    },
+    {
+      "name": "架势",
+      "element": "龙",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复20%生命，下次技能无需蓄力。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "休息回复",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复30%生命。"
+    },
+    {
+      "name": "徒长",
+      "element": "草",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复10能量。"
+    },
+    {
+      "name": "引燃",
+      "element": "火",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得10层灼烧。"
+    },
+    {
+      "name": "蓄水",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下次使用的技能能耗-6。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "泥浆铠甲",
+      "element": "地",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得物攻和物防+40%，应对防御：额外使自己的增益翻倍。"
+    },
+    {
+      "name": "霜降",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得4层冻结。"
+    },
+    {
+      "name": "角击",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "麻痹",
+      "element": "电",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方先手-1，应对防御：额外使敌方获得攻击-70%。"
+    },
+    {
+      "name": "毒孢子",
+      "element": "毒",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得5层中毒。"
+    },
+    {
+      "name": "假寐",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复2能量，获得1次奉献：能耗-2。"
+    },
+    {
+      "name": "化劲",
+      "element": "武",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得全技能威力+40。"
+    },
+    {
+      "name": "羽化加速",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得技能威力+20，迅捷。"
+    },
+    {
+      "name": "柔弱",
+      "element": "萌",
+      "category": "状态",
+      "cost": "1",
+      "power": "-",
+      "effect": "获得萌化，降低敌方70%物攻和物防。"
+    },
+    {
+      "name": "小偷小摸",
+      "element": "幽",
+      "category": "状态",
+      "cost": "1",
+      "power": "-",
+      "effect": "偷取敌方3能量。"
+    },
+    {
+      "name": "贪婪",
+      "element": "恶",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得100%吸血。"
+    },
+    {
+      "name": "啮合传递",
+      "element": "机械",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+100，本技能位于1号位时能耗-2，传动。"
+    },
+    {
+      "name": "超维投射",
+      "element": "幻",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得4层星陨。"
+    }
+  ],
+  "learnableSkillStoneDetails": []
+}

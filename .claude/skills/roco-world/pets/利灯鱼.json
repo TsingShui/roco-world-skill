@@ -1,0 +1,460 @@
+{
+  "name": "利灯鱼",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "双灯鱼",
+  "hasAltColor": "是",
+  "stage": "最终形态",
+  "type": "狂乱精灵",
+  "description": "独居生物，个体之间保持距离，互不侵犯。常常自言自语，狂笑乱跳。据研究它们头顶的灯内有百万只以上的发光菌，肉眼很难观察。每只菌似乎都有独立意识，能够和本体进行沟通，甚至还有可能侵蚀本体的脑。",
+  "element": "水",
+  "element2": "电",
+  "ability": "对流",
+  "abilityDesc": "自己的能耗增加变为能耗降低；能耗降低变为能耗增加。",
+  "hp": 128,
+  "physicalAttack": 68,
+  "magicAttack": 138,
+  "physicalDefense": 71,
+  "magicDefense": 116,
+  "speed": 105,
+  "size": "0.62-0.89",
+  "weight": "26.80-31.50",
+  "distribution": "",
+  "questTasks": [],
+  "questSkillStones": [],
+  "skills": [
+    "魔法增效",
+    "水弹",
+    "超导加速",
+    "加大功率",
+    "能量炮",
+    "润泽",
+    "倾泻",
+    "落雨",
+    "激流",
+    "双联脉冲",
+    "落雷",
+    "水光冲击",
+    "强制重启",
+    "水波术"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    2,
+    10,
+    13,
+    20,
+    21,
+    23,
+    24,
+    32,
+    33,
+    40,
+    49,
+    50
+  ],
+  "bloodlineSkills": [
+    "星星撞击",
+    "荆棘爪",
+    "火爪",
+    "水弹枪",
+    "虹光冲击",
+    "跺地",
+    "霜降",
+    "升龙咆哮",
+    "触电",
+    "毒沼",
+    "尾后针",
+    "贯手",
+    "风矢",
+    "魅惑",
+    "灵媒",
+    "黑手",
+    "离子震荡",
+    "针状物"
+  ],
+  "learnableSkillStones": [
+    "阻断",
+    "重击",
+    "快速移动",
+    "防御",
+    "借用",
+    "耀眼",
+    "摇篮曲",
+    "打湿",
+    "涌泉",
+    "恐吓",
+    "掠夺",
+    "跌落",
+    "伪造账单"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "水弹",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "超导加速",
+      "element": "电",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "60",
+      "effect": "造成魔伤，自己获得速度+30。"
+    },
+    {
+      "name": "加大功率",
+      "element": "电",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己脱离，被替换入场的精灵回复8能量。"
+    },
+    {
+      "name": "能量炮",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "50",
+      "effect": "造成魔伤，2连击。"
+    },
+    {
+      "name": "润泽",
+      "element": "水",
+      "category": "状态",
+      "cost": "7",
+      "power": "0",
+      "effect": "自己获得魔攻+190%。"
+    },
+    {
+      "name": "倾泻",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "60",
+      "effect": "造成魔伤，若本次攻击未被防御或技能应对，则驱散双方所有印记。"
+    },
+    {
+      "name": "落雨",
+      "element": "水",
+      "category": "状态",
+      "cost": "8",
+      "power": "0",
+      "effect": "将天气改为雨天。本技能受能耗降低效果的影响翻倍。"
+    },
+    {
+      "name": "激流",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "120",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "双联脉冲",
+      "element": "电",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "50",
+      "effect": "造成魔伤，迸发：本技能使用次数+1。"
+    },
+    {
+      "name": "落雷",
+      "element": "电",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "100",
+      "effect": "造成魔伤，每次入场，本技能威力永久+20。"
+    },
+    {
+      "name": "水光冲击",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "5",
+      "power": "140",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "强制重启",
+      "element": "电",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成魔伤，应对状态：回合结束时使敌方精灵返场。"
+    },
+    {
+      "name": "水波术",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "6",
+      "power": "90",
+      "effect": "造成魔伤，回合结束时，本技能威力永久+20。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "星星撞击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "荆棘爪",
+      "element": "草",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "火爪",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "水弹枪",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "跺地",
+      "element": "地",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "霜降",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得4层冻结。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "触电",
+      "element": "电",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "毒沼",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "尾后针",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "贯手",
+      "element": "武",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "风矢",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "魅惑",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "灵媒",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "黑手",
+      "element": "恶",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "45",
+      "effect": "造成魔伤，2连击。"
+    },
+    {
+      "name": "离子震荡",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "针状物",
+      "element": "幻",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成魔伤，3连击。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "阻断",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "造成魔伤，应对状态：额外打断被应对技能。"
+    },
+    {
+      "name": "重击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "110",
+      "effect": "造成物伤，每次使用后，本技能能耗永久+1。"
+    },
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "耀眼",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得连击数-4。"
+    },
+    {
+      "name": "摇篮曲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "5",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+3，应对防御：额外造成打断，且敌方下回合获得眩晕。"
+    },
+    {
+      "name": "打湿",
+      "element": "水",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层湿润印记。"
+    },
+    {
+      "name": "涌泉",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "6",
+      "power": "60",
+      "effect": "造成魔伤，本技能能耗每-1，威力+10。"
+    },
+    {
+      "name": "恐吓",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "掠夺",
+      "element": "恶",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "跌落",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "3",
+      "power": "120",
+      "effect": "造成大量物伤，自己获得物攻-50%，应对状态：改为获得物攻+50%。"
+    },
+    {
+      "name": "伪造账单",
+      "element": "恶",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "若敌方本回合回复生命，改为失去2倍。先手+1。"
+    }
+  ]
+}

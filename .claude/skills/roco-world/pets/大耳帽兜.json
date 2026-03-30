@@ -1,0 +1,513 @@
+{
+  "name": "大耳帽兜",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "大耳帽兜",
+  "hasAltColor": "是",
+  "stage": "Ⅰ阶",
+  "type": "兔精灵",
+  "description": "全身覆满白色绒毛，能抵御寒冷，仔细观察它们的毛毛分为两种，一种是顺滑纤细的针毛，另一种是又软又密的绒毛。虽然体型小，但却不畏惧寒冷，小小的手爪柔软又温暖。似乎喜欢抱抱。",
+  "element": "冰",
+  "element2": "萌",
+  "ability": "捉迷藏",
+  "abilityDesc": "使敌方获得冻结时，也会使其获得全技能能耗+1。",
+  "hp": 78,
+  "physicalAttack": 62,
+  "magicAttack": 59,
+  "physicalDefense": 39,
+  "magicDefense": 78,
+  "speed": 54,
+  "size": "0.39-0.42",
+  "weight": "8.39-10.70",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [
+    "防御",
+    "风吹雪",
+    "霜降",
+    "当头棒喝",
+    "甜心续航",
+    "超级糖果",
+    "雾气环绕",
+    "冰墙",
+    "暴风雪",
+    "生日蛋糕",
+    "撒娇",
+    "冬至",
+    "冰晶坠",
+    "冰点",
+    "破罐破摔",
+    "碎冰冰"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    8,
+    9,
+    11,
+    17,
+    22,
+    26,
+    29,
+    35,
+    36,
+    37,
+    40,
+    45,
+    48
+  ],
+  "bloodlineSkills": [
+    "星星撞击",
+    "徒长",
+    "引燃",
+    "蓄水",
+    "虹光冲击",
+    "泥浆铠甲",
+    "冰爪",
+    "升龙咆哮",
+    "麻痹",
+    "毒孢子",
+    "假寐",
+    "化劲",
+    "羽化加速",
+    "飞吻",
+    "勾魂",
+    "贪婪",
+    "啮合传递",
+    "超维投射"
+  ],
+  "learnableSkillStones": [
+    "力量增效",
+    "应激反应",
+    "无畏之心",
+    "借用",
+    "加固",
+    "瞬间零度",
+    "霜天",
+    "冷风",
+    "冰捆缚",
+    "赤子之心",
+    "爆米花爆破",
+    "击鼓传花",
+    "坍缩",
+    "星轨裂变",
+    "二律背反",
+    "双星"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "风吹雪",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成魔伤，自己回复1能量。"
+    },
+    {
+      "name": "霜降",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得4层冻结。"
+    },
+    {
+      "name": "当头棒喝",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成物伤，若敌方本回合替换精灵，本次技能威力+100。"
+    },
+    {
+      "name": "甜心续航",
+      "element": "萌",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己和敌方获得萌化：回复40%生命和4能量。"
+    },
+    {
+      "name": "超级糖果",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "造成物伤，自己获得萌化：本次技能威力+60。"
+    },
+    {
+      "name": "雾气环绕",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "回复能量，回复值等于敌方技能总能耗的一半。"
+    },
+    {
+      "name": "冰墙",
+      "element": "冰",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得2层冻结。"
+    },
+    {
+      "name": "暴风雪",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，敌方获得1层冻结。"
+    },
+    {
+      "name": "生日蛋糕",
+      "element": "萌",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得萌化：全技能能耗永久-4。"
+    },
+    {
+      "name": "撒娇",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成魔伤，3连击，获得萌化：威力永久+20。"
+    },
+    {
+      "name": "冬至",
+      "element": "冰",
+      "category": "状态",
+      "cost": "7",
+      "power": "0",
+      "effect": "将天气改为暴风雪。本技能能耗降低，降低值等于敌方技能总能耗。"
+    },
+    {
+      "name": "冰晶坠",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "4",
+      "power": "90",
+      "effect": "造成物伤，敌方获得全技能能耗+1。"
+    },
+    {
+      "name": "冰点",
+      "element": "冰",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得5层冻结，应对防御：额外获得5层。"
+    },
+    {
+      "name": "破罐破摔",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成魔伤，自己有增益时，本次技能威力+60。"
+    },
+    {
+      "name": "碎冰冰",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "40",
+      "effect": "造成魔伤，敌方每有1层冻结，本次技能威力+20。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "星星撞击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "徒长",
+      "element": "草",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复10能量。"
+    },
+    {
+      "name": "引燃",
+      "element": "火",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得10层灼烧。"
+    },
+    {
+      "name": "蓄水",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下次使用的技能能耗-6。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "泥浆铠甲",
+      "element": "地",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得物攻和物防+40%，应对防御：额外使自己的增益翻倍。"
+    },
+    {
+      "name": "冰爪",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "麻痹",
+      "element": "电",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方先手-1，应对防御：额外使敌方获得攻击-70%。"
+    },
+    {
+      "name": "毒孢子",
+      "element": "毒",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得5层中毒。"
+    },
+    {
+      "name": "假寐",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复2能量，获得1次奉献：能耗-2。"
+    },
+    {
+      "name": "化劲",
+      "element": "武",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得全技能威力+40。"
+    },
+    {
+      "name": "羽化加速",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得技能威力+20，迅捷。"
+    },
+    {
+      "name": "飞吻",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "勾魂",
+      "element": "幽",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "偷取敌方3能量。"
+    },
+    {
+      "name": "贪婪",
+      "element": "恶",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得100%吸血。"
+    },
+    {
+      "name": "啮合传递",
+      "element": "机械",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+100，本技能位于1号位时能耗-2，传动。"
+    },
+    {
+      "name": "超维投射",
+      "element": "幻",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得4层星陨。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "应激反应",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复25%生命，应对防御：改为回复50%生命。"
+    },
+    {
+      "name": "无畏之心",
+      "element": "普通",
+      "category": "防御",
+      "cost": "5",
+      "power": "0",
+      "effect": "减伤100%，应对攻击：减免的伤害变为回复自己生命，且本技能能耗永久+2。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "加固",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得物防+140%。"
+    },
+    {
+      "name": "瞬间零度",
+      "element": "冰",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "本回合敌方使用的技能能耗+3，应对防御：改为全技能能耗+3。"
+    },
+    {
+      "name": "霜天",
+      "element": "冰",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得3层冻结，且每有1层冻结获得全技能能耗+1。"
+    },
+    {
+      "name": "冷风",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "冰捆缚",
+      "element": "冰",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "2连击，每次连击敌方获得全技能能耗+1。"
+    },
+    {
+      "name": "赤子之心",
+      "element": "萌",
+      "category": "状态",
+      "cost": "6",
+      "power": "0",
+      "effect": "场下每个精灵获得萌化，之后回复40%生命和4能量。"
+    },
+    {
+      "name": "爆米花爆破",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "5",
+      "power": "140",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "击鼓传花",
+      "element": "萌",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己脱离，下个入场精灵继承自己增益。"
+    },
+    {
+      "name": "坍缩",
+      "element": "幻",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成魔伤，若击败敌方，自己获得魔攻+50%。"
+    },
+    {
+      "name": "星轨裂变",
+      "element": "幻",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得2层星陨。"
+    },
+    {
+      "name": "二律背反",
+      "element": "幻",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得3层星陨，应对防御：额外使敌方星陨层数翻倍。"
+    },
+    {
+      "name": "双星",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ]
+}

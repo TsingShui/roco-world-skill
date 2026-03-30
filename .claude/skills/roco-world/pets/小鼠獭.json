@@ -1,0 +1,503 @@
+{
+  "name": "小鼠獭",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "小鼠獭",
+  "hasAltColor": "",
+  "stage": "Ⅰ阶",
+  "type": "啃啃精灵",
+  "description": "总是在啃着什么，包括自己的手和尾巴。扒开小鼠獭的嘴巴仔细观察也找不到牙，牙床嫩嫩的，还没有牙的痕迹。",
+  "element": "普通",
+  "element2": "水",
+  "ability": "保守派",
+  "abilityDesc": "总技能能耗小于4时，自己获得双防+80%。",
+  "hp": 73,
+  "physicalAttack": 57,
+  "magicAttack": 57,
+  "physicalDefense": 60,
+  "magicDefense": 60,
+  "speed": 48,
+  "size": "0.37-0.53",
+  "weight": "6.70-7.50",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [
+    "激怒",
+    "落星",
+    "防御",
+    "抓挠",
+    "洗礼",
+    "水弹",
+    "咆哮",
+    "水泡盾",
+    "泡沫",
+    "鼓劲",
+    "践踏",
+    "有效预防",
+    "水炮",
+    "连续爪击",
+    "水环"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    6,
+    7,
+    14,
+    23,
+    25,
+    28,
+    35,
+    36,
+    39,
+    40,
+    41,
+    49,
+    50
+  ],
+  "bloodlineSkills": [
+    "星星撞击",
+    "蜡质膜",
+    "火焰护盾",
+    "水弹枪",
+    "虹光冲击",
+    "淤泥表皮",
+    "雪替身",
+    "升龙咆哮",
+    "集中",
+    "溃烂触碰",
+    "掩护",
+    "反击拳",
+    "风墙",
+    "魅惑",
+    "虚化",
+    "等价交换",
+    "离子震荡",
+    "冥想"
+  ],
+  "learnableSkillStones": [
+    "触底强击",
+    "阻断",
+    "魔能爆",
+    "吞噬",
+    "操控",
+    "防反",
+    "血气",
+    "取念",
+    "彗星",
+    "嗜痛",
+    "吓退",
+    "潮涌",
+    "潮汐",
+    "硬化",
+    "泥巴喷射",
+    "震击"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "激怒",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方除本回合使用的技能，其他技能能耗+3，持续3回合。"
+    },
+    {
+      "name": "落星",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "抓挠",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成物伤，自己回复1能量。"
+    },
+    {
+      "name": "洗礼",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散自己的减益，并获得全技能能耗-1。"
+    },
+    {
+      "name": "水弹",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "咆哮",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得物攻-130%。"
+    },
+    {
+      "name": "水泡盾",
+      "element": "水",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得魔攻+40%。"
+    },
+    {
+      "name": "泡沫",
+      "element": "水",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "鼓劲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得魔防+170%。"
+    },
+    {
+      "name": "践踏",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "4",
+      "power": "120",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "有效预防",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤50%，应对攻击：下次行动获得先手+1。"
+    },
+    {
+      "name": "水炮",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "5",
+      "power": "110",
+      "effect": "造成魔伤，每次使用后，本技能能耗永久-1。"
+    },
+    {
+      "name": "连续爪击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "30",
+      "effect": "造成物伤，2连击，应对状态：本次技能连击数翻倍。"
+    },
+    {
+      "name": "水环",
+      "element": "水",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得全技能能耗-2。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "星星撞击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "蜡质膜",
+      "element": "草",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：回复3能量。"
+    },
+    {
+      "name": "火焰护盾",
+      "element": "火",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得4层灼烧。"
+    },
+    {
+      "name": "水弹枪",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "淤泥表皮",
+      "element": "地",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，应对攻击：敌方获得连击数-2。"
+    },
+    {
+      "name": "雪替身",
+      "element": "冰",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：回复能量，回复值等于被应对技能能耗的2倍。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "集中",
+      "element": "电",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己回合结束返场。"
+    },
+    {
+      "name": "溃烂触碰",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "掩护",
+      "element": "虫",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，紧急脱离，应对攻击：下个入场精灵获得减伤。"
+    },
+    {
+      "name": "反击拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "2",
+      "power": "25",
+      "effect": "造成物伤，2连击，若后手攻击，改为3连击。"
+    },
+    {
+      "name": "风墙",
+      "element": "翼",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤50%，迅捷，应对攻击。"
+    },
+    {
+      "name": "魅惑",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "虚化",
+      "element": "幽",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得魔防+40%。"
+    },
+    {
+      "name": "等价交换",
+      "element": "恶",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得50%吸血。"
+    },
+    {
+      "name": "离子震荡",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "冥想",
+      "element": "幻",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得2层星陨。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "触底强击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "65",
+      "effect": "造成魔伤，使用后若能量耗尽，本次技能威力+110。"
+    },
+    {
+      "name": "阻断",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "造成魔伤，应对状态：额外打断被应对技能。"
+    },
+    {
+      "name": "魔能爆",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "1",
+      "effect": "造成魔伤，使用时消耗所有能量，消耗越高，伤害越高。"
+    },
+    {
+      "name": "吞噬",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "6",
+      "power": "150",
+      "effect": "造成物伤，若使用本技能击败敌方，回复6能量。"
+    },
+    {
+      "name": "操控",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方本回合使用的技能能耗+7，持续3回合。"
+    },
+    {
+      "name": "防反",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：自己获得物攻和魔攻+40%。"
+    },
+    {
+      "name": "血气",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：本回合受到致命伤害时，保留1生命值。"
+    },
+    {
+      "name": "取念",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成敌方任意精灵的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "彗星",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "240",
+      "effect": "造成魔伤，每失去5%生命，本次技能威力-10，使用后消耗全部生命。"
+    },
+    {
+      "name": "嗜痛",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，应对攻击：期间自己每次受到伤害，获得双攻+40%。"
+    },
+    {
+      "name": "吓退",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：敌方脱离。"
+    },
+    {
+      "name": "潮涌",
+      "element": "水",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "潮汐",
+      "element": "水",
+      "category": "防御",
+      "cost": "4",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：自己获得1层湿润印记。"
+    },
+    {
+      "name": "硬化",
+      "element": "地",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，若上次使用攻击技则本技能能耗-2，应对攻击。"
+    },
+    {
+      "name": "泥巴喷射",
+      "element": "地",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "震击",
+      "element": "地",
+      "category": "物攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成伤害，敌方获得连击数-3。"
+    }
+  ]
+}

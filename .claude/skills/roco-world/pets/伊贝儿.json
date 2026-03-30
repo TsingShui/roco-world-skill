@@ -1,0 +1,503 @@
+{
+  "name": "伊贝儿",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "伊贝儿",
+  "hasAltColor": "",
+  "stage": "Ⅰ阶",
+  "type": "毛绒绒精灵",
+  "description": "它头顶长着一团蓬松的绿色苔藓，压低身体时能很好地融入草丛，几乎难以分辨。苔藓本身不疏水，一旦沾到水就会迅速吸收并变得沉重，让它行动迟缓甚至走不动，只能停在原地等待自然风干。它的身体像果冻一样具有弹性，可拉伸变形。",
+  "element": "草",
+  "element2": "",
+  "ability": "腐植循环",
+  "abilityDesc": "每回复1能量，同时回复5%生命。",
+  "hp": 85,
+  "physicalAttack": 73,
+  "magicAttack": 71,
+  "physicalDefense": 76,
+  "magicDefense": 76,
+  "speed": 72,
+  "size": "0.44-0.62",
+  "weight": "3.30-4.20",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [
+    "耀眼",
+    "种子弹",
+    "蜡质膜",
+    "藤绞",
+    "聚盐",
+    "先发制人",
+    "光合作用",
+    "纤维化",
+    "叶绿光束",
+    "仙人掌刺击",
+    "血气",
+    "光能聚集",
+    "抽枝",
+    "热身运动",
+    "无畏之心"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    8,
+    10,
+    11,
+    16,
+    21,
+    22,
+    27,
+    34,
+    35,
+    36,
+    40,
+    50
+  ],
+  "bloodlineSkills": [
+    "防反",
+    "荆棘爪",
+    "火焰护盾",
+    "水泡盾",
+    "虹光冲击",
+    "淤泥表皮",
+    "雪替身",
+    "升龙咆哮",
+    "集中",
+    "溃烂触碰",
+    "掩护",
+    "反击拳",
+    "羽翼庇护",
+    "魅惑",
+    "虚化",
+    "等价交换",
+    "离子震荡",
+    "冥想"
+  ],
+  "learnableSkillStones": [
+    "音爆",
+    "冲撞",
+    "连续爪击",
+    "退化",
+    "防御",
+    "借用",
+    "嗜痛",
+    "酶浓度调整",
+    "腐蚀酸液",
+    "连续毒针",
+    "不可接触",
+    "砂糖弹球",
+    "甜心续航",
+    "破罐破摔",
+    "爆米花爆破",
+    "捧杀"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "耀眼",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得连击数-4。"
+    },
+    {
+      "name": "种子弹",
+      "element": "草",
+      "category": "物攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成物伤，自己回复1能量。"
+    },
+    {
+      "name": "蜡质膜",
+      "element": "草",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：回复3能量。"
+    },
+    {
+      "name": "藤绞",
+      "element": "草",
+      "category": "物攻",
+      "cost": "4",
+      "power": "80",
+      "effect": "造成物伤，自己回复5能量。"
+    },
+    {
+      "name": "聚盐",
+      "element": "草",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "2连击，每次连击自己回复5%生命和1能量，使用后本技能连击数永久+1。"
+    },
+    {
+      "name": "先发制人",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "55",
+      "effect": "造成物理伤害，先手+1。"
+    },
+    {
+      "name": "光合作用",
+      "element": "草",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层光合印记。"
+    },
+    {
+      "name": "纤维化",
+      "element": "草",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得物防+40%。"
+    },
+    {
+      "name": "叶绿光束",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "120",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "仙人掌刺击",
+      "element": "草",
+      "category": "物攻",
+      "cost": "6",
+      "power": "150",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "血气",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：本回合受到致命伤害时，保留1生命值。"
+    },
+    {
+      "name": "光能聚集",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "7",
+      "power": "100",
+      "effect": "造成魔伤，每次使用其他草系技能后，本技能威力永久+60。"
+    },
+    {
+      "name": "抽枝",
+      "element": "草",
+      "category": "物攻",
+      "cost": "4",
+      "power": "85",
+      "effect": "造成物伤，应对状态：自己回复50%生命和5能量。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "无畏之心",
+      "element": "普通",
+      "category": "防御",
+      "cost": "5",
+      "power": "0",
+      "effect": "减伤100%，应对攻击：减免的伤害变为回复自己生命，且本技能能耗永久+2。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "防反",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：自己获得物攻和魔攻+40%。"
+    },
+    {
+      "name": "荆棘爪",
+      "element": "草",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "火焰护盾",
+      "element": "火",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得4层灼烧。"
+    },
+    {
+      "name": "水泡盾",
+      "element": "水",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得魔攻+40%。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "淤泥表皮",
+      "element": "地",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，应对攻击：敌方获得连击数-2。"
+    },
+    {
+      "name": "雪替身",
+      "element": "冰",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：回复能量，回复值等于被应对技能能耗的2倍。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "集中",
+      "element": "电",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己回合结束返场。"
+    },
+    {
+      "name": "溃烂触碰",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "掩护",
+      "element": "虫",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，紧急脱离，应对攻击：下个入场精灵获得减伤。"
+    },
+    {
+      "name": "反击拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "2",
+      "power": "25",
+      "effect": "造成物伤，2连击，若后手攻击，改为3连击。"
+    },
+    {
+      "name": "羽翼庇护",
+      "element": "翼",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得连击数+3。"
+    },
+    {
+      "name": "魅惑",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "虚化",
+      "element": "幽",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得魔防+40%。"
+    },
+    {
+      "name": "等价交换",
+      "element": "恶",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得50%吸血。"
+    },
+    {
+      "name": "离子震荡",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "冥想",
+      "element": "幻",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得2层星陨。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "音爆",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "130",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "冲撞",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "7",
+      "power": "135",
+      "effect": "造成物伤，回合结束时，本技能能耗永久-1。"
+    },
+    {
+      "name": "连续爪击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "30",
+      "effect": "造成物伤，2连击，应对状态：本次技能连击数翻倍。"
+    },
+    {
+      "name": "退化",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得1层萌化。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "嗜痛",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，应对攻击：期间自己每次受到伤害，获得双攻+40%。"
+    },
+    {
+      "name": "酶浓度调整",
+      "element": "草",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己回复20%生命。"
+    },
+    {
+      "name": "腐蚀酸液",
+      "element": "毒",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "35",
+      "effect": "造成魔伤，敌方获得2层中毒。"
+    },
+    {
+      "name": "连续毒针",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "15",
+      "effect": "造成物伤，2连击，每次连击使敌方获得1层中毒。"
+    },
+    {
+      "name": "不可接触",
+      "element": "毒",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤50%，敌方每有1层中毒效果，本技能减伤+10%，应对攻击。"
+    },
+    {
+      "name": "砂糖弹球",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "2",
+      "power": "0",
+      "effect": "造成物伤，双方体重差越大，本次技能威力越高。"
+    },
+    {
+      "name": "甜心续航",
+      "element": "萌",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己和敌方获得萌化：回复40%生命和4能量。"
+    },
+    {
+      "name": "破罐破摔",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成魔伤，自己有增益时，本次技能威力+60。"
+    },
+    {
+      "name": "爆米花爆破",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "5",
+      "power": "140",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "捧杀",
+      "element": "萌",
+      "category": "防御",
+      "cost": "4",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得1层萌化。"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "name": "格斗小五",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "格斗小五",
+  "hasAltColor": "",
+  "stage": "最终形态",
+  "type": "武术精灵",
+  "description": "执着于进行腿法训练，能够在瞬间发动数次踢击。得益于发达的腿部肌肉，在奔跑时有着极强的爆发力，乐于向遇见的一切生物发起竞速挑战。",
+  "element": "武",
+  "element2": "",
+  "ability": "擒拿",
+  "abilityDesc": "攻击技能应对成功时，回复25%生命。",
+  "hp": 85,
+  "physicalAttack": 88,
+  "magicAttack": 88,
+  "physicalDefense": 116,
+  "magicDefense": 90,
+  "speed": 135,
+  "size": "1.45,1.55",
+  "weight": "49.50,54.60",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1/3/5只精灵",
+    "捕捉3种血脉不同的精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉1只身高较高的精灵",
+    "使用好战球成功捕捉3次"
+  ],
+  "questSkillStones": [
+    "斩断"
+  ],
+  "skills": [
+    "气波",
+    "落星",
+    "缠丝劲",
+    "音波弹",
+    "崩拳",
+    "电流",
+    "化劲",
+    "撕裂",
+    "爆冲",
+    "乘胜追击",
+    "倾泻",
+    "磁干扰",
+    "撕咬",
+    "阻断",
+    "热身运动",
+    "天旋地转",
+    "追打",
+    "无影脚",
+    "伺机而动",
+    "散手",
+    "践踏",
+    "提气",
+    "叠势",
+    "能量刃",
+    "技巧打击",
+    "指指点点"
+  ],
+  "skillUnlockLevels": [],
+  "bloodlineSkills": [],
+  "learnableSkillStones": [],
+  "evolutionCondition": "",
+  "updateVersion": "",
+  "skillDetails": [
+    {
+      "name": "气波",
+      "element": "武",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "落星",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "缠丝劲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "音波弹",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成魔伤，1连击。"
+    },
+    {
+      "name": "崩拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "2",
+      "power": "60",
+      "effect": "造成物伤，应对状态：自己获得物攻+100%。"
+    },
+    {
+      "name": "电流",
+      "element": "电",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "化劲",
+      "element": "武",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得全技能威力+40。"
+    },
+    {
+      "name": "撕裂",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：本次攻击吸血100%。"
+    },
+    {
+      "name": "爆冲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "3",
+      "power": "50",
+      "effect": "造成物伤，应对状态：本次技能威力变为5倍。"
+    },
+    {
+      "name": "乘胜追击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "40",
+      "effect": "造成物伤，1连击，每次使用后，本技能连击数永久+1。"
+    },
+    {
+      "name": "倾泻",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "60",
+      "effect": "造成魔伤，若本次攻击未被防御或技能应对，则驱散双方所有印记。"
+    },
+    {
+      "name": "磁干扰",
+      "element": "电",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "撕咬",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，3连击，若自己的生命低于50%，本次技能连击数+2。"
+    },
+    {
+      "name": "阻断",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "造成魔伤，应对状态：额外打断被应对技能。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "天旋地转",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "60",
+      "effect": "造成物理伤害，先手+1，迸发：本次技能威力+30。"
+    },
+    {
+      "name": "追打",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "75",
+      "effect": "造成魔伤，1连击，应对状态：本技能变为3连击。"
+    },
+    {
+      "name": "无影脚",
+      "element": "武",
+      "category": "物攻",
+      "cost": "3",
+      "power": "75",
+      "effect": "造成物伤，应对状态：本次技能威力变为2倍。"
+    },
+    {
+      "name": "伺机而动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下一次行动时，攻击技能威力+70。"
+    },
+    {
+      "name": "散手",
+      "element": "武",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，2连击，应对状态：本技能改为6连击。"
+    },
+    {
+      "name": "践踏",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "4",
+      "power": "120",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "提气",
+      "element": "武",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "获得全技能威力+40，若敌方本回合替换精灵，额外获得威力+50。"
+    },
+    {
+      "name": "叠势",
+      "element": "武",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "25",
+      "effect": "造成魔伤，2连击，每成功应对1次，本技能连击数永久+2。"
+    },
+    {
+      "name": "能量刃",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "70",
+      "effect": "造成物伤，每应对成功1次，本技能威力永久+90。"
+    },
+    {
+      "name": "技巧打击",
+      "element": "武",
+      "category": "物攻",
+      "cost": "2",
+      "power": "25",
+      "effect": "造成物伤，应对状态：本次技能威力变为10倍。"
+    },
+    {
+      "name": "指指点点",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "10",
+      "power": "5",
+      "effect": "造成物伤，10连击。"
+    }
+  ],
+  "bloodlineSkillDetails": [],
+  "learnableSkillStoneDetails": []
+}

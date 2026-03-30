@@ -1,0 +1,513 @@
+{
+  "name": "圣剑侍从",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "圣剑侍从",
+  "hasAltColor": "",
+  "stage": "Ⅰ阶",
+  "type": "科技精灵",
+  "description": "黄金时代的工匠们曾将占星与炼金并列为同一门学问的两种语言。于是他们以风为芯，以力量和律法为骨，铸成了圣剑。现在只有极少量留存下来。",
+  "element": "机械",
+  "element2": "",
+  "ability": "正位宝剑",
+  "abilityDesc": "仅可以使用1号位技能。",
+  "hp": 139,
+  "physicalAttack": 116,
+  "magicAttack": 111,
+  "physicalDefense": 139,
+  "magicDefense": 139,
+  "speed": 52,
+  "size": "0.94-1.18",
+  "weight": "115.70-173.60",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [
+    "魔法增效",
+    "防御",
+    "械斗",
+    "金属噪音",
+    "啮合传递",
+    "先发制人",
+    "休息回复",
+    "齿轮扭矩",
+    "力量增效",
+    "主轴",
+    "鼓劲",
+    "磁暴",
+    "轴承支撑",
+    "钢钻",
+    "联动装置",
+    "齿轮切开"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    7,
+    10,
+    12,
+    18,
+    23,
+    27,
+    29,
+    35,
+    36,
+    38,
+    40,
+    49,
+    50
+  ],
+  "bloodlineSkills": [
+    "星星撞击",
+    "花香",
+    "火焰冲锋",
+    "泡沫",
+    "透射",
+    "跺地",
+    "冷风",
+    "升龙咆哮",
+    "球状闪电",
+    "毒沼",
+    "噬心",
+    "缠丝劲",
+    "风矢",
+    "碰爪",
+    "灵媒",
+    "恶能量",
+    "离子震荡",
+    "星云漩涡"
+  ],
+  "learnableSkillStones": [
+    "追打",
+    "偷袭",
+    "应激反应",
+    "取念",
+    "许愿星",
+    "有效预防",
+    "闪光冲击",
+    "漫反射",
+    "脉冲光线",
+    "天光",
+    "陨石",
+    "鸣沙陷阱",
+    "地陷",
+    "钧势",
+    "冰晶坠",
+    "冰爪"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "械斗",
+      "element": "机械",
+      "category": "物攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成物伤，传动。"
+    },
+    {
+      "name": "金属噪音",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "啮合传递",
+      "element": "机械",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+100，本技能位于1号位时能耗-2，传动。"
+    },
+    {
+      "name": "先发制人",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "55",
+      "effect": "造成物理伤害，先手+1。"
+    },
+    {
+      "name": "休息回复",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复30%生命。"
+    },
+    {
+      "name": "齿轮扭矩",
+      "element": "机械",
+      "category": "物攻",
+      "cost": "3",
+      "power": "60",
+      "effect": "造成物伤，每变化1次位置，本技能威力永久+20。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "主轴",
+      "element": "机械",
+      "category": "物攻",
+      "cost": "2",
+      "power": "75",
+      "effect": "造成物伤，此技能位置不会改变。"
+    },
+    {
+      "name": "鼓劲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得魔防+170%。"
+    },
+    {
+      "name": "磁暴",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "95",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "轴承支撑",
+      "element": "机械",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "主动：本技能被动额外-1能耗，被动：两侧技能能耗-1，传动。"
+    },
+    {
+      "name": "钢钻",
+      "element": "机械",
+      "category": "物攻",
+      "cost": "4",
+      "power": "0",
+      "effect": "造成物伤，技能威力为两侧技能威力和的三分之一，传动。"
+    },
+    {
+      "name": "联动装置",
+      "element": "机械",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "所有技能传动，应对防御：额外交换两侧技能能耗。"
+    },
+    {
+      "name": "齿轮切开",
+      "element": "机械",
+      "category": "物攻",
+      "cost": "6",
+      "power": "145",
+      "effect": "造成物伤，传动。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "星星撞击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "花香",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "火焰冲锋",
+      "element": "火",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "泡沫",
+      "element": "水",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "透射",
+      "element": "光",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "跺地",
+      "element": "地",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "冷风",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "球状闪电",
+      "element": "电",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "毒沼",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "噬心",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "缠丝劲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "风矢",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "碰爪",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "灵媒",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "恶能量",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "离子震荡",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "星云漩涡",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "追打",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "75",
+      "effect": "造成魔伤，1连击，应对状态：本技能变为3连击。"
+    },
+    {
+      "name": "偷袭",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：本次技能威力变为3倍。"
+    },
+    {
+      "name": "应激反应",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复25%生命，应对防御：改为回复50%生命。"
+    },
+    {
+      "name": "取念",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成敌方任意精灵的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "许愿星",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "110",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "有效预防",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤50%，应对攻击：下次行动获得先手+1。"
+    },
+    {
+      "name": "闪光冲击",
+      "element": "光",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "漫反射",
+      "element": "光",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "每种系别中的至多1个技能，威力+35。"
+    },
+    {
+      "name": "脉冲光线",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "天光",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "95",
+      "effect": "造成魔伤，本技能系别和天气系别相同。"
+    },
+    {
+      "name": "陨石",
+      "element": "地",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "鸣沙陷阱",
+      "element": "地",
+      "category": "物攻",
+      "cost": "4",
+      "power": "60",
+      "effect": "造成物伤，物防比敌方越高，本次技能威力越高。"
+    },
+    {
+      "name": "地陷",
+      "element": "地",
+      "category": "物攻",
+      "cost": "5",
+      "power": "70",
+      "effect": "造成物伤，自己获得物防+60%，应对状态：本次技能威力翻倍，且物防额外+60%。"
+    },
+    {
+      "name": "钧势",
+      "element": "地",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得物防+140%和速度-30。"
+    },
+    {
+      "name": "冰晶坠",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "4",
+      "power": "90",
+      "effect": "造成物伤，敌方获得全技能能耗+1。"
+    },
+    {
+      "name": "冰爪",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ]
+}

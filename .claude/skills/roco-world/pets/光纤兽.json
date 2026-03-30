@@ -1,0 +1,455 @@
+{
+  "name": "光纤兽",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "犀角鸟",
+  "hasAltColor": "是",
+  "stage": "Ⅱ阶",
+  "type": "月光精灵",
+  "description": "毛发柔软但有韧性，结构特殊，似乎每一根毛发都能接收和发射光能量。它们可以分辨来自四面八方所有光束的到达时间，比较每个光束抵达的时间，计算其距离和能量。",
+  "element": "光",
+  "element2": "",
+  "ability": "月光审判",
+  "abilityDesc": "攻击时，若敌方血脉是首领血脉，技能威力+100%。",
+  "hp": 83,
+  "physicalAttack": 117,
+  "magicAttack": 54,
+  "physicalDefense": 90,
+  "magicDefense": 58,
+  "speed": 88,
+  "size": "0.70-0.85",
+  "weight": "31.50-37.80",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [
+    "力量增效",
+    "透射",
+    "先发制人",
+    "防御",
+    "漫反射",
+    "光之矛",
+    "三连破",
+    "光刃",
+    "热身运动",
+    "折射",
+    "快速移动",
+    "偷袭"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    5,
+    13,
+    22,
+    29,
+    36,
+    37,
+    38,
+    39,
+    41,
+    48
+  ],
+  "bloodlineSkills": [
+    "猛烈撞击",
+    "花香",
+    "火焰冲锋",
+    "泡沫",
+    "折线冲击",
+    "跺地",
+    "冰爪",
+    "升龙咆哮",
+    "球状闪电",
+    "毒沼",
+    "噬心",
+    "缠丝劲",
+    "风矢",
+    "碰爪",
+    "灵媒",
+    "恶能量",
+    "械斗",
+    "念力膨胀"
+  ],
+  "learnableSkillStones": [
+    "连续爪击",
+    "精神扰乱",
+    "复写",
+    "晒太阳",
+    "倾泻",
+    "刺盾",
+    "崩拳",
+    "无影脚",
+    "乘风",
+    "风起",
+    "风隐",
+    "羽化加速",
+    "星轨裂变",
+    "粒子对撞"
+  ],
+  "evolutionCondition": "获得1200星光值",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "透射",
+      "element": "光",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "先发制人",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "55",
+      "effect": "造成物理伤害，先手+1。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "漫反射",
+      "element": "光",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "每种系别中的至多1个技能，威力+35。"
+    },
+    {
+      "name": "光之矛",
+      "element": "光",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，3连击。"
+    },
+    {
+      "name": "三连破",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+30%，3连击。"
+    },
+    {
+      "name": "光刃",
+      "element": "光",
+      "category": "物攻",
+      "cost": "4",
+      "power": "120",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "折射",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "50",
+      "effect": "造成魔伤，携带其他系别技能会给本技能带来不同效果。"
+    },
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    },
+    {
+      "name": "偷袭",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：本次技能威力变为3倍。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "猛烈撞击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "花香",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "火焰冲锋",
+      "element": "火",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "泡沫",
+      "element": "水",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "折线冲击",
+      "element": "光",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "跺地",
+      "element": "地",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "冰爪",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "球状闪电",
+      "element": "电",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "毒沼",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "噬心",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "缠丝劲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "风矢",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "碰爪",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "灵媒",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "恶能量",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "械斗",
+      "element": "机械",
+      "category": "物攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成物伤，传动。"
+    },
+    {
+      "name": "念力膨胀",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "连续爪击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "30",
+      "effect": "造成物伤，2连击，应对状态：本次技能连击数翻倍。"
+    },
+    {
+      "name": "精神扰乱",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+1，应对防御：改为能耗+3。"
+    },
+    {
+      "name": "复写",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成自己未携带的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "倾泻",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "60",
+      "effect": "造成魔伤，若本次攻击未被防御或技能应对，则驱散双方所有印记。"
+    },
+    {
+      "name": "刺盾",
+      "element": "地",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得物攻-50%。"
+    },
+    {
+      "name": "崩拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "2",
+      "power": "60",
+      "effect": "造成物伤，应对状态：自己获得物攻+100%。"
+    },
+    {
+      "name": "无影脚",
+      "element": "武",
+      "category": "物攻",
+      "cost": "3",
+      "power": "75",
+      "effect": "造成物伤，应对状态：本次技能威力变为2倍。"
+    },
+    {
+      "name": "乘风",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+120。"
+    },
+    {
+      "name": "风起",
+      "element": "翼",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层风起印记。"
+    },
+    {
+      "name": "风隐",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方和自己均脱离。先手-1。"
+    },
+    {
+      "name": "羽化加速",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得技能威力+20，迅捷。"
+    },
+    {
+      "name": "星轨裂变",
+      "element": "幻",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得2层星陨。"
+    },
+    {
+      "name": "粒子对撞",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ]
+}

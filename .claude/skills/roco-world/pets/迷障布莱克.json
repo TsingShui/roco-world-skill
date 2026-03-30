@@ -1,0 +1,310 @@
+{
+  "name": "迷障布莱克",
+  "form": "首领形态",
+  "regionalFormName": "",
+  "initialStageName": "布是石",
+  "hasAltColor": "",
+  "stage": "首领进化",
+  "type": "石头精灵",
+  "description": "迷障布莱克的体型与山脉规模正相关，其骨骼密度可达普通岩石矿物的3倍以上，且骨骼内部存在类似“蜂窝结构”的减重设计——这种结构能在保持高承重能力的同时，减轻自身体重，迷障布莱克能承受的重量约为自身体重的100-150倍。",
+  "element": "地",
+  "element2": "",
+  "ability": "地脉馈赠",
+  "abilityDesc": "突破能量上限并立即回复10能量，入场前己方精灵每放1次地系技能，回复3能量。",
+  "hp": 125,
+  "physicalAttack": 139,
+  "magicAttack": 52,
+  "physicalDefense": 164,
+  "magicDefense": 154,
+  "speed": 70,
+  "size": "2.63-3.30",
+  "weight": "668.50-870.40",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉20只精灵",
+    "捕捉1只炫彩突变的精灵",
+    "使用进化之力，将精灵进化为首领",
+    "获得【命定勇者】奖牌",
+    "使用3次蓄势待发",
+    "使用2次不动如山"
+  ],
+  "questSkillStones": [
+    "蓄势待发",
+    "不动如山"
+  ],
+  "skills": [
+    "防御",
+    "跺地",
+    "力量增效",
+    "岩脉崩毁",
+    "硬化",
+    "石锁",
+    "蓄势待发",
+    "吨位压制",
+    "壁垒",
+    "砂石冲撞",
+    "岩土暴击",
+    "地震",
+    "沙涌",
+    "地刺",
+    "不动如山"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    5,
+    8,
+    11,
+    23,
+    25,
+    32,
+    33,
+    35,
+    38,
+    39,
+    42,
+    46,
+    49
+  ],
+  "bloodlineSkills": [],
+  "learnableSkillStones": [
+    "偷袭",
+    "复写",
+    "后发制人",
+    "有效预防",
+    "嗜痛",
+    "吓退",
+    "遁地",
+    "惊吓盒子",
+    "降灵",
+    "报复",
+    "诡刺",
+    "极限撕裂",
+    "虚假破产"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "跺地",
+      "element": "地",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "岩脉崩毁",
+      "element": "地",
+      "category": "物攻",
+      "cost": "4",
+      "power": "120",
+      "effect": "造成物伤，本技能能耗固定为4。"
+    },
+    {
+      "name": "硬化",
+      "element": "地",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，若上次使用攻击技则本技能能耗-2，应对攻击。"
+    },
+    {
+      "name": "石锁",
+      "element": "地",
+      "category": "物攻",
+      "cost": "3",
+      "power": "50",
+      "effect": "造成物伤，敌方2回合无法更换精灵。"
+    },
+    {
+      "name": "蓄势待发",
+      "element": "地",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层<desc_id=1030>蓄势印记。"
+    },
+    {
+      "name": "吨位压制",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "0",
+      "effect": "造成物伤，敌方体重越低，威力越高。"
+    },
+    {
+      "name": "壁垒",
+      "element": "地",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，应对攻击：防御技能冷却-1。"
+    },
+    {
+      "name": "岩土暴击",
+      "element": "地",
+      "category": "物攻",
+      "cost": "8",
+      "power": "140",
+      "effect": "造成物伤，每被攻击1次。本技能能耗永久-1。"
+    },
+    {
+      "name": "地震",
+      "element": "地",
+      "category": "物攻",
+      "cost": "10",
+      "power": "190",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "沙涌",
+      "element": "地",
+      "category": "状态",
+      "cost": "7",
+      "power": "0",
+      "effect": "将天气改为沙暴，每过1回合，本技能能耗永久-1。"
+    },
+    {
+      "name": "地刺",
+      "element": "地",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：额外打断被应对技能。"
+    },
+    {
+      "name": "不动如山",
+      "element": "地",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤90%，应对攻击。"
+    }
+  ],
+  "bloodlineSkillDetails": [],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "偷袭",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：本次技能威力变为3倍。"
+    },
+    {
+      "name": "复写",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成自己未携带的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "后发制人",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "140",
+      "effect": "造成物理伤害，先手-1。"
+    },
+    {
+      "name": "有效预防",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤50%，应对攻击：下次行动获得先手+1。"
+    },
+    {
+      "name": "嗜痛",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，应对攻击：期间自己每次受到伤害，获得双攻+40%。"
+    },
+    {
+      "name": "吓退",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：敌方脱离。"
+    },
+    {
+      "name": "遁地",
+      "element": "地",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤50%并脱离，应对攻击。"
+    },
+    {
+      "name": "惊吓盒子",
+      "element": "幽",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：使敌方失去6能量。"
+    },
+    {
+      "name": "降灵",
+      "element": "幽",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得1层降灵印记。"
+    },
+    {
+      "name": "报复",
+      "element": "幽",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：敌方失去3能量。"
+    },
+    {
+      "name": "诡刺",
+      "element": "幽",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "极限撕裂",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "4",
+      "power": "140",
+      "effect": "造成物伤，若生命高于50%，使用后自己获得双攻-50%。"
+    },
+    {
+      "name": "虚假破产",
+      "element": "恶",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，能量不足时，消耗5%生命代替1能量，应对攻击。"
+    }
+  ]
+}

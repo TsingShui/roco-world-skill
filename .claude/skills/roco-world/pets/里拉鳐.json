@@ -1,0 +1,519 @@
+{
+  "name": "里拉鳐",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "里拉鳐",
+  "hasAltColor": "",
+  "stage": "最终形态",
+  "type": "里拉琴精灵",
+  "description": "里拉鳐的体表能够分泌并牵连出细长的粘液，这些粘液对水流变化极其敏感，能帮助它判断水流方向。游动时，水流掠过粘液弦会引发持续振动，发出琴音。一般认为雄性的气孔粘液更少，形成的琴弦更细，因此琴声更清脆明亮。",
+  "element": "水",
+  "element2": "",
+  "ability": "吟游之弦",
+  "abilityDesc": "赋予的印记不会替换其他印记，而是同时生效。",
+  "hp": 118,
+  "physicalAttack": 82,
+  "magicAttack": 89,
+  "physicalDefense": 103,
+  "magicDefense": 147,
+  "speed": 105,
+  "size": "0.94-1.10",
+  "weight": "38.60-49.50",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉20只精灵",
+    "捕捉1只炫彩突变的精灵",
+    "获得【命定勇者】奖牌",
+    "使用1次消毒法",
+    "使用3次打湿",
+    "使用盐水浴"
+  ],
+  "questSkillStones": [
+    "消毒法",
+    "打湿",
+    "盐水浴"
+  ],
+  "skills": [
+    "防御",
+    "水弹",
+    "洗礼",
+    "泡沫",
+    "晒太阳",
+    "水幕冲击",
+    "蓄水",
+    "潮汐",
+    "消毒法",
+    "休息回复",
+    "水波术",
+    "棘刺",
+    "打湿",
+    "魔能爆",
+    "盐水浴"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    8,
+    10,
+    12,
+    16,
+    23,
+    26,
+    32,
+    38,
+    41,
+    43,
+    47,
+    48,
+    49
+  ],
+  "bloodlineSkills": [
+    "星星撞击",
+    "徒长",
+    "引燃",
+    "水弹枪",
+    "虹光冲击",
+    "泥浆铠甲",
+    "霜降",
+    "升龙咆哮",
+    "麻痹",
+    "毒孢子",
+    "假寐",
+    "化劲",
+    "羽化加速",
+    "甜心续航",
+    "勾魂",
+    "贪婪",
+    "啮合传递",
+    "念力膨胀"
+  ],
+  "learnableSkillStones": [
+    "主场优势",
+    "无畏之心",
+    "取念",
+    "摇篮曲",
+    "光合作用",
+    "润泽",
+    "落雨",
+    "蓄势待发",
+    "丢冰块",
+    "寒风吹",
+    "速冻",
+    "风起",
+    "降灵",
+    "超维投射",
+    "星轨裂变",
+    "二律背反",
+    "大爆炸"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "水弹",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "洗礼",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散自己的减益，并获得全技能能耗-1。"
+    },
+    {
+      "name": "泡沫",
+      "element": "水",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "水幕冲击",
+      "element": "水",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "蓄水",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下次使用的技能能耗-6。"
+    },
+    {
+      "name": "潮汐",
+      "element": "水",
+      "category": "防御",
+      "cost": "4",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：自己获得1层湿润印记。"
+    },
+    {
+      "name": "消毒法",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "115",
+      "effect": "造成魔伤，驱散敌方5层增益。"
+    },
+    {
+      "name": "休息回复",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复30%生命。"
+    },
+    {
+      "name": "水波术",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "6",
+      "power": "90",
+      "effect": "造成魔伤，回合结束时，本技能威力永久+20。"
+    },
+    {
+      "name": "棘刺",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得1层棘刺印记。"
+    },
+    {
+      "name": "打湿",
+      "element": "水",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层湿润印记。"
+    },
+    {
+      "name": "魔能爆",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "1",
+      "effect": "造成魔伤，使用时消耗所有能量，消耗越高，伤害越高。"
+    },
+    {
+      "name": "盐水浴",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得全技能能耗-2，应对防御：改为技能能耗-3。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "星星撞击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "徒长",
+      "element": "草",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复10能量。"
+    },
+    {
+      "name": "引燃",
+      "element": "火",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得10层灼烧。"
+    },
+    {
+      "name": "水弹枪",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "泥浆铠甲",
+      "element": "地",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得物攻和物防+40%，应对防御：额外使自己的增益翻倍。"
+    },
+    {
+      "name": "霜降",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得4层冻结。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "麻痹",
+      "element": "电",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方先手-1，应对防御：额外使敌方获得攻击-70%。"
+    },
+    {
+      "name": "毒孢子",
+      "element": "毒",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得5层中毒。"
+    },
+    {
+      "name": "假寐",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复2能量，获得1次奉献：能耗-2。"
+    },
+    {
+      "name": "化劲",
+      "element": "武",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得全技能威力+40。"
+    },
+    {
+      "name": "羽化加速",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得技能威力+20，迅捷。"
+    },
+    {
+      "name": "甜心续航",
+      "element": "萌",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己和敌方获得萌化：回复40%生命和4能量。"
+    },
+    {
+      "name": "勾魂",
+      "element": "幽",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "偷取敌方3能量。"
+    },
+    {
+      "name": "贪婪",
+      "element": "恶",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得100%吸血。"
+    },
+    {
+      "name": "啮合传递",
+      "element": "机械",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+100，本技能位于1号位时能耗-2，传动。"
+    },
+    {
+      "name": "念力膨胀",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "主场优势",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得1层攻击印记。"
+    },
+    {
+      "name": "无畏之心",
+      "element": "普通",
+      "category": "防御",
+      "cost": "5",
+      "power": "0",
+      "effect": "减伤100%，应对攻击：减免的伤害变为回复自己生命，且本技能能耗永久+2。"
+    },
+    {
+      "name": "取念",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成敌方任意精灵的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "摇篮曲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "5",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+3，应对防御：额外造成打断，且敌方下回合获得眩晕。"
+    },
+    {
+      "name": "光合作用",
+      "element": "草",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层光合印记。"
+    },
+    {
+      "name": "润泽",
+      "element": "水",
+      "category": "状态",
+      "cost": "7",
+      "power": "0",
+      "effect": "自己获得魔攻+190%。"
+    },
+    {
+      "name": "落雨",
+      "element": "水",
+      "category": "状态",
+      "cost": "8",
+      "power": "0",
+      "effect": "将天气改为雨天。本技能受能耗降低效果的影响翻倍。"
+    },
+    {
+      "name": "蓄势待发",
+      "element": "地",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层<desc_id=1030>蓄势印记。"
+    },
+    {
+      "name": "丢冰块",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成物伤，敌方获得速度-30。"
+    },
+    {
+      "name": "寒风吹",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "70",
+      "effect": "造成魔伤，敌方获得魔防-40%。"
+    },
+    {
+      "name": "速冻",
+      "element": "冰",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得2层减速印记。"
+    },
+    {
+      "name": "风起",
+      "element": "翼",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层风起印记。"
+    },
+    {
+      "name": "降灵",
+      "element": "幽",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得1层降灵印记。"
+    },
+    {
+      "name": "超维投射",
+      "element": "幻",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得4层星陨。"
+    },
+    {
+      "name": "星轨裂变",
+      "element": "幻",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得2层星陨。"
+    },
+    {
+      "name": "二律背反",
+      "element": "幻",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得3层星陨，应对防御：额外使敌方星陨层数翻倍。"
+    },
+    {
+      "name": "大爆炸",
+      "element": "幻",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    }
+  ]
+}

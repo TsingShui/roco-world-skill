@@ -1,0 +1,456 @@
+{
+  "name": "蓬叶虫（金黄的样子）",
+  "form": "原始形态",
+  "regionalFormName": "金黄的样子",
+  "initialStageName": "旋叶虫（金黄的样子）",
+  "hasAltColor": "",
+  "stage": "Ⅱ阶",
+  "type": "拟态精灵",
+  "description": "必要时能借助鞘翅短暂地在空中滑行，从一处树冠滑到另一处枝丫。它经常在风力带动下被动迁移，偶尔被风刮走很远，落稳后呆住好一会才能意识到周围环境已经变了。",
+  "element": "普通",
+  "element2": "虫",
+  "ability": "共鸣",
+  "abilityDesc": "携带的【虫鸣】技能威力+20。",
+  "hp": 74,
+  "physicalAttack": 19,
+  "magicAttack": 87,
+  "physicalDefense": 84,
+  "magicDefense": 73,
+  "speed": 96,
+  "size": "0.53-0.76",
+  "weight": "0.65-1.68",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次",
+    "确认2种不同样子的蓬叶虫"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [
+    "聒噪",
+    "拍击",
+    "虫网",
+    "防御",
+    "假寐",
+    "虫鸣",
+    "摇篮曲",
+    "音波弹",
+    "虫蛊",
+    "魔能爆",
+    "触底强击",
+    "追打"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    3,
+    6,
+    12,
+    16,
+    27,
+    34,
+    35,
+    37,
+    39
+  ],
+  "bloodlineSkills": [
+    "星星撞击",
+    "荆棘爪",
+    "火爪",
+    "肥皂泡",
+    "虹光冲击",
+    "跺地",
+    "冷风",
+    "升龙咆哮",
+    "磁干扰",
+    "毒沼",
+    "尾后针",
+    "贯手",
+    "风矢",
+    "魅惑",
+    "灵媒",
+    "黑手",
+    "离子震荡",
+    "针状物"
+  ],
+  "learnableSkillStones": [
+    "阻断",
+    "伺机而动",
+    "主场优势",
+    "棘刺",
+    "复写",
+    "三连破",
+    "热身运动",
+    "倾泻",
+    "盛开",
+    "根吸收",
+    "花香",
+    "飞断",
+    "翅刃",
+    "大爆炸"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "聒噪",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得全攻击技能能耗+3，持续3回合。"
+    },
+    {
+      "name": "拍击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "虫网",
+      "element": "虫",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成魔伤，自己回复1能量。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "假寐",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复2能量，获得1次奉献：能耗-2。"
+    },
+    {
+      "name": "虫鸣",
+      "element": "虫",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "15",
+      "effect": "造成魔伤，队伍中每有1只带有本技能的精灵，本次技能连击数+1。"
+    },
+    {
+      "name": "摇篮曲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "5",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+3，应对防御：额外造成打断，且敌方下回合获得眩晕。"
+    },
+    {
+      "name": "音波弹",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成魔伤，1连击。"
+    },
+    {
+      "name": "虫蛊",
+      "element": "虫",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "魔能爆",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "1",
+      "effect": "造成魔伤，使用时消耗所有能量，消耗越高，伤害越高。"
+    },
+    {
+      "name": "触底强击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "65",
+      "effect": "造成魔伤，使用后若能量耗尽，本次技能威力+110。"
+    },
+    {
+      "name": "追打",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "75",
+      "effect": "造成魔伤，1连击，应对状态：本技能变为3连击。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "星星撞击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "荆棘爪",
+      "element": "草",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "火爪",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "肥皂泡",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "跺地",
+      "element": "地",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "冷风",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "磁干扰",
+      "element": "电",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "毒沼",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "尾后针",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "贯手",
+      "element": "武",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "风矢",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "魅惑",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "灵媒",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "黑手",
+      "element": "恶",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "45",
+      "effect": "造成魔伤，2连击。"
+    },
+    {
+      "name": "离子震荡",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "针状物",
+      "element": "幻",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成魔伤，3连击。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "阻断",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "造成魔伤，应对状态：额外打断被应对技能。"
+    },
+    {
+      "name": "伺机而动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下一次行动时，攻击技能威力+70。"
+    },
+    {
+      "name": "主场优势",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得1层攻击印记。"
+    },
+    {
+      "name": "棘刺",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得1层棘刺印记。"
+    },
+    {
+      "name": "复写",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成自己未携带的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "三连破",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+30%，3连击。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "倾泻",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "60",
+      "effect": "造成魔伤，若本次攻击未被防御或技能应对，则驱散双方所有印记。"
+    },
+    {
+      "name": "盛开",
+      "element": "草",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得技能威力+30，应对防御：改为威力+70。"
+    },
+    {
+      "name": "根吸收",
+      "element": "草",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复15%生命和4能量。"
+    },
+    {
+      "name": "花香",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "飞断",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "20",
+      "effect": "造成物伤，获得1次奉献：威力+20。"
+    },
+    {
+      "name": "翅刃",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "4",
+      "power": "90",
+      "effect": "造成物伤，驱散敌方所有印记，应对状态：改为偷取印记。"
+    },
+    {
+      "name": "大爆炸",
+      "element": "幻",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    }
+  ]
+}

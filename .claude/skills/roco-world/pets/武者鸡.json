@@ -1,0 +1,462 @@
+{
+  "name": "武者鸡",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "可立鸡",
+  "hasAltColor": "",
+  "stage": "最终形态",
+  "type": "利爪精灵",
+  "description": "极其发达健壮的双臂是它们的标志性特征，手部演变为锋利的钙化物质。这一分支舍弃了种族遗传下来的火焰魔法，堂堂正正地用双手和踢腿打败敌人。",
+  "element": "火",
+  "element2": "武",
+  "ability": "斗技",
+  "abilityDesc": "应对成功后，获得全技能威力永久+20。",
+  "hp": 121,
+  "physicalAttack": 144,
+  "magicAttack": 58,
+  "physicalDefense": 92,
+  "magicDefense": 70,
+  "speed": 95,
+  "size": "1.46-2.09",
+  "weight": "46.80-58.20",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉1只炫彩突变的精灵",
+    "获得【命定勇者】奖牌",
+    "使用2次火焰切割",
+    "使用2次闪燃"
+  ],
+  "questSkillStones": [
+    "火焰切割",
+    "闪燃"
+  ],
+  "skills": [
+    "力量增效",
+    "火焰冲锋",
+    "双响炮",
+    "焚烧烙印",
+    "缠丝劲",
+    "热身运动",
+    "先发制人",
+    "提气",
+    "火焰切割",
+    "回旋踢",
+    "热身",
+    "反击拳",
+    "闪燃",
+    "截拳"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    5,
+    10,
+    11,
+    16,
+    23,
+    25,
+    30,
+    33,
+    35,
+    36,
+    38
+  ],
+  "bloodlineSkills": [
+    "猛烈撞击",
+    "花香",
+    "火焰箭",
+    "泡沫",
+    "透射",
+    "跺地",
+    "冰爪",
+    "升龙咆哮",
+    "球状闪电",
+    "毒沼",
+    "噬心",
+    "贯手",
+    "风矢",
+    "碰爪",
+    "灵媒",
+    "恶能量",
+    "械斗",
+    "星云漩涡"
+  ],
+  "learnableSkillStones": [
+    "快速移动",
+    "防御",
+    "复写",
+    "晒太阳",
+    "倾泻",
+    "高温回火",
+    "怒火",
+    "落石",
+    "散手",
+    "爆冲",
+    "啄击",
+    "暴风眼",
+    "羽刃"
+  ],
+  "evolutionCondition": "击败三只恶系宠物",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "火焰冲锋",
+      "element": "火",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "双响炮",
+      "element": "火",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "焚烧烙印",
+      "element": "火",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "驱散双方所有印记，每驱散1层，敌方获得5层灼烧。"
+    },
+    {
+      "name": "缠丝劲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "先发制人",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "55",
+      "effect": "造成物理伤害，先手+1。"
+    },
+    {
+      "name": "提气",
+      "element": "武",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "获得全技能威力+40，若敌方本回合替换精灵，额外获得威力+50。"
+    },
+    {
+      "name": "火焰切割",
+      "element": "火",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "热身",
+      "element": "火",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下一次攻击技能威力翻倍，应对防御：改为威力变为3倍。"
+    },
+    {
+      "name": "反击拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "2",
+      "power": "25",
+      "effect": "造成物伤，2连击，若后手攻击，改为3连击。"
+    },
+    {
+      "name": "闪燃",
+      "element": "火",
+      "category": "物攻",
+      "cost": "1",
+      "power": "35",
+      "effect": "造成物伤，应对状态：本次技能威力变为4倍。"
+    },
+    {
+      "name": "截拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：额外造成打断，回复该技能能耗的能量。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "猛烈撞击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "花香",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "火焰箭",
+      "element": "火",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "泡沫",
+      "element": "水",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "透射",
+      "element": "光",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "跺地",
+      "element": "地",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "冰爪",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "球状闪电",
+      "element": "电",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "毒沼",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "噬心",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "贯手",
+      "element": "武",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "风矢",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "碰爪",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "灵媒",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "恶能量",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "械斗",
+      "element": "机械",
+      "category": "物攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成物伤，传动。"
+    },
+    {
+      "name": "星云漩涡",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "复写",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成自己未携带的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "倾泻",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "60",
+      "effect": "造成魔伤，若本次攻击未被防御或技能应对，则驱散双方所有印记。"
+    },
+    {
+      "name": "高温回火",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "40",
+      "effect": "造成魔伤，自己脱离。"
+    },
+    {
+      "name": "怒火",
+      "element": "火",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得双攻+130%和双防-40%。"
+    },
+    {
+      "name": "落石",
+      "element": "地",
+      "category": "物攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成物伤，1连击。"
+    },
+    {
+      "name": "散手",
+      "element": "武",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，2连击，应对状态：本技能改为6连击。"
+    },
+    {
+      "name": "爆冲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "3",
+      "power": "50",
+      "effect": "造成物伤，应对状态：本次技能威力变为5倍。"
+    },
+    {
+      "name": "啄击",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "0",
+      "power": "15",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "暴风眼",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "行动时连击数+100%。"
+    },
+    {
+      "name": "羽刃",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "70",
+      "effect": "造成物伤，应对状态：回合结束使敌方紧急脱离。"
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "name": "棋齐垒（白子）",
+  "form": "原始形态",
+  "regionalFormName": "白子",
+  "initialStageName": "棋棋（白子）",
+  "hasAltColor": "",
+  "stage": "最终形态",
+  "type": "棋子精灵",
+  "description": "“黑白棋子们有类似铠甲一样的外形，民间传闻中白银骑士团的盔甲就是模仿它们建造的，但也有另外一种说法是地系部族的族人参与了白银骑士团的盔甲制造，真实性都已不可考。”——《黄金时代的地系工匠们·五》",
+  "element": "武",
+  "element2": "地",
+  "ability": "保卫",
+  "abilityDesc": "防御技能应对2次后，回满状态，变为棋绮后。",
+  "hp": 89,
+  "physicalAttack": 94,
+  "magicAttack": 38,
+  "physicalDefense": 116,
+  "magicDefense": 77,
+  "speed": 75,
+  "size": "1.45-1.71",
+  "weight": "58.01-70.05",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉1只炫彩突变的精灵",
+    "确认2种不同样子的棋齐垒",
+    "使用进化之力，将精灵进化为首领",
+    "获得【命定勇者】奖牌",
+    "使用2次硬门",
+    "使用1次一拳"
+  ],
+  "questSkillStones": [
+    "硬门",
+    "一拳"
+  ],
+  "skills": [
+    "魔法增效",
+    "防御",
+    "寸拳",
+    "气波",
+    "缠丝劲",
+    "力量增效",
+    "跺地",
+    "化劲",
+    "猛烈撞击",
+    "影袭",
+    "不动如山",
+    "石肤术",
+    "鸣沙陷阱",
+    "气沉丹田",
+    "硬门",
+    "一拳",
+    "斩断"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    7,
+    9,
+    11,
+    17,
+    23,
+    27,
+    28,
+    35,
+    36,
+    38,
+    39,
+    44,
+    48,
+    49
+  ],
+  "bloodlineSkills": [
+    "防反",
+    "蜡质膜",
+    "火焰护盾",
+    "水泡盾",
+    "折线冲击",
+    "扬沙",
+    "雪替身",
+    "升龙咆哮",
+    "集中",
+    "溃烂触碰",
+    "掩护",
+    "贯手",
+    "风墙",
+    "碰爪",
+    "虚化",
+    "等价交换",
+    "械斗",
+    "冥想"
+  ],
+  "learnableSkillStones": [
+    "迫近攻击",
+    "触底强击",
+    "连续爪击",
+    "借用",
+    "先发制人",
+    "热身运动",
+    "晒太阳",
+    "有效预防",
+    "吓退",
+    "镜像反射",
+    "透射",
+    "岩土暴击",
+    "硬化",
+    "壁垒",
+    "听桥",
+    "防御反击"
+  ],
+  "evolutionCondition": "击败三次棋齐垒（黑子）",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "寸拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成物伤，自己回复1能量。"
+    },
+    {
+      "name": "气波",
+      "element": "武",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "缠丝劲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "跺地",
+      "element": "地",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "化劲",
+      "element": "武",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得全技能威力+40。"
+    },
+    {
+      "name": "猛烈撞击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "影袭",
+      "element": "武",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "不动如山",
+      "element": "地",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤90%，应对攻击。"
+    },
+    {
+      "name": "石肤术",
+      "element": "地",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得物防+160%和魔防-60%。"
+    },
+    {
+      "name": "鸣沙陷阱",
+      "element": "地",
+      "category": "物攻",
+      "cost": "4",
+      "power": "60",
+      "effect": "造成物伤，物防比敌方越高，本次技能威力越高。"
+    },
+    {
+      "name": "气沉丹田",
+      "element": "武",
+      "category": "状态",
+      "cost": "10",
+      "power": "0",
+      "effect": "自己回复60%生命，获得物攻+130%，每次应对后本技能能耗-3，使用后能耗重置。"
+    },
+    {
+      "name": "硬门",
+      "element": "武",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "应对攻击：打断被应对技能，并造成75威力物伤。"
+    },
+    {
+      "name": "一拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "5",
+      "power": "140",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "斩断",
+      "element": "武",
+      "category": "物攻",
+      "cost": "2",
+      "power": "70",
+      "effect": "造成物伤，应对状态：额外打断被应对技能。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "防反",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：自己获得物攻和魔攻+40%。"
+    },
+    {
+      "name": "蜡质膜",
+      "element": "草",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：回复3能量。"
+    },
+    {
+      "name": "火焰护盾",
+      "element": "火",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得4层灼烧。"
+    },
+    {
+      "name": "水泡盾",
+      "element": "水",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得魔攻+40%。"
+    },
+    {
+      "name": "折线冲击",
+      "element": "光",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "扬沙",
+      "element": "地",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "雪替身",
+      "element": "冰",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：回复能量，回复值等于被应对技能能耗的2倍。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "集中",
+      "element": "电",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己回合结束返场。"
+    },
+    {
+      "name": "溃烂触碰",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "掩护",
+      "element": "虫",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，紧急脱离，应对攻击：下个入场精灵获得减伤。"
+    },
+    {
+      "name": "贯手",
+      "element": "武",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "风墙",
+      "element": "翼",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤50%，迅捷，应对攻击。"
+    },
+    {
+      "name": "碰爪",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "虚化",
+      "element": "幽",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得魔防+40%。"
+    },
+    {
+      "name": "等价交换",
+      "element": "恶",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得50%吸血。"
+    },
+    {
+      "name": "械斗",
+      "element": "机械",
+      "category": "物攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成物伤，传动。"
+    },
+    {
+      "name": "冥想",
+      "element": "幻",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得2层星陨。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "迫近攻击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "90",
+      "effect": "造成物伤。每次使用后，本技能威力永久+45。"
+    },
+    {
+      "name": "触底强击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "65",
+      "effect": "造成魔伤，使用后若能量耗尽，本次技能威力+110。"
+    },
+    {
+      "name": "连续爪击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "30",
+      "effect": "造成物伤，2连击，应对状态：本次技能连击数翻倍。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "先发制人",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "55",
+      "effect": "造成物理伤害，先手+1。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "有效预防",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤50%，应对攻击：下次行动获得先手+1。"
+    },
+    {
+      "name": "吓退",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：敌方脱离。"
+    },
+    {
+      "name": "镜像反射",
+      "element": "光",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80％，应对攻击：本技能变为被应对的技能。"
+    },
+    {
+      "name": "透射",
+      "element": "光",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "岩土暴击",
+      "element": "地",
+      "category": "物攻",
+      "cost": "8",
+      "power": "140",
+      "effect": "造成物伤，每被攻击1次。本技能能耗永久-1。"
+    },
+    {
+      "name": "硬化",
+      "element": "地",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，若上次使用攻击技则本技能能耗-2，应对攻击。"
+    },
+    {
+      "name": "壁垒",
+      "element": "地",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，应对攻击：防御技能冷却-1。"
+    },
+    {
+      "name": "听桥",
+      "element": "武",
+      "category": "防御",
+      "cost": "4",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：对敌方造成伤害，威力与被应对技能相等。"
+    },
+    {
+      "name": "防御反击",
+      "element": "武",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：获得全技能威力+20。"
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "name": "地鼠（枯水期的样子）",
+  "form": "原始形态",
+  "regionalFormName": "枯水期的样子",
+  "initialStageName": "地鼠（枯水期的样子）",
+  "hasAltColor": "",
+  "stage": "Ⅰ阶",
+  "type": "鼠精灵",
+  "description": "有着小巧的身体，敏感的尾巴是它最大的弱点。族群数量庞大，生命力极强，几乎不需要喝水。",
+  "element": "地",
+  "element2": "",
+  "ability": "警惕",
+  "abilityDesc": "回合结束时，若自己能量为0则脱离。",
+  "hp": 66,
+  "physicalAttack": 71,
+  "magicAttack": 31,
+  "physicalDefense": 61,
+  "magicDefense": 42,
+  "speed": 66,
+  "size": "0.46-0.66",
+  "weight": "1.80-2.85",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次",
+    "确认2种不同样子的地鼠"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [
+    "抓挠",
+    "晒太阳",
+    "震击",
+    "石肤术",
+    "先发制人",
+    "防御",
+    "石锁",
+    "岩脉崩毁",
+    "泥浆铠甲",
+    "魔能爆",
+    "地刺",
+    "蓄势待发",
+    "裂石",
+    "抛石"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    3,
+    4,
+    11,
+    16,
+    22,
+    24,
+    31,
+    33,
+    34,
+    38,
+    48,
+    49
+  ],
+  "bloodlineSkills": [
+    "猛烈撞击",
+    "花香",
+    "火焰冲锋",
+    "泡沫",
+    "透射",
+    "跺地",
+    "冰爪",
+    "升龙咆哮",
+    "球状闪电",
+    "溃烂触碰",
+    "噬心",
+    "缠丝劲",
+    "风矢",
+    "碰爪",
+    "灵媒",
+    "恶能量",
+    "械斗",
+    "星云漩涡"
+  ],
+  "learnableSkillStones": [
+    "连续爪击",
+    "偷袭",
+    "精神扰乱",
+    "取念",
+    "三连破",
+    "热身运动",
+    "杠杆置换",
+    "传感器",
+    "沙涌",
+    "连续毒针",
+    "毒囊",
+    "毒孢子",
+    "毒沼",
+    "飞断"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "抓挠",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成物伤，自己回复1能量。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "震击",
+      "element": "地",
+      "category": "物攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成伤害，敌方获得连击数-3。"
+    },
+    {
+      "name": "石肤术",
+      "element": "地",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得物防+160%和魔防-60%。"
+    },
+    {
+      "name": "先发制人",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "55",
+      "effect": "造成物理伤害，先手+1。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "石锁",
+      "element": "地",
+      "category": "物攻",
+      "cost": "3",
+      "power": "50",
+      "effect": "造成物伤，敌方2回合无法更换精灵。"
+    },
+    {
+      "name": "岩脉崩毁",
+      "element": "地",
+      "category": "物攻",
+      "cost": "4",
+      "power": "120",
+      "effect": "造成物伤，本技能能耗固定为4。"
+    },
+    {
+      "name": "泥浆铠甲",
+      "element": "地",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得物攻和物防+40%，应对防御：额外使自己的增益翻倍。"
+    },
+    {
+      "name": "魔能爆",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "1",
+      "effect": "造成魔伤，使用时消耗所有能量，消耗越高，伤害越高。"
+    },
+    {
+      "name": "地刺",
+      "element": "地",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：额外打断被应对技能。"
+    },
+    {
+      "name": "蓄势待发",
+      "element": "地",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层<desc_id=1030>蓄势印记。"
+    },
+    {
+      "name": "裂石",
+      "element": "地",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：敌方获得物防-80%。"
+    },
+    {
+      "name": "抛石",
+      "element": "地",
+      "category": "物攻",
+      "cost": "30",
+      "power": "140",
+      "effect": "造成物伤，回合结束时，本技能能耗永久-5。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "猛烈撞击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "花香",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "火焰冲锋",
+      "element": "火",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "泡沫",
+      "element": "水",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "透射",
+      "element": "光",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "跺地",
+      "element": "地",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "冰爪",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "球状闪电",
+      "element": "电",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "溃烂触碰",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "噬心",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "缠丝劲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "风矢",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "碰爪",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "灵媒",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "恶能量",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "械斗",
+      "element": "机械",
+      "category": "物攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成物伤，传动。"
+    },
+    {
+      "name": "星云漩涡",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "连续爪击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "30",
+      "effect": "造成物伤，2连击，应对状态：本次技能连击数翻倍。"
+    },
+    {
+      "name": "偷袭",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：本次技能威力变为3倍。"
+    },
+    {
+      "name": "精神扰乱",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+1，应对防御：改为能耗+3。"
+    },
+    {
+      "name": "取念",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成敌方任意精灵的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "三连破",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+30%，3连击。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "杠杆置换",
+      "element": "机械",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己回复2能量，交换两侧技能位置。"
+    },
+    {
+      "name": "传感器",
+      "element": "机械",
+      "category": "物攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成物伤，1连击。"
+    },
+    {
+      "name": "沙涌",
+      "element": "地",
+      "category": "状态",
+      "cost": "7",
+      "power": "0",
+      "effect": "将天气改为沙暴，每过1回合，本技能能耗永久-1。"
+    },
+    {
+      "name": "连续毒针",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "15",
+      "effect": "造成物伤，2连击，每次连击使敌方获得1层中毒。"
+    },
+    {
+      "name": "毒囊",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "20",
+      "effect": "造成物伤，敌方获得2层中毒，应对状态：改为获得6层。"
+    },
+    {
+      "name": "毒孢子",
+      "element": "毒",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得5层中毒。"
+    },
+    {
+      "name": "毒沼",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "飞断",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "20",
+      "effect": "造成物伤，获得1次奉献：威力+20。"
+    }
+  ]
+}

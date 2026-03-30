@@ -1,0 +1,40 @@
+{
+  "name": "幽星光",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "幽星光",
+  "hasAltColor": "",
+  "stage": "Ⅰ阶",
+  "type": "幽星精灵",
+  "description": "夜幕的星光之下，这些奇妙的生灵在观测星空，思考并记录时会发出像唱歌一样的声音。它们就像在歌唱宇宙，赞颂复苏，诉说星河的曼妙与知识的无常。但是非常胆小，每当其他生物出现，它们又会隐身于夜空中。",
+  "element": "幻",
+  "element2": "",
+  "ability": "守望星",
+  "abilityDesc": "触发星陨时消耗一半层数，仍造成满层伤害。",
+  "hp": 49,
+  "physicalAttack": 21,
+  "magicAttack": 63,
+  "physicalDefense": 48,
+  "magicDefense": 63,
+  "speed": 75,
+  "size": "",
+  "weight": "",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [],
+  "skillUnlockLevels": [],
+  "bloodlineSkills": [],
+  "learnableSkillStones": [],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [],
+  "bloodlineSkillDetails": [],
+  "learnableSkillStoneDetails": []
+}

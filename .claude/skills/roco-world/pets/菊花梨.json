@@ -1,0 +1,469 @@
+{
+  "name": "菊花梨",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "菊花梨",
+  "hasAltColor": "",
+  "stage": "最终形态",
+  "type": "拟态精灵",
+  "description": "看起来像梨，闻起来像梨，尝起来味道也像梨。睡觉的时候会把身体藏在泥巴里，只把花朵留在地面上。小黄蜂想要来授粉的话它会非常苦恼。",
+  "element": "萌",
+  "element2": "",
+  "ability": "无忧无虑",
+  "abilityDesc": "可获得的萌化层数不受限制。",
+  "hp": 106,
+  "physicalAttack": 49,
+  "magicAttack": 116,
+  "physicalDefense": 77,
+  "magicDefense": 115,
+  "speed": 60,
+  "size": "0.63-0.90",
+  "weight": "4.20-5.80",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉20只精灵",
+    "捕捉1只炫彩突变的精灵",
+    "获得【命定勇者】奖牌",
+    "使用1次碰爪",
+    "使用1次击鼓传花"
+  ],
+  "questSkillStones": [
+    "碰爪",
+    "击鼓传花"
+  ],
+  "skills": [
+    "魔法增效",
+    "碰爪",
+    "重击",
+    "防御",
+    "反弹",
+    "撒娇",
+    "晒太阳",
+    "破罐破摔",
+    "示弱",
+    "月光合奏",
+    "击鼓传花",
+    "阻断"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    10,
+    13,
+    18,
+    27,
+    34,
+    35,
+    40,
+    41,
+    49,
+    40
+  ],
+  "bloodlineSkills": [
+    "拍击",
+    "荆棘爪",
+    "火爪",
+    "肥皂泡",
+    "虹光冲击",
+    "跺地",
+    "冷风",
+    "升龙咆哮",
+    "磁干扰",
+    "毒沼",
+    "尾后针",
+    "贯手",
+    "风矢",
+    "飞吻",
+    "灵媒",
+    "黑手",
+    "离子震荡",
+    "针状物"
+  ],
+  "learnableSkillStones": [
+    "追打",
+    "主场优势",
+    "应激反应",
+    "借用",
+    "热身运动",
+    "埋伏",
+    "摇篮曲",
+    "倾泻",
+    "刺藤",
+    "藤绞",
+    "氧输送",
+    "热砂",
+    "生日蛋糕",
+    "惊吓盒子",
+    "灵光"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "碰爪",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "重击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "110",
+      "effect": "造成物伤，每次使用后，本技能能耗永久+1。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "反弹",
+      "element": "萌",
+      "category": "状态",
+      "cost": "5",
+      "power": "0",
+      "effect": "将自己的萌化转移给敌方。"
+    },
+    {
+      "name": "撒娇",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成魔伤，3连击，获得萌化：威力永久+20。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "破罐破摔",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成魔伤，自己有增益时，本次技能威力+60。"
+    },
+    {
+      "name": "示弱",
+      "element": "萌",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得萌化：速度永久+150。"
+    },
+    {
+      "name": "月光合奏",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，2连击，自己每有1层萌化，本次技能连击数+100%。"
+    },
+    {
+      "name": "击鼓传花",
+      "element": "萌",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己脱离，下个入场精灵继承自己增益。"
+    },
+    {
+      "name": "阻断",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "造成魔伤，应对状态：额外打断被应对技能。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "拍击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "荆棘爪",
+      "element": "草",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "火爪",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "肥皂泡",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "跺地",
+      "element": "地",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "冷风",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "磁干扰",
+      "element": "电",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "毒沼",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "尾后针",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "贯手",
+      "element": "武",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "风矢",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "飞吻",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "灵媒",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "黑手",
+      "element": "恶",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "45",
+      "effect": "造成魔伤，2连击。"
+    },
+    {
+      "name": "离子震荡",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "针状物",
+      "element": "幻",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成魔伤，3连击。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "追打",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "75",
+      "effect": "造成魔伤，1连击，应对状态：本技能变为3连击。"
+    },
+    {
+      "name": "主场优势",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得1层攻击印记。"
+    },
+    {
+      "name": "应激反应",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复25%生命，应对防御：改为回复50%生命。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "埋伏",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "30",
+      "effect": "造成魔伤，3连击，若敌方本回合替换精灵，本次技能连击数+3。"
+    },
+    {
+      "name": "摇篮曲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "5",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+3，应对防御：额外造成打断，且敌方下回合获得眩晕。"
+    },
+    {
+      "name": "倾泻",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "60",
+      "effect": "造成魔伤，若本次攻击未被防御或技能应对，则驱散双方所有印记。"
+    },
+    {
+      "name": "刺藤",
+      "element": "草",
+      "category": "物攻",
+      "cost": "3",
+      "power": "45",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "藤绞",
+      "element": "草",
+      "category": "物攻",
+      "cost": "4",
+      "power": "80",
+      "effect": "造成物伤，自己回复5能量。"
+    },
+    {
+      "name": "氧输送",
+      "element": "草",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复4能量，并获得魔攻+80%。"
+    },
+    {
+      "name": "热砂",
+      "element": "地",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "生日蛋糕",
+      "element": "萌",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得萌化：全技能能耗永久-4。"
+    },
+    {
+      "name": "惊吓盒子",
+      "element": "幽",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：使敌方失去6能量。"
+    },
+    {
+      "name": "灵光",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "25",
+      "effect": "造成魔伤，3连击，若敌方本回合替换精灵，本次技能连击数翻倍。"
+    }
+  ]
+}

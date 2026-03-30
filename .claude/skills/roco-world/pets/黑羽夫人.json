@@ -1,0 +1,508 @@
+{
+  "name": "黑羽夫人",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "乖乖鹄",
+  "hasAltColor": "",
+  "stage": "最终形态",
+  "type": "优雅精灵",
+  "description": "天鹅精灵中罕见的独居分支，对社交并不热衷。羽毛长而卷翘，摸起来有些刺手，似乎并不符合种族中普遍的审美，但自信令她看起来非常优雅。",
+  "element": "翼",
+  "element2": "恶",
+  "ability": "贪婪",
+  "abilityDesc": "敌方精灵离场后，其增益和减益会被更换入场的精灵继承。",
+  "hp": 132,
+  "physicalAttack": 93,
+  "magicAttack": 87,
+  "physicalDefense": 130,
+  "magicDefense": 90,
+  "speed": 120,
+  "size": "1.25-1.40",
+  "weight": "20.50-28.06",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉1只炫彩突变的精灵",
+    "获得【命定勇者】奖牌",
+    "使用2次羽翼庇护",
+    "使用1次栽赃"
+  ],
+  "questSkillStones": [
+    "羽翼庇护",
+    "栽赃"
+  ],
+  "skills": [
+    "鸣叫",
+    "飞羽",
+    "防御",
+    "潮涌",
+    "力量增效",
+    "先发制人",
+    "风矢",
+    "风隐",
+    "翼击",
+    "风墙",
+    "龙卷风",
+    "迫害",
+    "撕咬",
+    "等价交换",
+    "栽赃",
+    "灾厄"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    9,
+    16,
+    21,
+    28,
+    36,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+  ],
+  "bloodlineSkills": [
+    "防反",
+    "蜡质膜",
+    "火焰护盾",
+    "水泡盾",
+    "虹光冲击",
+    "淤泥表皮",
+    "雪替身",
+    "升龙咆哮",
+    "集中",
+    "溃烂触碰",
+    "掩护",
+    "反击拳",
+    "羽翼庇护",
+    "魅惑",
+    "灵媒",
+    "诋毁",
+    "离子震荡",
+    "冥想"
+  ],
+  "learnableSkillStones": [
+    "聒噪",
+    "锐利眼神",
+    "血气",
+    "复写",
+    "嗜痛",
+    "气泡",
+    "水刃",
+    "润泽",
+    "泡沫幻影",
+    "水弹",
+    "水幕冲击",
+    "乘风",
+    "俯冲猛击",
+    "黑手",
+    "虚假破产"
+  ],
+  "evolutionCondition": "血脉为恶系血脉进化",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "鸣叫",
+      "element": "翼",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "飞羽",
+      "element": "翼",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "迅捷，驱散敌方1种增益。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "潮涌",
+      "element": "水",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "先发制人",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "55",
+      "effect": "造成物理伤害，先手+1。"
+    },
+    {
+      "name": "风矢",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "风隐",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方和自己均脱离。先手-1。"
+    },
+    {
+      "name": "翼击",
+      "element": "翼",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "50",
+      "effect": "造成魔伤，迅捷。"
+    },
+    {
+      "name": "风墙",
+      "element": "翼",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤50%，迅捷，应对攻击。"
+    },
+    {
+      "name": "龙卷风",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "5",
+      "power": "60",
+      "effect": "造成物伤，迅捷，应对状态：本次技能威力变为1.5倍。"
+    },
+    {
+      "name": "迫害",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "撕咬",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，3连击，若自己的生命低于50%，本次技能连击数+2。"
+    },
+    {
+      "name": "等价交换",
+      "element": "恶",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得50%吸血。"
+    },
+    {
+      "name": "栽赃",
+      "element": "恶",
+      "category": "魔攻",
+      "cost": "6",
+      "power": "150",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "灾厄",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "1",
+      "power": "150",
+      "effect": "对自己造成物伤，应对状态：改为对敌方造成物伤。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "防反",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：自己获得物攻和魔攻+40%。"
+    },
+    {
+      "name": "蜡质膜",
+      "element": "草",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：回复3能量。"
+    },
+    {
+      "name": "火焰护盾",
+      "element": "火",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得4层灼烧。"
+    },
+    {
+      "name": "水泡盾",
+      "element": "水",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得魔攻+40%。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "淤泥表皮",
+      "element": "地",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，应对攻击：敌方获得连击数-2。"
+    },
+    {
+      "name": "雪替身",
+      "element": "冰",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：回复能量，回复值等于被应对技能能耗的2倍。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "集中",
+      "element": "电",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己回合结束返场。"
+    },
+    {
+      "name": "溃烂触碰",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "掩护",
+      "element": "虫",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，紧急脱离，应对攻击：下个入场精灵获得减伤。"
+    },
+    {
+      "name": "反击拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "2",
+      "power": "25",
+      "effect": "造成物伤，2连击，若后手攻击，改为3连击。"
+    },
+    {
+      "name": "羽翼庇护",
+      "element": "翼",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得连击数+3。"
+    },
+    {
+      "name": "魅惑",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "灵媒",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "诋毁",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "离子震荡",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "冥想",
+      "element": "幻",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得2层星陨。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "聒噪",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得全攻击技能能耗+3，持续3回合。"
+    },
+    {
+      "name": "锐利眼神",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得物防和魔防-120%。"
+    },
+    {
+      "name": "血气",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：本回合受到致命伤害时，保留1生命值。"
+    },
+    {
+      "name": "复写",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成自己未携带的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "嗜痛",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，应对攻击：期间自己每次受到伤害，获得双攻+40%。"
+    },
+    {
+      "name": "气泡",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "水刃",
+      "element": "水",
+      "category": "物攻",
+      "cost": "4",
+      "power": "115",
+      "effect": "造成物伤，应对状态：本技能能耗永久-4。"
+    },
+    {
+      "name": "润泽",
+      "element": "水",
+      "category": "状态",
+      "cost": "7",
+      "power": "0",
+      "effect": "自己获得魔攻+190%。"
+    },
+    {
+      "name": "泡沫幻影",
+      "element": "水",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己脱离。"
+    },
+    {
+      "name": "水弹",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "水幕冲击",
+      "element": "水",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "乘风",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+120。"
+    },
+    {
+      "name": "俯冲猛击",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "5",
+      "power": "140",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "黑手",
+      "element": "恶",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "45",
+      "effect": "造成魔伤，2连击。"
+    },
+    {
+      "name": "虚假破产",
+      "element": "恶",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，能量不足时，消耗5%生命代替1能量，应对攻击。"
+    }
+  ]
+}

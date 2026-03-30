@@ -1,0 +1,457 @@
+{
+  "name": "迷你乌（极夜的样子）",
+  "form": "地区形态",
+  "regionalFormName": "极夜的样子",
+  "initialStageName": "乌达（极夜的样子）",
+  "hasAltColor": "",
+  "stage": "Ⅱ阶",
+  "type": "恶作剧精灵",
+  "description": "收集笑声的方式更加熟练，它们会把冷笑话冻成冰沙随身携带，需要的时候变为冰魔法投掷使用，是一种对冰系魔法的巧妙运用。被冷笑话击中的小洛克们明明听不懂精灵说的话，但却理解了它们的冷笑话。",
+  "element": "恶",
+  "element2": "冰",
+  "ability": "恶魔的晚宴",
+  "abilityDesc": "主动击败敌方精灵时，自己获得双攻+50%。",
+  "hp": 128,
+  "physicalAttack": 126,
+  "magicAttack": 73,
+  "physicalDefense": 85,
+  "magicDefense": 46,
+  "speed": 40,
+  "size": "0.97-1.20",
+  "weight": "27.90-39.10",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次",
+    "确认2种不同样子的迷你乌"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [
+    "雾气环绕",
+    "冰锥",
+    "诋毁",
+    "贪婪",
+    "当头棒喝",
+    "力量增效",
+    "丢冰块",
+    "恶意逃离",
+    "趁火打劫",
+    "冰晶坠",
+    "极限撕裂",
+    "滚雪球",
+    "暗突袭"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    5,
+    6,
+    13,
+    20,
+    23,
+    30,
+    34,
+    35,
+    38,
+    49
+  ],
+  "bloodlineSkills": [
+    "星星撞击",
+    "花香",
+    "火焰冲锋",
+    "泡沫",
+    "透射",
+    "跺地",
+    "冰爪",
+    "升龙咆哮",
+    "球状闪电",
+    "毒沼",
+    "噬心",
+    "缠丝劲",
+    "鹰爪",
+    "碰爪",
+    "灵媒",
+    "恶能量",
+    "械斗",
+    "星云漩涡"
+  ],
+  "learnableSkillStones": [
+    "连续爪击",
+    "气势一击",
+    "快速移动",
+    "伺机而动",
+    "防御",
+    "复写",
+    "热身运动",
+    "崩拳",
+    "反击拳",
+    "提气",
+    "风矢",
+    "力量吞噬",
+    "跌落"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "雾气环绕",
+      "element": "冰",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "回复能量，回复值等于敌方技能总能耗的一半。"
+    },
+    {
+      "name": "冰锥",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "诋毁",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "贪婪",
+      "element": "恶",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得100%吸血。"
+    },
+    {
+      "name": "当头棒喝",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成物伤，若敌方本回合替换精灵，本次技能威力+100。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "丢冰块",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成物伤，敌方获得速度-30。"
+    },
+    {
+      "name": "恶意逃离",
+      "element": "恶",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "脱离，应对防御：额外使敌方攻击技能能耗+6。"
+    },
+    {
+      "name": "趁火打劫",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "3",
+      "power": "35",
+      "effect": "造成物伤，2连击，若击败敌方，本技能连击数永久+2。"
+    },
+    {
+      "name": "冰晶坠",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "4",
+      "power": "90",
+      "effect": "造成物伤，敌方获得全技能能耗+1。"
+    },
+    {
+      "name": "极限撕裂",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "4",
+      "power": "140",
+      "effect": "造成物伤，若生命高于50%，使用后自己获得双攻-50%。"
+    },
+    {
+      "name": "滚雪球",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "3",
+      "power": "55",
+      "effect": "造成物伤，敌方获得2层冻结，应对状态：额外获得2层，本次技能威力翻倍。"
+    },
+    {
+      "name": "暗突袭",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "4",
+      "power": "70",
+      "effect": "造成物伤，吸血50%，应对状态：本次技能威力翻倍。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "星星撞击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "花香",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "火焰冲锋",
+      "element": "火",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "泡沫",
+      "element": "水",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "透射",
+      "element": "光",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "跺地",
+      "element": "地",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "冰爪",
+      "element": "冰",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "球状闪电",
+      "element": "电",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "毒沼",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "噬心",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "缠丝劲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "鹰爪",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "碰爪",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "灵媒",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "恶能量",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "械斗",
+      "element": "机械",
+      "category": "物攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成物伤，传动。"
+    },
+    {
+      "name": "星云漩涡",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "连续爪击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "30",
+      "effect": "造成物伤，2连击，应对状态：本次技能连击数翻倍。"
+    },
+    {
+      "name": "气势一击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成物伤，若上回合应对成功，本次技能威力+180。"
+    },
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    },
+    {
+      "name": "伺机而动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下一次行动时，攻击技能威力+70。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "复写",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成自己未携带的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "崩拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "2",
+      "power": "60",
+      "effect": "造成物伤，应对状态：自己获得物攻+100%。"
+    },
+    {
+      "name": "反击拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "2",
+      "power": "25",
+      "effect": "造成物伤，2连击，若后手攻击，改为3连击。"
+    },
+    {
+      "name": "提气",
+      "element": "武",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "获得全技能威力+40，若敌方本回合替换精灵，额外获得威力+50。"
+    },
+    {
+      "name": "风矢",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "力量吞噬",
+      "element": "恶",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "敌方获得技能威力-20，自己获得技能威力+20。"
+    },
+    {
+      "name": "跌落",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "3",
+      "power": "120",
+      "effect": "造成大量物伤，自己获得物攻-50%，应对状态：改为获得物攻+50%。"
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "name": "小甲虫",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "小甲虫",
+  "hasAltColor": "",
+  "stage": "Ⅰ阶",
+  "type": "硬壳精灵",
+  "description": "头盔顶部和双手上都有黄色的尖角，锋利而坚硬。听说在它们的世界里，坚硬且粗壮的角是身份地位的象征。",
+  "element": "虫",
+  "element2": "",
+  "ability": "坚韧铠甲",
+  "abilityDesc": "每受到1次攻击伤害，己方队伍获得1次随机奉献。",
+  "hp": 98,
+  "physicalAttack": 71,
+  "magicAttack": 31,
+  "physicalDefense": 97,
+  "magicDefense": 61,
+  "speed": 60,
+  "size": "0.48-0.68",
+  "weight": "6.50-8.40",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [
+    "防御",
+    "蛰针",
+    "飞断",
+    "尾后针",
+    "虫茧",
+    "掩护",
+    "网缚",
+    "食腐",
+    "吓退",
+    "虫群过境",
+    "虫结阵",
+    "翅刃",
+    "啃咬"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    10,
+    12,
+    23,
+    25,
+    30,
+    37,
+    39,
+    45,
+    46,
+    48
+  ],
+  "bloodlineSkills": [
+    "星星撞击",
+    "蜡质膜",
+    "火焰护盾",
+    "水泡盾",
+    "透射",
+    "淤泥表皮",
+    "雪替身",
+    "升龙咆哮",
+    "集中",
+    "溃烂触碰",
+    "噬心",
+    "反击拳",
+    "风墙",
+    "碰爪",
+    "虚化",
+    "等价交换",
+    "械斗",
+    "冥想"
+  ],
+  "learnableSkillStones": [
+    "气势一击",
+    "力量增效",
+    "血气",
+    "无畏之心",
+    "借用",
+    "嗜痛",
+    "倾泻",
+    "扇风",
+    "俯冲猛击",
+    "风隐",
+    "羽翼庇护",
+    "极限撕裂",
+    "虚假破产"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "蛰针",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "飞断",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "20",
+      "effect": "造成物伤，获得1次奉献：威力+20。"
+    },
+    {
+      "name": "尾后针",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "虫茧",
+      "element": "虫",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己回复20%生命，获得1次奉献：获得10%吸血。"
+    },
+    {
+      "name": "掩护",
+      "element": "虫",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，紧急脱离，应对攻击：下个入场精灵获得减伤。"
+    },
+    {
+      "name": "网缚",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "2",
+      "power": "60",
+      "effect": "造成物伤，敌方获得物防-30%"
+    },
+    {
+      "name": "食腐",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "驱散敌方印记，每层印记回复自己10%生命。"
+    },
+    {
+      "name": "吓退",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：敌方脱离。"
+    },
+    {
+      "name": "虫群过境",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "5",
+      "power": "45",
+      "effect": "造成物伤，2连击。获得1次奉献：获得连击数+1。"
+    },
+    {
+      "name": "虫结阵",
+      "element": "虫",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：获得1次随机奉献。"
+    },
+    {
+      "name": "翅刃",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "4",
+      "power": "90",
+      "effect": "造成物伤，驱散敌方所有印记，应对状态：改为偷取印记。"
+    },
+    {
+      "name": "啃咬",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "造成物伤，1连击，本技能会受奉献影响，每被影响1次，能耗永久+1。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "星星撞击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "蜡质膜",
+      "element": "草",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：回复3能量。"
+    },
+    {
+      "name": "火焰护盾",
+      "element": "火",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得4层灼烧。"
+    },
+    {
+      "name": "水泡盾",
+      "element": "水",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得魔攻+40%。"
+    },
+    {
+      "name": "透射",
+      "element": "光",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "淤泥表皮",
+      "element": "地",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，应对攻击：敌方获得连击数-2。"
+    },
+    {
+      "name": "雪替身",
+      "element": "冰",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：回复能量，回复值等于被应对技能能耗的2倍。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "集中",
+      "element": "电",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己回合结束返场。"
+    },
+    {
+      "name": "溃烂触碰",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "噬心",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "反击拳",
+      "element": "武",
+      "category": "物攻",
+      "cost": "2",
+      "power": "25",
+      "effect": "造成物伤，2连击，若后手攻击，改为3连击。"
+    },
+    {
+      "name": "风墙",
+      "element": "翼",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤50%，迅捷，应对攻击。"
+    },
+    {
+      "name": "碰爪",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "虚化",
+      "element": "幽",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得魔防+40%。"
+    },
+    {
+      "name": "等价交换",
+      "element": "恶",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得50%吸血。"
+    },
+    {
+      "name": "械斗",
+      "element": "机械",
+      "category": "物攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成物伤，传动。"
+    },
+    {
+      "name": "冥想",
+      "element": "幻",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得2层星陨。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "气势一击",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成物伤，若上回合应对成功，本次技能威力+180。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "血气",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：本回合受到致命伤害时，保留1生命值。"
+    },
+    {
+      "name": "无畏之心",
+      "element": "普通",
+      "category": "防御",
+      "cost": "5",
+      "power": "0",
+      "effect": "减伤100%，应对攻击：减免的伤害变为回复自己生命，且本技能能耗永久+2。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "嗜痛",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，应对攻击：期间自己每次受到伤害，获得双攻+40%。"
+    },
+    {
+      "name": "倾泻",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "60",
+      "effect": "造成魔伤，若本次攻击未被防御或技能应对，则驱散双方所有印记。"
+    },
+    {
+      "name": "扇风",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "3",
+      "power": "70",
+      "effect": "造成物伤，若先于敌方攻击，本次技能威力+50%。"
+    },
+    {
+      "name": "俯冲猛击",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "5",
+      "power": "140",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "风隐",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方和自己均脱离。先手-1。"
+    },
+    {
+      "name": "羽翼庇护",
+      "element": "翼",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：自己获得连击数+3。"
+    },
+    {
+      "name": "极限撕裂",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "4",
+      "power": "140",
+      "effect": "造成物伤，若生命高于50%，使用后自己获得双攻-50%。"
+    },
+    {
+      "name": "虚假破产",
+      "element": "恶",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，能量不足时，消耗5%生命代替1能量，应对攻击。"
+    }
+  ]
+}

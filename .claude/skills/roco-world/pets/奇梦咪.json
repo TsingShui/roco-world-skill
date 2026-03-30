@@ -1,0 +1,347 @@
+{
+  "name": "奇梦咪",
+  "form": "首领形态",
+  "regionalFormName": "",
+  "initialStageName": "逗逗",
+  "hasAltColor": "",
+  "stage": "首领进化",
+  "type": "猫老师精灵",
+  "description": "负责的喵老师为了让学生好好学习，想到了一种更直接的教学管理方式：只要有学生想溜出教室探头逃课，下一秒就会被它软乎乎却弹性十足的肚皮弹回座位。",
+  "element": "萌",
+  "element2": "",
+  "ability": "三鼓作气",
+  "abilityDesc": "使用能耗为3的技能时，获得攻防永久+20%。",
+  "hp": 81,
+  "physicalAttack": 128,
+  "magicAttack": 119,
+  "physicalDefense": 123,
+  "magicDefense": 123,
+  "speed": 110,
+  "size": "2.29-2.75",
+  "weight": "38.70-55.00",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉20只精灵",
+    "捕捉1只炫彩突变的精灵",
+    "使用进化之力，将精灵进化为首领",
+    "获得【命定勇者】奖牌",
+    "使用2次反弹",
+    "使用1次破罐破摔",
+    "使用2次赤子之心"
+  ],
+  "questSkillStones": [
+    "反弹",
+    "破罐破摔",
+    "赤子之心"
+  ],
+  "skills": [
+    "防御",
+    "飞吻",
+    "示弱",
+    "超级糖果",
+    "甜心续航",
+    "撒娇",
+    "反弹",
+    "防反",
+    "破罐破摔",
+    "生日蛋糕",
+    "月光合奏",
+    "赤子之心",
+    "退化",
+    "吨位压制",
+    "应激反应"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    1,
+    2,
+    10,
+    11,
+    17,
+    22,
+    26,
+    28,
+    35,
+    36,
+    39,
+    40,
+    49
+  ],
+  "bloodlineSkills": [],
+  "learnableSkillStones": [
+    "主场优势",
+    "取念",
+    "热身运动",
+    "摇篮曲",
+    "超导",
+    "交叉闪电",
+    "过载回路",
+    "电磁偏转",
+    "破防",
+    "气沉丹田",
+    "缠丝劲",
+    "影袭",
+    "叠势",
+    "提气",
+    "防御反击",
+    "击鼓传花"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "飞吻",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "示弱",
+      "element": "萌",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得萌化：速度永久+150。"
+    },
+    {
+      "name": "超级糖果",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "造成物伤，自己获得萌化：本次技能威力+60。"
+    },
+    {
+      "name": "甜心续航",
+      "element": "萌",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己和敌方获得萌化：回复40%生命和4能量。"
+    },
+    {
+      "name": "撒娇",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成魔伤，3连击，获得萌化：威力永久+20。"
+    },
+    {
+      "name": "反弹",
+      "element": "萌",
+      "category": "状态",
+      "cost": "5",
+      "power": "0",
+      "effect": "将自己的萌化转移给敌方。"
+    },
+    {
+      "name": "防反",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：自己获得物攻和魔攻+40%。"
+    },
+    {
+      "name": "破罐破摔",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成魔伤，自己有增益时，本次技能威力+60。"
+    },
+    {
+      "name": "生日蛋糕",
+      "element": "萌",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得萌化：全技能能耗永久-4。"
+    },
+    {
+      "name": "月光合奏",
+      "element": "萌",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，2连击，自己每有1层萌化，本次技能连击数+100%。"
+    },
+    {
+      "name": "赤子之心",
+      "element": "萌",
+      "category": "状态",
+      "cost": "6",
+      "power": "0",
+      "effect": "场下每个精灵获得萌化，之后回复40%生命和4能量。"
+    },
+    {
+      "name": "退化",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得1层萌化。"
+    },
+    {
+      "name": "吨位压制",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "0",
+      "effect": "造成物伤，敌方体重越低，威力越高。"
+    },
+    {
+      "name": "应激反应",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复25%生命，应对防御：改为回复50%生命。"
+    }
+  ],
+  "bloodlineSkillDetails": [],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "主场优势",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得1层攻击印记。"
+    },
+    {
+      "name": "取念",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成敌方任意精灵的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "摇篮曲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "5",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+3，应对防御：额外造成打断，且敌方下回合获得眩晕。"
+    },
+    {
+      "name": "超导",
+      "element": "电",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "95",
+      "effect": "造成魔伤，迸发：本技能能耗-1。"
+    },
+    {
+      "name": "交叉闪电",
+      "element": "电",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "过载回路",
+      "element": "电",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己返场，下回合所选技能使用次数+1。"
+    },
+    {
+      "name": "电磁偏转",
+      "element": "电",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：下回合所选技能使用次数+1。"
+    },
+    {
+      "name": "破防",
+      "element": "武",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得双防-130%，应对防御：额外使被应对技能冷却2回合。"
+    },
+    {
+      "name": "气沉丹田",
+      "element": "武",
+      "category": "状态",
+      "cost": "10",
+      "power": "0",
+      "effect": "自己回复60%生命，获得物攻+130%，每次应对后本技能能耗-3，使用后能耗重置。"
+    },
+    {
+      "name": "缠丝劲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "影袭",
+      "element": "武",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "叠势",
+      "element": "武",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "25",
+      "effect": "造成魔伤，2连击，每成功应对1次，本技能连击数永久+2。"
+    },
+    {
+      "name": "提气",
+      "element": "武",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "获得全技能威力+40，若敌方本回合替换精灵，额外获得威力+50。"
+    },
+    {
+      "name": "防御反击",
+      "element": "武",
+      "category": "防御",
+      "cost": "3",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：获得全技能威力+20。"
+    },
+    {
+      "name": "击鼓传花",
+      "element": "萌",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己脱离，下个入场精灵继承自己增益。"
+    }
+  ]
+}

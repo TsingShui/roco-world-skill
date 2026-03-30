@@ -1,0 +1,300 @@
+{
+  "name": "风暴战犬",
+  "form": "首领形态",
+  "regionalFormName": "",
+  "initialStageName": "护主犬",
+  "hasAltColor": "",
+  "stage": "首领进化",
+  "type": "守护精灵",
+  "description": "它的冠毛与尾巴像火焰一样摇曳，这代表它体内的火元素的热流外显，它的斗志一旦被点燃，会化作更强的火势与更可靠的压制力。",
+  "element": "火",
+  "element2": "",
+  "ability": "全神贯注",
+  "abilityDesc": "入场时，获得物攻+100%，每次行动后-20%。",
+  "hp": 85,
+  "physicalAttack": 128,
+  "magicAttack": 46,
+  "physicalDefense": 101,
+  "magicDefense": 82,
+  "speed": 120,
+  "size": "1.75-1.91",
+  "weight": "61.03-79.06",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉20只精灵",
+    "捕捉1只炫彩突变的精灵",
+    "使用进化之力，将精灵进化为首领",
+    "获得【命定勇者】奖牌",
+    "使用2次流星火雨",
+    "使用1次焚烧烙印",
+    "使用2次火云车"
+  ],
+  "questSkillStones": [
+    "流星火雨",
+    "焚烧烙印",
+    "火云车"
+  ],
+  "skills": [
+    "防御",
+    "火苗",
+    "引燃",
+    "流星火雨",
+    "力量增效",
+    "当头棒喝",
+    "焚烧烙印",
+    "高温回火",
+    "怒火",
+    "灼伤",
+    "热身",
+    "火云车",
+    "闪燃"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    7,
+    9,
+    11,
+    22,
+    24,
+    28,
+    35,
+    42,
+    46,
+    47,
+    49
+  ],
+  "bloodlineSkills": [],
+  "learnableSkillStones": [
+    "偷袭",
+    "吞噬",
+    "借用",
+    "晒太阳",
+    "摇篮曲",
+    "闪光冲击",
+    "导电撞击",
+    "麻痹",
+    "过载回路",
+    "撕咬",
+    "贪婪",
+    "诋毁",
+    "跌落"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "火苗",
+      "element": "火",
+      "category": "物攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成物伤，自己回复1能量。"
+    },
+    {
+      "name": "引燃",
+      "element": "火",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得10层灼烧。"
+    },
+    {
+      "name": "流星火雨",
+      "element": "火",
+      "category": "物攻",
+      "cost": "3",
+      "power": "75",
+      "effect": "造成物伤，每次击败敌方，本技能威力永久+75。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "当头棒喝",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成物伤，若敌方本回合替换精灵，本次技能威力+100。"
+    },
+    {
+      "name": "焚烧烙印",
+      "element": "火",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "驱散双方所有印记，每驱散1层，敌方获得5层灼烧。"
+    },
+    {
+      "name": "高温回火",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "40",
+      "effect": "造成魔伤，自己脱离。"
+    },
+    {
+      "name": "怒火",
+      "element": "火",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得双攻+130%和双防-40%。"
+    },
+    {
+      "name": "灼伤",
+      "element": "火",
+      "category": "物攻",
+      "cost": "4",
+      "power": "120",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "热身",
+      "element": "火",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下一次攻击技能威力翻倍，应对防御：改为威力变为3倍。"
+    },
+    {
+      "name": "火云车",
+      "element": "火",
+      "category": "物攻",
+      "cost": "5",
+      "power": "140",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "闪燃",
+      "element": "火",
+      "category": "物攻",
+      "cost": "1",
+      "power": "35",
+      "effect": "造成物伤，应对状态：本次技能威力变为4倍。"
+    }
+  ],
+  "bloodlineSkillDetails": [],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "偷袭",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "3",
+      "power": "85",
+      "effect": "造成物伤，应对状态：本次技能威力变为3倍。"
+    },
+    {
+      "name": "吞噬",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "6",
+      "power": "150",
+      "effect": "造成物伤，若使用本技能击败敌方，回复6能量。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "摇篮曲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "5",
+      "power": "0",
+      "effect": "敌方获得全技能能耗+3，应对防御：额外造成打断，且敌方下回合获得眩晕。"
+    },
+    {
+      "name": "闪光冲击",
+      "element": "光",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "导电撞击",
+      "element": "电",
+      "category": "物攻",
+      "cost": "0",
+      "power": "40",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "麻痹",
+      "element": "电",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方先手-1，应对防御：额外使敌方获得攻击-70%。"
+    },
+    {
+      "name": "过载回路",
+      "element": "电",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己返场，下回合所选技能使用次数+1。"
+    },
+    {
+      "name": "撕咬",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成物伤，3连击，若自己的生命低于50%，本次技能连击数+2。"
+    },
+    {
+      "name": "贪婪",
+      "element": "恶",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "获得100%吸血。"
+    },
+    {
+      "name": "诋毁",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "跌落",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "3",
+      "power": "120",
+      "effect": "造成大量物伤，自己获得物攻-50%，应对状态：改为获得物攻+50%。"
+    }
+  ]
+}

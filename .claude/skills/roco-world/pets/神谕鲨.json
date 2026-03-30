@@ -1,0 +1,300 @@
+{
+  "name": "神谕鲨",
+  "form": "首领形态",
+  "regionalFormName": "",
+  "initialStageName": "风铃鲨",
+  "hasAltColor": "",
+  "stage": "首领进化",
+  "type": "轻飘飘精灵",
+  "description": "暴雨时，它将雨水储藏在身体中；干旱降至，它在半空挥舞翼膜，水分升空化作雾墙，再聚成雨云。“这一路上，跌跌撞撞，有时快乐，有时候感伤，可是它依然坚强，哪怕真的没有尽头，它都愿意继续前行。”",
+  "element": "水",
+  "element2": "翼",
+  "ability": "水翼飞升",
+  "abilityDesc": "己方精灵每使用1次水系技能，自己入场时获得全技能能耗-1，且能耗为0的技能威力+30%。",
+  "hp": 90,
+  "physicalAttack": 77,
+  "magicAttack": 77,
+  "physicalDefense": 105,
+  "magicDefense": 105,
+  "speed": 125,
+  "size": "1.79-2.26",
+  "weight": "107.60-165.50",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉20只精灵",
+    "捕捉1只炫彩突变的精灵",
+    "使用进化之力，将精灵进化为首领",
+    "获得【命定勇者】奖牌",
+    "使用1次水花四溅",
+    "使用1次借用",
+    "使用1次落雨"
+  ],
+  "questSkillStones": [
+    "水花四溅",
+    "借用",
+    "落雨"
+  ],
+  "skills": [
+    "魔法增效",
+    "甩水",
+    "水花四溅",
+    "风隐",
+    "回旋风暴",
+    "打湿",
+    "能量炮",
+    "借用",
+    "翼击",
+    "落雨",
+    "水炮",
+    "盐水浴",
+    "天洪"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    5,
+    7,
+    13,
+    21,
+    24,
+    28,
+    35,
+    36,
+    41,
+    47,
+    49
+  ],
+  "bloodlineSkills": [],
+  "learnableSkillStones": [
+    "突袭",
+    "追打",
+    "快速移动",
+    "防御",
+    "消毒法",
+    "热身运动",
+    "涌泉",
+    "极寒领域",
+    "寒风吹",
+    "冰捆缚",
+    "贮藏",
+    "虫蛊",
+    "风起"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "甩水",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成魔伤，自己回复1能量。"
+    },
+    {
+      "name": "水花四溅",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "20",
+      "effect": "造成魔伤，4连击。"
+    },
+    {
+      "name": "风隐",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方和自己均脱离。先手-1。"
+    },
+    {
+      "name": "回旋风暴",
+      "element": "翼",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "打湿",
+      "element": "水",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层湿润印记。"
+    },
+    {
+      "name": "能量炮",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "50",
+      "effect": "造成魔伤，2连击。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "翼击",
+      "element": "翼",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "50",
+      "effect": "造成魔伤，迅捷。"
+    },
+    {
+      "name": "落雨",
+      "element": "水",
+      "category": "状态",
+      "cost": "8",
+      "power": "0",
+      "effect": "将天气改为雨天。本技能受能耗降低效果的影响翻倍。"
+    },
+    {
+      "name": "水炮",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "5",
+      "power": "110",
+      "effect": "造成魔伤，每次使用后，本技能能耗永久-1。"
+    },
+    {
+      "name": "盐水浴",
+      "element": "水",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得全技能能耗-2，应对防御：改为技能能耗-3。"
+    },
+    {
+      "name": "天洪",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "7",
+      "power": "150",
+      "effect": "造成魔伤，应对状态：本技能能耗永久-6。"
+    }
+  ],
+  "bloodlineSkillDetails": [],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "突袭",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "50",
+      "effect": "造成魔伤，应对状态：本次技能威力变为3倍。"
+    },
+    {
+      "name": "追打",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "75",
+      "effect": "造成魔伤，1连击，应对状态：本技能变为3连击。"
+    },
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "消毒法",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "115",
+      "effect": "造成魔伤，驱散敌方5层增益。"
+    },
+    {
+      "name": "热身运动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得连击数+3。"
+    },
+    {
+      "name": "涌泉",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "6",
+      "power": "60",
+      "effect": "造成魔伤，本技能能耗每-1，威力+10。"
+    },
+    {
+      "name": "极寒领域",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "6",
+      "power": "105",
+      "effect": "造成魔伤，若敌方有冻结，本次技能威力+60，应对状态：使冻结翻倍。"
+    },
+    {
+      "name": "寒风吹",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "70",
+      "effect": "造成魔伤，敌方获得魔防-40%。"
+    },
+    {
+      "name": "冰捆缚",
+      "element": "冰",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "2连击，每次连击敌方获得全技能能耗+1。"
+    },
+    {
+      "name": "贮藏",
+      "element": "虫",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得双攻+50%，每携带1个0能耗技能，额外+50%。"
+    },
+    {
+      "name": "虫蛊",
+      "element": "虫",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "风起",
+      "element": "翼",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层风起印记。"
+    }
+  ]
+}

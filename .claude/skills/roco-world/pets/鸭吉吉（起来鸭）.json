@@ -1,0 +1,168 @@
+{
+  "name": "鸭吉吉（起来鸭）",
+  "form": "原始形态",
+  "regionalFormName": "起来鸭",
+  "initialStageName": "鸭吉吉（起来鸭）",
+  "hasAltColor": "",
+  "stage": "最终形态",
+  "type": "鸭仔精灵",
+  "description": "它的眼皮开始打架，脑袋一点一点前倾——虽然随时能睡，但是也随时能醒。当你以为它睡着了，它能猛地抖翅，把自己从瞌睡里吓醒，大喊“嘎噶——！”",
+  "element": "普通",
+  "element2": "",
+  "ability": "挺起胸脯",
+  "abilityDesc": "携带的能耗为1的技能，威力+50%。",
+  "hp": 107,
+  "physicalAttack": 53,
+  "magicAttack": 125,
+  "physicalDefense": 80,
+  "magicDefense": 113,
+  "speed": 100,
+  "size": "",
+  "weight": "",
+  "distribution": "果实",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉20只精灵",
+    "捕捉1只炫彩突变的精灵",
+    "确认2种不同样子的鸭吉吉",
+    "使用进化之力，将精灵进化为首领",
+    "获得【命定勇者】奖牌",
+    "使用1次防御",
+    "使用1次吓退",
+    "使用1次伺机而动"
+  ],
+  "questSkillStones": [
+    "防御",
+    "吓退",
+    "伺机而动"
+  ],
+  "skills": [
+    "魔法增效",
+    "音波弹",
+    "拍击",
+    "防御",
+    "休息回复",
+    "许愿星",
+    "咆哮",
+    "吓退",
+    "蓄能轰击",
+    "伺机而动",
+    "鼓劲",
+    "魔能爆",
+    "快速移动"
+  ],
+  "skillUnlockLevels": [],
+  "bloodlineSkills": [],
+  "learnableSkillStones": [],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "音波弹",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成魔伤，1连击。"
+    },
+    {
+      "name": "拍击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "休息回复",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复30%生命。"
+    },
+    {
+      "name": "许愿星",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "110",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "咆哮",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得物攻-130%。"
+    },
+    {
+      "name": "吓退",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤60%，应对攻击：敌方脱离。"
+    },
+    {
+      "name": "蓄能轰击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "6",
+      "power": "130",
+      "effect": "造成魔伤，每使用1次普通系技能，本技能能耗永久-2。"
+    },
+    {
+      "name": "伺机而动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下一次行动时，攻击技能威力+70。"
+    },
+    {
+      "name": "鼓劲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得魔防+170%。"
+    },
+    {
+      "name": "魔能爆",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "1",
+      "effect": "造成魔伤，使用时消耗所有能量，消耗越高，伤害越高。"
+    },
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    }
+  ],
+  "bloodlineSkillDetails": [],
+  "learnableSkillStoneDetails": []
+}

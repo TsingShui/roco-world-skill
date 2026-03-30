@@ -1,0 +1,468 @@
+{
+  "name": "贝加尔",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "贝瑟",
+  "hasAltColor": "是",
+  "stage": "Ⅱ阶",
+  "type": "蒸汽精灵",
+  "description": "身体结构十分精巧，能够最高效地利用能源，是某些发热供暖装置的设计原型。但在氧气不足的地方身体会逐渐冷下来进入睡眠状态。“经过了岁月的磨练和沉淀，透露出时光的浑厚。”",
+  "element": "机械",
+  "element2": "火",
+  "ability": "贪心算法",
+  "abilityDesc": "1号位技能获得传动1，且使用后使敌方获得6层灼烧。",
+  "hp": 105,
+  "physicalAttack": 61,
+  "magicAttack": 104,
+  "physicalDefense": 68,
+  "magicDefense": 130,
+  "speed": 44,
+  "size": "0.90-1.20",
+  "weight": "87.60-97.50",
+  "distribution": "",
+  "questTasks": [],
+  "questSkillStones": [],
+  "skills": [
+    "杠杆置换",
+    "离子震荡",
+    "能量守恒",
+    "磁暴",
+    "引燃",
+    "易燃物质",
+    "焚烧烙印",
+    "防御",
+    "倾泻",
+    "联动装置",
+    "烈焰风暴",
+    "天火",
+    "燃尽"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    2,
+    6,
+    11,
+    17,
+    23,
+    24,
+    25,
+    34,
+    45,
+    49,
+    50
+  ],
+  "bloodlineSkills": [
+    "拍击",
+    "花香",
+    "火焰冲锋",
+    "泡沫",
+    "虹光冲击",
+    "扬沙",
+    "冷风",
+    "升龙咆哮",
+    "球状闪电",
+    "溃烂触碰",
+    "噬心",
+    "缠丝劲",
+    "鹰爪",
+    "魅惑",
+    "鬼火",
+    "恶能量",
+    "离子震荡",
+    "星云漩涡"
+  ],
+  "learnableSkillStones": [
+    "魔法增效",
+    "主场优势",
+    "无畏之心",
+    "取念",
+    "鼓劲",
+    "晒太阳",
+    "有效预防",
+    "热身",
+    "充分燃烧",
+    "火焰护盾",
+    "轴承支撑",
+    "啮合传递",
+    "四维降解",
+    "星轨裂变",
+    "二律背反"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "杠杆置换",
+      "element": "机械",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己回复2能量，交换两侧技能位置。"
+    },
+    {
+      "name": "离子震荡",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "能量守恒",
+      "element": "机械",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤80%，应对攻击：所有技能传动。"
+    },
+    {
+      "name": "磁暴",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "95",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "引燃",
+      "element": "火",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "敌方获得10层灼烧。"
+    },
+    {
+      "name": "易燃物质",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "30",
+      "effect": "造成魔伤，2连击，每次连击使敌方获得2层灼烧。"
+    },
+    {
+      "name": "焚烧烙印",
+      "element": "火",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "驱散双方所有印记，每驱散1层，敌方获得5层灼烧。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "倾泻",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "60",
+      "effect": "造成魔伤，若本次攻击未被防御或技能应对，则驱散双方所有印记。"
+    },
+    {
+      "name": "联动装置",
+      "element": "机械",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "所有技能传动，应对防御：额外交换两侧技能能耗。"
+    },
+    {
+      "name": "烈焰风暴",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "75",
+      "effect": "造成魔伤，敌方获得6层灼烧。"
+    },
+    {
+      "name": "天火",
+      "element": "火",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得10层灼烧，应对防御：改为获得30层。"
+    },
+    {
+      "name": "燃尽",
+      "element": "火",
+      "category": "魔攻",
+      "cost": "4",
+      "power": "155",
+      "effect": "造成魔伤，敌方每失去5%生命，本次技能威力-5。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "拍击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "花香",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "火焰冲锋",
+      "element": "火",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "泡沫",
+      "element": "水",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "扬沙",
+      "element": "地",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "冷风",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "球状闪电",
+      "element": "电",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "溃烂触碰",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "噬心",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "缠丝劲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "鹰爪",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "魅惑",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "鬼火",
+      "element": "幽",
+      "category": "魔攻",
+      "cost": "0",
+      "power": "30",
+      "effect": "造成魔伤，自己回复1能量。"
+    },
+    {
+      "name": "恶能量",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "离子震荡",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "星云漩涡",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "主场优势",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得1层攻击印记。"
+    },
+    {
+      "name": "无畏之心",
+      "element": "普通",
+      "category": "防御",
+      "cost": "5",
+      "power": "0",
+      "effect": "减伤100%，应对攻击：减免的伤害变为回复自己生命，且本技能能耗永久+2。"
+    },
+    {
+      "name": "取念",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成敌方任意精灵的技能，且该技能能耗-2。"
+    },
+    {
+      "name": "鼓劲",
+      "element": "普通",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "自己获得魔防+170%。"
+    },
+    {
+      "name": "晒太阳",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "驱散敌方所有增益。"
+    },
+    {
+      "name": "有效预防",
+      "element": "普通",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤50%，应对攻击：下次行动获得先手+1。"
+    },
+    {
+      "name": "热身",
+      "element": "火",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "下一次攻击技能威力翻倍，应对防御：改为威力变为3倍。"
+    },
+    {
+      "name": "充分燃烧",
+      "element": "火",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "使敌方身上的灼烧翻倍，并触发1次灼烧伤害。"
+    },
+    {
+      "name": "火焰护盾",
+      "element": "火",
+      "category": "防御",
+      "cost": "2",
+      "power": "0",
+      "effect": "减伤70%，应对攻击：敌方获得4层灼烧。"
+    },
+    {
+      "name": "轴承支撑",
+      "element": "机械",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "主动：本技能被动额外-1能耗，被动：两侧技能能耗-1，传动。"
+    },
+    {
+      "name": "啮合传递",
+      "element": "机械",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+100，本技能位于1号位时能耗-2，传动。"
+    },
+    {
+      "name": "四维降解",
+      "element": "幻",
+      "category": "魔攻",
+      "cost": "7",
+      "power": "100",
+      "effect": "造成魔伤，敌方每有1层印记，本技能能耗-1。"
+    },
+    {
+      "name": "星轨裂变",
+      "element": "幻",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得2层星陨。"
+    },
+    {
+      "name": "二律背反",
+      "element": "幻",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "敌方获得3层星陨，应对防御：额外使敌方星陨层数翻倍。"
+    }
+  ]
+}

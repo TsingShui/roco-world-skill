@@ -1,0 +1,510 @@
+{
+  "name": "龙鱼",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "豆丁鱼",
+  "hasAltColor": "",
+  "stage": "最终形态",
+  "type": "龙血精灵",
+  "description": "长鳍长尾，身形纤细流畅，拥有强大的游泳能力和跳跃能力，身体的结构比起鱼更接近龙，证明其拥有少量龙系血脉，尾部的红珠中蕴含着些许龙系能量，可以在跃出水面时发出真正的龙吼。",
+  "element": "水",
+  "element2": "龙",
+  "ability": "洄游",
+  "abilityDesc": "每次进入蓄力状态，获得全技能能耗永久-1。",
+  "hp": 75,
+  "physicalAttack": 116,
+  "magicAttack": 123,
+  "physicalDefense": 112,
+  "magicDefense": 116,
+  "speed": 125,
+  "size": "0.69-0.99",
+  "weight": "39.50-44.50",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "捕捉20只精灵",
+    "捕捉1只炫彩突变的精灵",
+    "获得【命定勇者】奖牌",
+    "使用2次水幕冲击",
+    "使用2次水刃",
+    "使用3次天洪"
+  ],
+  "questSkillStones": [
+    "水幕冲击",
+    "水刃",
+    "天洪"
+  ],
+  "skills": [
+    "魔法增效",
+    "潮涌",
+    "角击",
+    "架势",
+    "先发制人",
+    "打湿",
+    "水幕冲击",
+    "龙吟",
+    "龙炮",
+    "润泽",
+    "龙之利爪",
+    "怨力打击",
+    "龙息环爆",
+    "水刃",
+    "天洪"
+  ],
+  "skillUnlockLevels": [
+    1,
+    1,
+    3,
+    9,
+    11,
+    21,
+    25,
+    29,
+    33,
+    34,
+    37,
+    41,
+    46,
+    48,
+    50
+  ],
+  "bloodlineSkills": [
+    "拍击",
+    "花香",
+    "火焰冲锋",
+    "水弹枪",
+    "虹光冲击",
+    "扬沙",
+    "冷风",
+    "龙吼",
+    "球状闪电",
+    "溃烂触碰",
+    "噬心",
+    "缠丝劲",
+    "风矢",
+    "魅惑",
+    "幻象",
+    "恶能量",
+    "离子震荡",
+    "星云漩涡"
+  ],
+  "learnableSkillStones": [
+    "追打",
+    "吞噬",
+    "力量增效",
+    "咆哮",
+    "快速移动",
+    "应激反应",
+    "防御",
+    "借用",
+    "水炮",
+    "升龙咆哮",
+    "电弧",
+    "超导",
+    "扇风",
+    "翼击",
+    "龙卷风",
+    "乘风"
+  ],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [
+    {
+      "name": "魔法增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "自己获得魔攻+70%。"
+    },
+    {
+      "name": "潮涌",
+      "element": "水",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "角击",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "架势",
+      "element": "龙",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复20%生命，下次技能无需蓄力。"
+    },
+    {
+      "name": "先发制人",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "2",
+      "power": "55",
+      "effect": "造成物理伤害，先手+1。"
+    },
+    {
+      "name": "打湿",
+      "element": "水",
+      "category": "状态",
+      "cost": "4",
+      "power": "0",
+      "effect": "自己获得1层湿润印记。"
+    },
+    {
+      "name": "水幕冲击",
+      "element": "水",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "龙吟",
+      "element": "龙",
+      "category": "状态",
+      "cost": "3",
+      "power": "0",
+      "effect": "蓄力，自己获得双攻+100%和速度+60。"
+    },
+    {
+      "name": "龙炮",
+      "element": "龙",
+      "category": "物攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "润泽",
+      "element": "水",
+      "category": "状态",
+      "cost": "7",
+      "power": "0",
+      "effect": "自己获得魔攻+190%。"
+    },
+    {
+      "name": "龙之利爪",
+      "element": "龙",
+      "category": "物攻",
+      "cost": "3",
+      "power": "130",
+      "effect": "蓄力，造成物伤并吸血50%。"
+    },
+    {
+      "name": "怨力打击",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "1",
+      "effect": "蓄力，造成蓄力期间受到攻击伤害的3倍。"
+    },
+    {
+      "name": "龙息环爆",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "50",
+      "effect": "造成魔伤，应对状态：下次技能无需蓄力。"
+    },
+    {
+      "name": "水刃",
+      "element": "水",
+      "category": "物攻",
+      "cost": "4",
+      "power": "115",
+      "effect": "造成物伤，应对状态：本技能能耗永久-4。"
+    },
+    {
+      "name": "天洪",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "7",
+      "power": "150",
+      "effect": "造成魔伤，应对状态：本技能能耗永久-6。"
+    }
+  ],
+  "bloodlineSkillDetails": [
+    {
+      "name": "拍击",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "花香",
+      "element": "草",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "火焰冲锋",
+      "element": "火",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "水弹枪",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "虹光冲击",
+      "element": "光",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "100",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "扬沙",
+      "element": "地",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "冷风",
+      "element": "冰",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "龙吼",
+      "element": "龙",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "球状闪电",
+      "element": "电",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "溃烂触碰",
+      "element": "毒",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "噬心",
+      "element": "虫",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "缠丝劲",
+      "element": "武",
+      "category": "物攻",
+      "cost": "1",
+      "power": "25",
+      "effect": "造成物伤，2连击。"
+    },
+    {
+      "name": "风矢",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "2",
+      "power": "80",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "魅惑",
+      "element": "萌",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成魔法伤害。"
+    },
+    {
+      "name": "幻象",
+      "element": "幽",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "恶能量",
+      "element": "恶",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    },
+    {
+      "name": "离子震荡",
+      "element": "机械",
+      "category": "魔攻",
+      "cost": "1",
+      "power": "55",
+      "effect": "造成魔伤，传动。"
+    },
+    {
+      "name": "星云漩涡",
+      "element": "幻",
+      "category": "物攻",
+      "cost": "1",
+      "power": "60",
+      "effect": "对敌方精灵造成物理伤害。"
+    }
+  ],
+  "learnableSkillStoneDetails": [
+    {
+      "name": "追打",
+      "element": "普通",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "75",
+      "effect": "造成魔伤，1连击，应对状态：本技能变为3连击。"
+    },
+    {
+      "name": "吞噬",
+      "element": "普通",
+      "category": "物攻",
+      "cost": "6",
+      "power": "150",
+      "effect": "造成物伤，若使用本技能击败敌方，回复6能量。"
+    },
+    {
+      "name": "力量增效",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得物攻+100%。"
+    },
+    {
+      "name": "咆哮",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "敌方获得物攻-130%。"
+    },
+    {
+      "name": "快速移动",
+      "element": "普通",
+      "category": "状态",
+      "cost": "1",
+      "power": "0",
+      "effect": "自己获得速度+80，应对防御：改为速度+160。"
+    },
+    {
+      "name": "应激反应",
+      "element": "普通",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己回复25%生命，应对防御：改为回复50%生命。"
+    },
+    {
+      "name": "防御",
+      "element": "普通",
+      "category": "防御",
+      "cost": "1",
+      "power": "0",
+      "effect": "减伤70%，应对攻击。"
+    },
+    {
+      "name": "借用",
+      "element": "普通",
+      "category": "状态",
+      "cost": "0",
+      "power": "0",
+      "effect": "每回合随机变成己方队伍中其他精灵的技能。"
+    },
+    {
+      "name": "水炮",
+      "element": "水",
+      "category": "魔攻",
+      "cost": "5",
+      "power": "110",
+      "effect": "造成魔伤，每次使用后，本技能能耗永久-1。"
+    },
+    {
+      "name": "升龙咆哮",
+      "element": "龙",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "200",
+      "effect": "蓄力，对敌方造成魔法伤害。"
+    },
+    {
+      "name": "电弧",
+      "element": "电",
+      "category": "物攻",
+      "cost": "3",
+      "power": "80",
+      "effect": "造成物伤，迸发：本次技能威力+40。"
+    },
+    {
+      "name": "超导",
+      "element": "电",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "95",
+      "effect": "造成魔伤，迸发：本技能能耗-1。"
+    },
+    {
+      "name": "扇风",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "3",
+      "power": "70",
+      "effect": "造成物伤，若先于敌方攻击，本次技能威力+50%。"
+    },
+    {
+      "name": "翼击",
+      "element": "翼",
+      "category": "魔攻",
+      "cost": "3",
+      "power": "50",
+      "effect": "造成魔伤，迅捷。"
+    },
+    {
+      "name": "龙卷风",
+      "element": "翼",
+      "category": "物攻",
+      "cost": "5",
+      "power": "60",
+      "effect": "造成物伤，迅捷，应对状态：本次技能威力变为1.5倍。"
+    },
+    {
+      "name": "乘风",
+      "element": "翼",
+      "category": "状态",
+      "cost": "2",
+      "power": "0",
+      "effect": "自己获得速度+120。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "曜星光",
+  "form": "原始形态",
+  "regionalFormName": "",
+  "initialStageName": "幽星光",
+  "hasAltColor": "",
+  "stage": "Ⅱ阶",
+  "type": "耀星精灵",
+  "description": "越来越多的行星汇聚在它们身侧，从星辰的辐照微波中，它们能横跨时间，读出数亿年的知识与奥妙。每当它们转动身体周围的行星，可以改变月相，转变天气，传闻如果有洛克在它们出没的高山附近许愿下流星雨，就会被实现。",
+  "element": "幻",
+  "element2": "翼",
+  "ability": "守望星",
+  "abilityDesc": "触发星陨时消耗一半层数，仍造成满层伤害。",
+  "hp": 65,
+  "physicalAttack": 28,
+  "magicAttack": 84,
+  "physicalDefense": 68,
+  "magicDefense": 84,
+  "speed": 100,
+  "size": "",
+  "weight": "",
+  "distribution": "",
+  "questTasks": [
+    "捕捉1只精灵",
+    "捕捉1只了不起天分的精灵",
+    "使精灵成功进化1次"
+  ],
+  "questSkillStones": [
+    "-"
+  ],
+  "skills": [],
+  "skillUnlockLevels": [],
+  "bloodlineSkills": [],
+  "learnableSkillStones": [],
+  "evolutionCondition": "",
+  "updateVersion": "0.2",
+  "skillDetails": [],
+  "bloodlineSkillDetails": [],
+  "learnableSkillStoneDetails": []
+}
